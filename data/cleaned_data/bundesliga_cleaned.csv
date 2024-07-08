@@ -1,918 +1,918 @@
-,Home Team,Away Team,Home Goals,Away Goals,Home Ast,Away Ast,Home xG,Away xG
-0,Mönchengladbach,Bayern Munich,1,1,1,1,2.3,2.6
-1,Stuttgart,Greuther Fürth,5,1,5,1,3.1,1.2
-2,Dortmund,Eintracht Frankfurt,5,2,5,1,2.7,1.4
-3,Union Berlin,Bayer Leverkusen,1,1,1,1,0.5,0.8
-4,Arminia,Freiburg,0,0,0,0,0.4,1.6
-5,Augsburg,Hoffenheim,0,4,0,4,0.6,3.8
-6,Wolfsburg,Bochum,1,0,1,0,2.5,0.4
-7,Mainz 05,RB Leipzig,1,0,0,0,1.2,1.1
-8,Köln,Hertha BSC,3,1,3,1,1.6,1.9
-9,RB Leipzig,Stuttgart,4,0,1,0,3.8,1.1
-10,Hertha BSC,Wolfsburg,1,2,0,2,1.2,1.0
-11,Eintracht Frankfurt,Augsburg,0,0,0,0,1.6,0.3
-12,Bochum,Mainz 05,2,0,2,0,0.8,0.9
-13,Freiburg,Dortmund,2,1,1,0,1.3,1.6
-14,Bayer Leverkusen,Mönchengladbach,4,0,3,0,1.9,1.7
-15,Greuther Fürth,Arminia,1,1,0,1,2.6,0.8
-16,Hoffenheim,Union Berlin,2,2,2,0,1.0,1.8
-17,Bayern Munich,Köln,3,2,2,2,2.7,1.1
-18,Dortmund,Hoffenheim,3,2,1,2,3.5,2.3
-19,Bayern Munich,Hertha BSC,5,0,4,0,2.9,0.4
-20,Stuttgart,Freiburg,2,3,2,2,1.8,1.3
-21,Köln,Bochum,2,1,2,1,3.2,0.6
-22,Augsburg,Bayer Leverkusen,1,4,0,2,1.8,2.0
-23,Arminia,Eintracht Frankfurt,1,1,1,1,0.6,1.5
-24,Mainz 05,Greuther Fürth,3,0,3,0,2.8,0.2
-25,Wolfsburg,RB Leipzig,1,0,0,0,0.8,1.2
-26,Union Berlin,Mönchengladbach,2,1,2,0,1.9,1.9
-27,Hoffenheim,Mainz 05,0,2,0,2,0.7,0.9
-28,RB Leipzig,Bayern Munich,1,4,1,3,0.5,4.0
-29,Freiburg,Köln,1,1,0,1,0.8,1.1
-30,Greuther Fürth,Wolfsburg,0,2,0,1,0.3,1.4
-31,Bayer Leverkusen,Dortmund,3,4,2,2,0.7,1.9
-32,Union Berlin,Augsburg,0,0,0,0,1.0,1.0
-33,Eintracht Frankfurt,Stuttgart,1,1,1,0,1.1,0.9
-34,Bochum,Hertha BSC,1,3,0,2,1.2,0.3
-35,Mönchengladbach,Arminia,3,1,3,0,1.7,1.8
-36,Hertha BSC,Greuther Fürth,2,1,1,0,0.7,1.4
-37,Augsburg,Mönchengladbach,1,0,1,0,0.3,0.6
-38,Arminia,Hoffenheim,0,0,0,0,1.3,1.1
-39,Köln,RB Leipzig,1,1,0,1,1.8,2.8
-40,Mainz 05,Freiburg,0,0,0,0,1.0,0.4
-41,Bayern Munich,Bochum,7,0,3,0,5.8,0.4
-42,Stuttgart,Bayer Leverkusen,1,3,0,2,1.6,1.4
-43,Dortmund,Union Berlin,4,2,2,1,0.9,1.7
-44,Wolfsburg,Eintracht Frankfurt,1,1,0,1,1.2,0.3
-45,Greuther Fürth,Bayern Munich,1,3,1,1,0.7,0.8
-46,Bayer Leverkusen,Mainz 05,1,0,1,0,1.5,0.9
-47,Eintracht Frankfurt,Köln,1,1,1,1,1.0,0.9
-48,Hoffenheim,Wolfsburg,3,1,1,1,1.5,0.6
-49,RB Leipzig,Hertha BSC,6,0,4,0,3.8,0.2
-50,Mönchengladbach,Dortmund,1,0,0,0,1.6,0.4
-51,Union Berlin,Arminia,1,0,1,0,1.2,0.5
-52,Bochum,Stuttgart,0,0,0,0,0.8,0.3
-53,Freiburg,Augsburg,3,0,1,0,3.2,0.2
-54,Köln,Greuther Fürth,3,1,3,1,2.9,1.3
-55,Hertha BSC,Freiburg,1,2,1,1,1.1,0.7
-56,Dortmund,Augsburg,2,1,1,0,3.1,0.8
-57,Stuttgart,Hoffenheim,3,1,2,1,0.8,1.0
-58,Wolfsburg,Mönchengladbach,1,3,0,3,1.4,3.3
-59,RB Leipzig,Bochum,3,0,3,0,3.2,1.5
-60,Bayern Munich,Eintracht Frankfurt,1,2,1,2,2.2,0.8
-61,Mainz 05,Union Berlin,1,2,1,2,1.1,1.4
-62,Arminia,Bayer Leverkusen,0,4,0,2,0.4,3.1
-63,Hoffenheim,Köln,5,0,3,0,3.7,0.7
-64,Freiburg,RB Leipzig,1,1,1,0,1.4,1.8
-65,Greuther Fürth,Bochum,0,1,0,1,0.8,1.6
-66,Eintracht Frankfurt,Hertha BSC,1,2,0,2,1.6,1.8
-67,Dortmund,Mainz 05,3,1,1,1,2.4,0.8
-68,Union Berlin,Wolfsburg,2,0,2,0,0.9,1.5
-69,Mönchengladbach,Stuttgart,1,1,0,1,2.6,0.3
-70,Augsburg,Arminia,1,1,1,0,0.6,0.3
-71,Bayer Leverkusen,Bayern Munich,1,5,1,5,0.7,3.3
-72,Mainz 05,Augsburg,4,1,4,1,3.7,0.9
-73,Hertha BSC,Mönchengladbach,1,0,0,0,1.0,0.5
-74,Wolfsburg,Freiburg,0,2,0,1,1.3,1.5
-75,Arminia,Dortmund,1,3,0,1,1.4,2.4
-76,Bayern Munich,Hoffenheim,4,0,4,0,2.8,0.8
-77,RB Leipzig,Greuther Fürth,4,1,2,0,2.3,1.4
-78,Stuttgart,Union Berlin,1,1,1,1,0.5,1.0
-79,Bochum,Eintracht Frankfurt,2,0,1,0,2.2,1.6
-80,Köln,Bayer Leverkusen,2,2,2,1,1.8,1.0
-81,Hoffenheim,Hertha BSC,2,0,0,0,0.9,0.3
-82,Dortmund,Köln,2,0,2,0,1.4,1.3
-83,Union Berlin,Bayern Munich,2,5,2,4,0.9,3.2
-84,Freiburg,Greuther Fürth,3,1,1,1,1.5,0.8
-85,Bayer Leverkusen,Wolfsburg,0,2,0,0,1.5,2.0
-86,Arminia,Mainz 05,1,2,1,0,0.6,2.6
-87,Eintracht Frankfurt,RB Leipzig,1,1,1,1,0.6,3.1
-88,Mönchengladbach,Bochum,2,1,2,0,1.9,0.9
-89,Augsburg,Stuttgart,4,1,4,1,2.1,0.9
-90,Mainz 05,Mönchengladbach,1,1,0,0,1.1,1.6
-91,Wolfsburg,Augsburg,1,0,1,0,0.5,0.7
-92,Stuttgart,Arminia,0,1,0,1,0.9,1.8
-93,RB Leipzig,Dortmund,2,1,2,1,2.6,0.9
-94,Bochum,Hoffenheim,2,0,2,0,3.0,0.6
-95,Bayern Munich,Freiburg,2,1,2,0,3.0,1.0
-96,Greuther Fürth,Eintracht Frankfurt,1,2,0,2,2.5,1.3
-97,Hertha BSC,Bayer Leverkusen,1,1,1,1,0.8,1.0
-98,Köln,Union Berlin,2,2,1,2,1.8,1.0
-99,Augsburg,Bayern Munich,2,1,1,1,0.4,1.3
-100,Bayer Leverkusen,Bochum,1,0,1,0,1.7,0.8
-101,Arminia,Wolfsburg,2,2,1,2,1.3,1.9
-102,Dortmund,Stuttgart,2,1,1,1,2.6,1.6
-103,Union Berlin,Hertha BSC,2,0,1,0,1.5,0.4
-104,Mönchengladbach,Greuther Fürth,4,0,3,0,3.2,0.2
-105,Hoffenheim,RB Leipzig,2,0,1,0,3.2,0.2
-106,Mainz 05,Köln,1,1,1,1,0.8,2.2
-107,Freiburg,Eintracht Frankfurt,0,2,0,0,1.4,1.2
-108,Stuttgart,Mainz 05,2,1,2,1,0.3,0.8
-109,Wolfsburg,Dortmund,1,3,1,2,2.0,2.3
-110,Bayern Munich,Arminia,1,0,1,0,2.2,0.3
-111,Hertha BSC,Augsburg,1,1,0,1,1.7,1.3
-112,Köln,Mönchengladbach,4,1,2,1,1.4,1.0
-113,Greuther Fürth,Hoffenheim,3,6,3,4,1.1,4.1
-114,Bochum,Freiburg,2,1,1,1,1.1,2.4
-115,RB Leipzig,Bayer Leverkusen,1,3,1,3,1.5,1.5
-116,Eintracht Frankfurt,Union Berlin,2,1,1,0,1.3,1.1
-117,Union Berlin,RB Leipzig,2,1,1,1,2.6,1.4
-118,Bayer Leverkusen,Greuther Fürth,7,1,6,0,2.9,0.3
-119,Mainz 05,Wolfsburg,3,0,2,0,1.2,0.7
-120,Hoffenheim,Eintracht Frankfurt,3,2,1,2,0.9,1.5
-121,Dortmund,Bayern Munich,2,3,2,1,1.2,3.1
-122,Augsburg,Bochum,2,3,1,2,2.9,2.1
-123,Arminia,Köln,1,1,1,1,1.1,1.1
-124,Stuttgart,Hertha BSC,2,2,2,2,1.4,1.3
-125,Mönchengladbach,Freiburg,0,6,0,5,0.9,2.0
-126,Köln,Augsburg,0,2,0,0,1.0,0.8
-127,Bochum,Dortmund,1,1,0,1,0.9,2.3
-128,Bayern Munich,Mainz 05,2,1,2,1,1.6,0.8
-129,Hertha BSC,Arminia,2,0,1,0,2.1,0.5
-130,RB Leipzig,Mönchengladbach,4,1,4,1,4.7,1.2
-131,Freiburg,Hoffenheim,1,2,1,2,1.7,1.0
-132,Wolfsburg,Stuttgart,0,2,0,1,1.5,1.4
-133,Eintracht Frankfurt,Bayer Leverkusen,5,2,2,1,1.7,1.7
-134,Greuther Fürth,Union Berlin,1,0,0,0,0.8,1.5
-135,Stuttgart,Bayern Munich,0,5,0,4,1.2,3.6
-136,Arminia,Bochum,2,0,1,0,0.7,0.9
-137,Mainz 05,Hertha BSC,4,0,4,0,2.9,0.4
-138,Wolfsburg,Köln,2,3,2,1,2.5,3.9
-139,Dortmund,Greuther Fürth,3,0,2,0,1.8,0.4
-140,Mönchengladbach,Eintracht Frankfurt,2,3,1,3,2.1,2.3
-141,Augsburg,RB Leipzig,1,1,0,1,1.2,2.3
-142,Bayer Leverkusen,Hoffenheim,2,2,2,1,2.3,2.0
-143,Union Berlin,Freiburg,0,0,0,0,1.9,1.2
-144,Bayern Munich,Wolfsburg,4,0,3,0,3.7,1.1
-145,RB Leipzig,Arminia,0,2,0,1,1.6,0.9
-146,Eintracht Frankfurt,Mainz 05,1,0,1,0,1.8,0.6
-147,Hoffenheim,Mönchengladbach,1,1,1,0,2.1,1.4
-148,Hertha BSC,Dortmund,3,2,2,1,1.2,1.3
-149,Bochum,Union Berlin,0,1,0,1,1.1,0.8
-150,Greuther Fürth,Augsburg,0,0,0,0,0.1,1.2
-151,Freiburg,Bayer Leverkusen,2,1,1,1,2.2,1.0
-152,Köln,Stuttgart,1,0,1,0,2.0,0.4
-153,Bayern Munich,Mönchengladbach,1,2,1,1,1.9,1.0
-154,Eintracht Frankfurt,Dortmund,2,3,1,2,1.5,2.0
-155,Hoffenheim,Augsburg,3,1,2,1,2.2,0.9
-156,Greuther Fürth,Stuttgart,0,0,0,0,0.9,1.9
-157,RB Leipzig,Mainz 05,4,1,3,1,3.2,0.3
-158,Bayer Leverkusen,Union Berlin,2,2,1,1,1.7,3.0
-159,Freiburg,Arminia,2,2,1,2,1.9,1.0
-160,Bochum,Wolfsburg,1,0,0,0,0.9,0.4
-161,Hertha BSC,Köln,1,3,0,1,1.2,1.2
-162,Dortmund,Freiburg,5,1,5,0,2.4,0.9
-163,Stuttgart,RB Leipzig,0,2,0,1,1.0,1.5
-164,Wolfsburg,Hertha BSC,0,0,0,0,1.7,0.3
-165,Mainz 05,Bochum,1,0,1,0,1.7,1.5
-166,Mönchengladbach,Bayer Leverkusen,1,2,0,2,1.3,5.6
-167,Union Berlin,Hoffenheim,2,1,1,0,1.4,0.8
-168,Köln,Bayern Munich,0,4,0,4,1.1,3.3
-169,Augsburg,Eintracht Frankfurt,1,1,1,1,1.0,2.6
-170,Arminia,Greuther Fürth,2,2,1,2,0.5,0.7
-171,Eintracht Frankfurt,Arminia,0,2,0,1,1.9,1.3
-172,Greuther Fürth,Mainz 05,2,1,1,1,1.3,1.8
-173,Mönchengladbach,Union Berlin,1,2,1,1,1.5,1.1
-174,Bochum,Köln,2,2,2,1,1.8,1.1
-175,Freiburg,Stuttgart,2,0,1,0,1.6,0.3
-176,Bayer Leverkusen,Augsburg,5,1,4,0,2.9,1.5
-177,Hoffenheim,Dortmund,2,3,2,2,1.7,1.6
-178,Hertha BSC,Bayern Munich,1,4,0,0,0.9,5.5
-179,RB Leipzig,Wolfsburg,2,0,1,0,1.6,0.9
-180,Hertha BSC,Bochum,1,1,1,0,0.4,1.2
-181,Köln,Freiburg,1,0,1,0,1.0,0.8
-182,Mainz 05,Hoffenheim,2,0,1,0,2.2,1.6
-183,Augsburg,Union Berlin,2,0,1,0,2.0,1.7
-184,Stuttgart,Eintracht Frankfurt,2,3,2,3,1.6,1.1
-185,Arminia,Mönchengladbach,1,1,1,1,0.5,2.0
-186,Bayern Munich,RB Leipzig,3,2,1,2,3.2,2.2
-187,Dortmund,Bayer Leverkusen,2,5,0,2,1.7,2.0
-188,Wolfsburg,Greuther Fürth,4,1,1,0,2.5,1.1
-189,RB Leipzig,Köln,3,1,2,1,0.9,0.9
-190,Eintracht Frankfurt,Wolfsburg,0,2,0,0,1.0,1.5
-191,Bayer Leverkusen,Stuttgart,4,2,3,1,1.9,1.1
-192,Mönchengladbach,Augsburg,3,2,3,2,2.4,1.6
-193,Bochum,Bayern Munich,4,2,2,1,1.4,1.9
-194,Greuther Fürth,Hertha BSC,2,1,1,1,2.5,2.1
-195,Freiburg,Mainz 05,1,1,1,0,1.8,2.6
-196,Union Berlin,Dortmund,0,3,0,2,1.2,2.5
-197,Hoffenheim,Arminia,2,0,2,0,3.0,1.0
-198,Mainz 05,Bayer Leverkusen,3,2,0,2,1.0,1.0
-199,Köln,Eintracht Frankfurt,1,0,1,0,1.1,0.6
-200,Stuttgart,Bochum,1,1,0,0,1.2,2.0
-201,Wolfsburg,Hoffenheim,1,2,1,2,1.5,1.5
-202,Arminia,Union Berlin,1,0,1,0,0.8,0.9
-203,Augsburg,Freiburg,1,2,1,1,1.1,2.1
-204,Hertha BSC,RB Leipzig,1,6,1,3,1.0,3.4
-205,Bayern Munich,Greuther Fürth,4,1,3,0,1.8,0.8
-206,Dortmund,Mönchengladbach,6,0,4,0,3.9,0.9
-207,Hoffenheim,Stuttgart,2,1,1,1,3.0,1.8
-208,Bayer Leverkusen,Arminia,3,0,0,0,2.2,0.4
-209,Union Berlin,Mainz 05,3,1,2,1,1.0,1.0
-210,Eintracht Frankfurt,Bayern Munich,0,1,0,1,0.9,2.4
-211,Greuther Fürth,Köln,1,1,1,1,0.7,0.6
-212,Freiburg,Hertha BSC,3,0,1,0,2.6,1.3
-213,Mönchengladbach,Wolfsburg,2,2,2,2,2.4,1.4
-214,Augsburg,Dortmund,1,1,1,1,0.8,0.6
-215,Bochum,RB Leipzig,0,1,0,1,0.9,0.7
-216,Arminia,Augsburg,0,1,0,1,0.2,0.5
-217,Wolfsburg,Union Berlin,1,0,0,0,0.5,1.3
-218,Stuttgart,Mönchengladbach,3,2,1,2,2.4,0.9
-219,Bayern Munich,Bayer Leverkusen,1,1,0,0,1.6,2.1
-220,Hertha BSC,Eintracht Frankfurt,1,4,0,3,0.4,1.2
-221,RB Leipzig,Freiburg,1,1,1,0,0.6,0.4
-222,Bochum,Greuther Fürth,2,1,0,0,1.6,0.7
-223,Köln,Hoffenheim,0,1,0,1,1.6,2.7
-224,Hoffenheim,Bayern Munich,1,1,1,1,1.7,3.1
-225,Mönchengladbach,Hertha BSC,2,0,1,0,1.8,0.6
-226,Union Berlin,Stuttgart,1,1,0,1,1.5,1.0
-227,Freiburg,Wolfsburg,3,2,2,1,1.3,1.3
-228,Dortmund,Arminia,1,0,1,0,2.0,0.7
-229,Greuther Fürth,RB Leipzig,1,6,0,6,0.3,1.7
-230,Bayer Leverkusen,Köln,0,1,0,1,2.5,0.5
-231,Eintracht Frankfurt,Bochum,2,1,1,1,1.9,1.1
-232,Mainz 05,Dortmund,0,1,0,1,0.9,0.8
-233,Hertha BSC,Hoffenheim,3,0,2,0,1.3,0.8
-234,Mainz 05,Arminia,4,0,1,0,4.4,0.2
-235,Stuttgart,Augsburg,3,2,2,2,2.2,1.0
-236,Greuther Fürth,Freiburg,0,0,0,0,1.0,1.2
-237,Bayern Munich,Union Berlin,4,0,3,0,2.7,1.0
-238,Köln,Dortmund,1,1,1,1,1.2,1.2
-239,RB Leipzig,Eintracht Frankfurt,0,0,0,0,1.2,0.2
-240,Wolfsburg,Bayer Leverkusen,0,2,0,2,1.1,1.0
-241,Union Berlin,Köln,1,0,0,0,1.3,0.3
-242,Arminia,Stuttgart,1,1,1,0,1.0,2.3
-243,Eintracht Frankfurt,Greuther Fürth,0,0,0,0,1.2,0.6
-244,Bayer Leverkusen,Hertha BSC,2,1,2,1,1.6,0.8
-245,Freiburg,Bayern Munich,1,4,1,3,0.6,2.2
-246,Hoffenheim,Bochum,1,2,1,1,2.0,2.2
-247,Dortmund,RB Leipzig,1,4,1,3,0.7,1.1
-248,Augsburg,Wolfsburg,3,0,3,0,1.6,1.1
-249,Mönchengladbach,Mainz 05,1,1,1,1,1.5,2.1
-250,Augsburg,Mainz 05,2,1,1,1,1.8,1.8
-251,Stuttgart,Dortmund,0,2,0,2,1.7,1.9
-252,Bayern Munich,Augsburg,1,0,0,0,1.5,0.2
-253,Wolfsburg,Arminia,4,0,3,0,2.0,0.4
-254,Köln,Mainz 05,3,2,2,2,1.9,1.0
-255,Hertha BSC,Union Berlin,1,4,0,4,0.7,1.9
-256,Greuther Fürth,Mönchengladbach,0,2,0,1,0.5,2.7
-257,Eintracht Frankfurt,Freiburg,1,2,1,2,0.9,1.0
-258,Bochum,Bayer Leverkusen,0,0,0,0,0.7,1.4
-259,RB Leipzig,Hoffenheim,3,0,3,0,1.5,0.2
-260,Augsburg,Hertha BSC,0,1,0,1,1.0,1.1
-261,Mönchengladbach,Köln,1,3,1,3,1.2,2.1
-262,Freiburg,Bochum,3,0,3,0,2.2,0.4
-263,Dortmund,Wolfsburg,6,1,6,0,3.0,1.6
-264,Mainz 05,Stuttgart,0,0,0,0,0.6,0.7
-265,Hoffenheim,Greuther Fürth,0,0,0,0,1.0,0.3
-266,Arminia,Bayern Munich,0,3,0,2,0.4,2.7
-267,Bayer Leverkusen,RB Leipzig,0,1,0,1,0.8,0.5
-268,Union Berlin,Eintracht Frankfurt,2,0,2,0,1.1,0.5
-269,Wolfsburg,Mainz 05,5,0,2,0,3.9,0.7
-270,Köln,Arminia,3,1,3,0,2.0,0.9
-271,Eintracht Frankfurt,Hoffenheim,2,2,2,1,1.3,0.7
-272,Bayern Munich,Dortmund,3,1,3,0,1.8,1.3
-273,Greuther Fürth,Bayer Leverkusen,1,4,1,2,0.9,2.5
-274,Freiburg,Mönchengladbach,3,3,2,2,2.3,1.6
-275,RB Leipzig,Union Berlin,1,2,0,2,0.6,1.4
-276,Hertha BSC,Stuttgart,2,0,2,0,1.4,0.6
-277,Bochum,Augsburg,0,2,0,0,1.2,2.0
-278,Union Berlin,Greuther Fürth,1,1,0,0,1.4,0.3
-279,Hoffenheim,Freiburg,3,4,3,4,2.0,2.4
-280,Dortmund,Bochum,3,4,1,3,4.4,1.6
-281,Augsburg,Köln,1,4,1,3,1.7,2.5
-282,Stuttgart,Wolfsburg,1,1,1,1,0.8,1.4
-283,Mainz 05,Bayern Munich,3,1,3,1,3.4,1.4
-284,Arminia,Hertha BSC,1,1,1,1,0.5,1.5
-285,Bayer Leverkusen,Eintracht Frankfurt,2,0,2,0,1.8,0.3
-286,Mönchengladbach,RB Leipzig,3,1,2,1,1.5,1.1
-287,Bochum,Arminia,2,1,1,1,2.1,0.8
-288,Greuther Fürth,Dortmund,1,3,1,2,1.3,1.5
-289,Köln,Wolfsburg,0,1,0,1,1.2,1.1
-290,Hoffenheim,Bayer Leverkusen,2,4,2,4,2.6,4.0
-291,Freiburg,Union Berlin,1,4,1,2,1.8,2.0
-292,Hertha BSC,Mainz 05,1,2,0,2,1.1,0.7
-293,Bayern Munich,Stuttgart,2,2,2,2,2.6,1.5
-294,RB Leipzig,Augsburg,4,0,2,0,3.3,0.3
-295,Eintracht Frankfurt,Mönchengladbach,1,1,1,1,0.8,1.4
-296,Bayer Leverkusen,Freiburg,2,1,2,1,2.2,1.1
-297,Union Berlin,Bochum,3,2,1,2,2.7,0.2
-298,Wolfsburg,Bayern Munich,2,2,2,2,1.5,2.1
-299,Mönchengladbach,Hoffenheim,5,1,2,1,3.3,1.6
-300,Stuttgart,Köln,2,1,2,0,4.1,1.2
-301,Augsburg,Greuther Fürth,2,1,1,1,1.1,0.5
-302,Arminia,RB Leipzig,1,1,1,1,1.7,3.1
-303,Mainz 05,Eintracht Frankfurt,2,2,1,1,1.3,1.8
-304,Dortmund,Hertha BSC,2,1,1,0,1.4,1.0
-305,Eintracht Frankfurt,Bayern Munich,1,6,0,4,0.9,4.0
-306,Augsburg,Freiburg,0,4,0,2,0.7,1.2
-307,Wolfsburg,Werder Bremen,2,2,1,2,1.0,0.8
-308,Union Berlin,Hertha BSC,3,1,3,1,1.0,0.3
-309,Bochum,Mainz 05,1,2,1,2,0.9,1.4
-310,Mönchengladbach,Hoffenheim,3,1,3,1,2.0,0.1
-311,Dortmund,Bayer Leverkusen,1,0,0,0,1.8,1.3
-312,Stuttgart,RB Leipzig,1,1,1,1,0.8,1.7
-313,Köln,Schalke 04,3,1,2,1,4.4,0.2
-314,Freiburg,Dortmund,1,3,1,2,1.0,1.1
-315,RB Leipzig,Köln,2,2,2,1,1.0,1.5
-316,Bayer Leverkusen,Augsburg,1,2,0,1,2.6,0.4
-317,Hertha BSC,Eintracht Frankfurt,1,1,1,1,1.7,1.6
-318,Hoffenheim,Bochum,3,2,2,2,2.7,1.5
-319,Schalke 04,Mönchengladbach,2,2,1,1,1.4,1.3
-320,Werder Bremen,Stuttgart,2,2,2,2,0.5,1.4
-321,Mainz 05,Union Berlin,0,0,0,0,0.7,0.4
-322,Bayern Munich,Wolfsburg,2,0,1,0,2.2,0.5
-323,Mönchengladbach,Hertha BSC,1,0,0,0,2.7,1.0
-324,Wolfsburg,Schalke 04,0,0,0,0,1.3,1.1
-325,Dortmund,Werder Bremen,2,3,2,2,0.5,1.3
-326,Bayer Leverkusen,Hoffenheim,0,3,0,2,1.2,1.5
-327,Union Berlin,RB Leipzig,2,1,2,1,0.7,0.9
-328,Stuttgart,Freiburg,0,1,0,1,0.9,0.6
-329,Augsburg,Mainz 05,1,2,1,2,0.5,2.2
-330,Bochum,Bayern Munich,0,7,0,4,0.7,3.2
-331,Eintracht Frankfurt,Köln,1,1,0,0,0.9,0.3
-332,Freiburg,Bochum,1,0,0,0,4.2,1.3
-333,Hoffenheim,Augsburg,1,0,1,0,1.9,0.6
-334,Schalke 04,Union Berlin,1,6,0,4,1.9,1.1
-335,Bayern Munich,Mönchengladbach,1,1,1,0,2.8,0.5
-336,Mainz 05,Bayer Leverkusen,0,3,0,1,1.4,1.9
-337,Hertha BSC,Dortmund,0,1,0,1,0.5,2.7
-338,RB Leipzig,Wolfsburg,2,0,0,0,3.5,0.5
-339,Werder Bremen,Eintracht Frankfurt,3,4,1,3,1.8,1.8
-340,Köln,Stuttgart,0,0,0,0,0.6,2.2
-341,Dortmund,Hoffenheim,1,0,1,0,2.0,0.5
-342,Eintracht Frankfurt,RB Leipzig,4,0,2,0,3.1,0.2
-343,Bayer Leverkusen,Freiburg,2,3,1,3,1.8,1.9
-344,Stuttgart,Schalke 04,1,1,1,1,0.6,2.3
-345,Bochum,Werder Bremen,0,2,0,1,0.8,2.0
-346,Wolfsburg,Köln,2,4,2,2,1.0,2.7
-347,Union Berlin,Bayern Munich,1,1,1,0,0.3,1.5
-348,Augsburg,Hertha BSC,0,2,0,2,0.4,2.1
-349,Mönchengladbach,Mainz 05,0,1,0,0,1.2,0.6
-350,Werder Bremen,Augsburg,0,1,0,1,1.5,1.0
-351,Hoffenheim,Mainz 05,4,1,4,0,4.3,0.7
-352,RB Leipzig,Dortmund,3,0,3,0,2.0,0.6
-353,Schalke 04,Bochum,3,1,1,1,1.5,1.1
-354,Eintracht Frankfurt,Wolfsburg,0,1,0,1,0.7,1.0
-355,Bayern Munich,Stuttgart,2,2,2,1,2.2,1.2
-356,Hertha BSC,Bayer Leverkusen,2,2,1,1,1.9,1.3
-357,Köln,Union Berlin,0,1,0,0,0.6,1.5
-358,Freiburg,Mönchengladbach,0,0,0,0,1.1,1.2
-359,Mainz 05,Hertha BSC,1,1,0,1,0.7,0.4
-360,Bayer Leverkusen,Werder Bremen,1,1,1,0,1.9,2.2
-361,Augsburg,Bayern Munich,1,0,1,0,1.8,1.6
-362,Mönchengladbach,RB Leipzig,3,0,2,0,2.8,0.9
-363,Dortmund,Schalke 04,1,0,1,0,1.8,0.1
-364,Stuttgart,Eintracht Frankfurt,1,3,1,1,1.1,1.0
-365,Union Berlin,Wolfsburg,2,0,2,0,1.4,0.3
-366,Bochum,Köln,1,1,0,0,0.2,2.1
-367,Hoffenheim,Freiburg,0,0,0,0,0.7,1.0
-368,Bayern Munich,Bayer Leverkusen,4,0,3,0,1.9,0.8
-369,RB Leipzig,Bochum,4,0,1,0,4.1,0.1
-370,Wolfsburg,Stuttgart,3,2,3,2,2.1,1.5
-371,Eintracht Frankfurt,Union Berlin,2,0,1,0,0.9,1.0
-372,Werder Bremen,Mönchengladbach,5,1,3,1,1.9,2.3
-373,Freiburg,Mainz 05,2,1,1,1,2.4,1.7
-374,Köln,Dortmund,3,2,3,1,1.9,2.6
-375,Hertha BSC,Hoffenheim,1,1,1,1,0.9,1.5
-376,Schalke 04,Augsburg,2,3,2,2,1.9,1.4
-377,Hoffenheim,Werder Bremen,1,2,1,1,1.8,1.4
-378,Augsburg,Wolfsburg,1,1,0,1,2.0,1.8
-379,Mainz 05,RB Leipzig,1,1,1,1,0.6,1.1
-380,Dortmund,Bayern Munich,2,2,2,1,1.6,0.6
-381,Bayer Leverkusen,Schalke 04,4,0,4,0,1.5,0.4
-382,Bochum,Eintracht Frankfurt,3,0,2,0,0.6,0.9
-383,Mönchengladbach,Köln,5,2,3,0,3.0,1.3
-384,Hertha BSC,Freiburg,2,2,1,2,1.6,1.0
-385,Stuttgart,Union Berlin,0,1,0,1,1.0,0.7
-386,Schalke 04,Hoffenheim,0,3,0,1,0.7,3.3
-387,Eintracht Frankfurt,Bayer Leverkusen,5,1,2,1,3.9,0.4
-388,RB Leipzig,Hertha BSC,3,2,2,0,3.1,2.4
-389,Stuttgart,Bochum,4,1,2,0,2.2,1.6
-390,Wolfsburg,Mönchengladbach,2,2,2,1,1.8,0.8
-391,Werder Bremen,Mainz 05,0,2,0,2,1.3,1.1
-392,Union Berlin,Dortmund,2,0,1,0,1.9,0.8
-393,Bayern Munich,Freiburg,5,0,3,0,2.1,0.3
-394,Köln,Augsburg,3,2,1,2,1.5,0.4
-395,Mainz 05,Köln,5,0,2,0,1.9,0.7
-396,Augsburg,RB Leipzig,3,3,2,1,1.6,2.5
-397,Freiburg,Werder Bremen,2,0,1,0,3.0,0.5
-398,Dortmund,Stuttgart,5,0,5,0,2.6,1.0
-399,Mönchengladbach,Eintracht Frankfurt,1,3,1,2,1.0,1.9
-400,Hoffenheim,Bayern Munich,0,2,0,2,0.8,2.5
-401,Bayer Leverkusen,Wolfsburg,2,2,2,0,2.3,1.2
-402,Bochum,Union Berlin,2,1,2,0,1.1,1.0
-403,Hertha BSC,Schalke 04,2,1,1,1,0.8,0.6
-404,Werder Bremen,Hertha BSC,1,0,1,0,1.4,0.4
-405,Wolfsburg,Bochum,4,0,4,0,2.0,0.5
-406,Bayern Munich,Mainz 05,6,2,5,2,3.2,2.2
-407,Eintracht Frankfurt,Dortmund,1,2,1,2,2.0,0.6
-408,Stuttgart,Augsburg,2,1,2,1,2.7,1.0
-409,RB Leipzig,Bayer Leverkusen,2,0,2,0,1.2,0.1
-410,Schalke 04,Freiburg,0,2,0,1,0.6,2.3
-411,Köln,Hoffenheim,1,1,1,1,1.2,0.9
-412,Union Berlin,Mönchengladbach,2,1,2,1,0.9,1.0
-413,Mönchengladbach,Stuttgart,3,1,3,1,0.9,1.2
-414,Werder Bremen,Schalke 04,2,1,2,1,1.0,1.4
-415,Dortmund,Bochum,3,0,0,0,1.5,0.6
-416,Mainz 05,Wolfsburg,0,3,0,2,1.0,0.6
-417,Hertha BSC,Bayern Munich,2,3,1,1,1.2,1.9
-418,Augsburg,Eintracht Frankfurt,1,2,1,1,1.2,1.2
-419,Hoffenheim,RB Leipzig,1,3,1,1,0.9,1.7
-420,Bayer Leverkusen,Union Berlin,5,0,5,0,1.9,0.3
-421,Freiburg,Köln,2,0,2,0,1.5,0.5
-422,Stuttgart,Hertha BSC,2,1,2,1,2.0,0.7
-423,Bayern Munich,Werder Bremen,6,1,4,1,4.4,1.3
-424,Wolfsburg,Dortmund,2,0,1,0,2.5,1.6
-425,Bochum,Mönchengladbach,2,1,1,1,2.0,0.8
-426,Union Berlin,Augsburg,2,2,2,1,1.2,0.6
-427,Eintracht Frankfurt,Hoffenheim,4,2,3,1,2.8,1.8
-428,Köln,Bayer Leverkusen,1,2,1,1,1.5,1.4
-429,Schalke 04,Mainz 05,1,0,0,0,1.5,0.8
-430,RB Leipzig,Freiburg,3,1,1,0,3.0,0.2
-431,Mönchengladbach,Dortmund,4,2,4,1,2.1,3.3
-432,Bayer Leverkusen,Stuttgart,2,0,2,0,1.6,0.3
-433,Werder Bremen,RB Leipzig,1,2,1,2,0.9,1.7
-434,Schalke 04,Bayern Munich,0,2,0,2,0.8,1.9
-435,Hoffenheim,Wolfsburg,1,2,1,1,1.4,0.7
-436,Hertha BSC,Köln,2,0,1,0,1.8,1.8
-437,Augsburg,Bochum,0,1,0,1,2.3,1.1
-438,Freiburg,Union Berlin,4,1,2,0,2.3,1.7
-439,Mainz 05,Eintracht Frankfurt,1,1,1,1,1.5,1.8
-440,RB Leipzig,Bayern Munich,1,1,1,1,0.8,0.7
-441,Stuttgart,Mainz 05,1,1,1,0,1.7,1.5
-442,Union Berlin,Hoffenheim,3,1,3,1,2.9,1.0
-443,Eintracht Frankfurt,Schalke 04,3,0,3,0,1.2,1.9
-444,Bochum,Hertha BSC,3,1,3,0,1.6,1.0
-445,Wolfsburg,Freiburg,6,0,5,0,2.7,0.7
-446,Köln,Werder Bremen,7,1,5,1,3.2,0.3
-447,Dortmund,Augsburg,4,3,4,1,2.9,1.8
-448,Mönchengladbach,Bayer Leverkusen,2,3,2,2,1.0,2.1
-449,Hoffenheim,Stuttgart,2,2,1,2,2.0,0.8
-450,Schalke 04,RB Leipzig,1,6,1,3,0.7,2.8
-451,Bayern Munich,Köln,1,1,1,1,1.4,0.8
-452,Hertha BSC,Wolfsburg,0,5,0,4,0.4,3.3
-453,Bayer Leverkusen,Bochum,2,0,1,0,1.7,0.7
-454,Mainz 05,Dortmund,1,2,1,2,1.2,1.5
-455,Augsburg,Mönchengladbach,1,0,1,0,0.9,0.3
-456,Freiburg,Eintracht Frankfurt,1,1,1,0,1.9,0.2
-457,Werder Bremen,Union Berlin,1,2,1,1,0.6,1.1
-458,RB Leipzig,Stuttgart,2,1,1,0,1.0,1.7
-459,Hertha BSC,Union Berlin,0,2,0,2,0.5,1.0
-460,Hoffenheim,Mönchengladbach,1,4,1,3,1.8,1.7
-461,Mainz 05,Bochum,5,2,3,1,2.1,1.5
-462,Werder Bremen,Wolfsburg,2,1,1,0,2.3,0.7
-463,Freiburg,Augsburg,3,1,3,0,1.8,1.7
-464,Bayern Munich,Eintracht Frankfurt,1,1,1,1,1.7,0.6
-465,Bayer Leverkusen,Dortmund,0,2,0,1,1.7,0.9
-466,Schalke 04,Köln,0,0,0,0,1.2,0.3
-467,Augsburg,Bayer Leverkusen,1,0,1,0,0.9,0.6
-468,Mönchengladbach,Schalke 04,0,0,0,0,1.1,1.0
-469,Dortmund,Freiburg,5,1,4,0,1.9,0.4
-470,Eintracht Frankfurt,Hertha BSC,3,0,1,0,2.2,0.9
-471,Köln,RB Leipzig,0,0,0,0,0.8,1.3
-472,Union Berlin,Mainz 05,2,1,2,0,1.1,1.3
-473,Bochum,Hoffenheim,5,2,5,2,2.7,0.9
-474,Stuttgart,Werder Bremen,0,2,0,1,1.4,0.5
-475,Wolfsburg,Bayern Munich,2,4,1,4,2.3,0.5
-476,Schalke 04,Wolfsburg,0,0,0,0,1.3,1.5
-477,Werder Bremen,Dortmund,0,2,0,2,0.6,2.5
-478,Hoffenheim,Bayer Leverkusen,1,3,0,3,0.7,1.4
-479,Freiburg,Stuttgart,2,1,0,1,2.1,1.1
-480,Bayern Munich,Bochum,3,0,1,0,3.8,0.3
-481,Mainz 05,Augsburg,3,1,3,0,2.4,1.5
-482,RB Leipzig,Union Berlin,1,2,1,0,0.6,1.7
-483,Hertha BSC,Mönchengladbach,4,1,3,1,3.0,0.5
-484,Köln,Eintracht Frankfurt,3,0,2,0,1.2,0.3
-485,Augsburg,Hoffenheim,1,0,1,0,1.7,0.7
-486,Mönchengladbach,Bayern Munich,3,2,3,2,2.4,1.1
-487,Wolfsburg,RB Leipzig,0,3,0,2,0.2,3.1
-488,Stuttgart,Köln,3,0,2,0,1.6,0.5
-489,Eintracht Frankfurt,Werder Bremen,2,0,1,0,2.1,0.3
-490,Bochum,Freiburg,0,2,0,2,1.4,2.7
-491,Union Berlin,Schalke 04,0,0,0,0,0.9,0.4
-492,Bayer Leverkusen,Mainz 05,2,3,2,1,2.4,1.6
-493,Dortmund,Hertha BSC,4,1,3,1,2.6,1.1
-494,Mainz 05,Mönchengladbach,4,0,3,0,1.8,1.2
-495,RB Leipzig,Eintracht Frankfurt,2,1,2,1,1.7,0.8
-496,Hoffenheim,Dortmund,0,1,0,1,1.3,2.4
-497,Schalke 04,Stuttgart,2,1,2,1,1.6,1.2
-498,Köln,Wolfsburg,0,2,0,1,1.3,1.0
-499,Werder Bremen,Bochum,3,0,2,0,1.2,0.5
-500,Hertha BSC,Augsburg,2,0,1,0,0.6,0.5
-501,Bayern Munich,Union Berlin,3,0,3,0,3.6,0.4
-502,Freiburg,Bayer Leverkusen,1,1,0,1,0.9,2.2
-503,Dortmund,RB Leipzig,2,1,0,1,1.2,2.2
-504,Bochum,Schalke 04,0,2,0,1,1.3,0.6
-505,Mainz 05,Hoffenheim,1,0,1,0,1.2,0.8
-506,Union Berlin,Köln,0,0,0,0,0.5,0.9
-507,Stuttgart,Bayern Munich,1,2,1,2,0.8,2.1
-508,Mönchengladbach,Freiburg,0,0,0,0,1.5,0.3
-509,Augsburg,Werder Bremen,2,1,2,1,0.6,2.4
-510,Bayer Leverkusen,Hertha BSC,4,1,4,0,1.7,1.1
-511,Wolfsburg,Eintracht Frankfurt,2,2,2,1,1.9,0.6
-512,Köln,Bochum,0,2,0,1,0.7,1.4
-513,RB Leipzig,Mönchengladbach,3,0,1,0,2.5,1.6
-514,Eintracht Frankfurt,Stuttgart,1,1,0,1,0.7,0.8
-515,Bayern Munich,Augsburg,5,3,3,1,2.4,2.5
-516,Hertha BSC,Mainz 05,1,1,0,1,1.5,0.5
-517,Schalke 04,Dortmund,2,2,2,2,1.5,2.0
-518,Werder Bremen,Bayer Leverkusen,2,3,1,2,1.8,1.0
-519,Freiburg,Hoffenheim,2,1,1,1,0.6,1.0
-520,Wolfsburg,Union Berlin,1,1,1,0,1.7,1.3
-521,Mönchengladbach,Werder Bremen,2,2,1,2,3.4,1.3
-522,Stuttgart,Wolfsburg,0,1,0,1,0.5,0.6
-523,Dortmund,Köln,6,1,5,0,3.5,1.7
-524,Hoffenheim,Hertha BSC,3,1,0,0,2.7,1.0
-525,Bochum,RB Leipzig,1,0,1,0,1.2,1.9
-526,Augsburg,Schalke 04,1,1,1,0,0.3,1.8
-527,Union Berlin,Eintracht Frankfurt,2,0,2,0,1.5,2.7
-528,Mainz 05,Freiburg,1,1,0,1,1.0,1.7
-529,Bayer Leverkusen,Bayern Munich,2,1,0,1,2.0,1.0
-530,Eintracht Frankfurt,Bochum,1,1,0,0,3.2,1.2
-531,Schalke 04,Bayer Leverkusen,0,3,0,3,1.1,2.8
-532,RB Leipzig,Mainz 05,0,3,0,1,0.8,3.2
-533,Wolfsburg,Augsburg,2,2,2,1,3.7,0.6
-534,Freiburg,Hertha BSC,1,1,1,0,1.2,1.9
-535,Bayern Munich,Dortmund,4,2,2,1,2.4,1.7
-536,Union Berlin,Stuttgart,3,0,1,0,1.9,2.2
-537,Köln,Mönchengladbach,0,0,0,0,1.0,1.0
-538,Werder Bremen,Hoffenheim,1,2,1,2,0.9,1.1
-539,Bayer Leverkusen,Eintracht Frankfurt,3,1,3,1,2.1,1.0
-540,Augsburg,Köln,1,3,1,3,0.9,1.7
-541,Hertha BSC,RB Leipzig,0,1,0,0,0.5,2.4
-542,Dortmund,Union Berlin,2,1,1,1,2.6,0.5
-543,Mainz 05,Werder Bremen,2,2,2,1,1.9,0.9
-544,Freiburg,Bayern Munich,0,1,0,1,1.0,3.5
-545,Hoffenheim,Schalke 04,2,0,0,0,2.2,0.7
-546,Bochum,Stuttgart,2,3,1,2,2.4,2.2
-547,Mönchengladbach,Wolfsburg,2,0,2,0,1.6,1.5
-548,Schalke 04,Hertha BSC,5,2,3,0,2.2,1.6
-549,Köln,Mainz 05,1,1,1,1,1.0,0.8
-550,Stuttgart,Dortmund,3,3,2,1,1.4,1.9
-551,Bayern Munich,Hoffenheim,1,1,1,0,1.7,0.5
-552,Eintracht Frankfurt,Mönchengladbach,1,1,1,1,2.2,1.2
-553,RB Leipzig,Augsburg,3,2,3,1,1.8,0.7
-554,Wolfsburg,Bayer Leverkusen,0,0,0,0,0.9,1.2
-555,Werder Bremen,Freiburg,1,2,1,2,1.7,0.8
-556,Union Berlin,Bochum,1,1,0,0,1.2,1.8
-557,Augsburg,Stuttgart,1,1,1,0,0.7,1.1
-558,Hoffenheim,Köln,1,3,0,1,0.9,1.7
-559,Mainz 05,Bayern Munich,3,1,2,1,1.6,1.9
-560,Dortmund,Eintracht Frankfurt,4,0,4,0,1.1,0.6
-561,Hertha BSC,Werder Bremen,2,4,1,3,1.6,2.0
-562,Bochum,Wolfsburg,1,5,0,3,3.0,4.3
-563,Bayer Leverkusen,RB Leipzig,2,0,1,0,1.1,2.2
-564,Mönchengladbach,Union Berlin,0,1,0,1,0.7,1.3
-565,Freiburg,Schalke 04,4,0,3,0,2.1,0.3
-566,Bochum,Dortmund,1,1,0,1,0.9,2.9
-567,RB Leipzig,Hoffenheim,1,0,1,0,1.4,0.3
-568,Union Berlin,Bayer Leverkusen,0,0,0,0,0.8,0.8
-569,Eintracht Frankfurt,Augsburg,1,1,0,1,0.6,0.7
-570,Köln,Freiburg,0,1,0,1,1.6,1.6
-571,Schalke 04,Werder Bremen,2,1,2,1,1.6,1.2
-572,Stuttgart,Mönchengladbach,2,1,1,0,2.4,1.2
-573,Bayern Munich,Hertha BSC,2,0,2,0,2.7,0.1
-574,Wolfsburg,Mainz 05,3,0,3,0,1.9,1.8
-575,Mainz 05,Schalke 04,2,3,1,2,1.4,3.0
-576,Bayer Leverkusen,Köln,1,2,1,2,0.9,0.8
-577,Hertha BSC,Stuttgart,2,1,2,1,1.2,1.5
-578,Hoffenheim,Eintracht Frankfurt,3,1,2,0,2.2,2.3
-579,Freiburg,RB Leipzig,0,1,0,0,0.4,2.0
-580,Mönchengladbach,Bochum,2,0,1,0,1.9,1.1
-581,Werder Bremen,Bayern Munich,1,2,1,1,0.7,1.4
-582,Augsburg,Union Berlin,1,0,1,0,0.9,0.7
-583,Dortmund,Wolfsburg,6,0,6,0,4.2,1.4
-584,Köln,Hertha BSC,5,2,4,1,4.5,1.1
-585,Union Berlin,Freiburg,4,2,4,1,1.5,2.1
-586,Wolfsburg,Hoffenheim,2,1,2,0,1.1,1.0
-587,Eintracht Frankfurt,Mainz 05,3,0,2,0,2.3,1.0
-588,Dortmund,Mönchengladbach,5,2,2,1,4.7,2.0
-589,Bayern Munich,Schalke 04,6,0,4,0,5.4,0.4
-590,Bochum,Augsburg,3,2,2,2,1.3,1.9
-591,Stuttgart,Bayer Leverkusen,1,1,0,0,1.4,1.8
-592,RB Leipzig,Werder Bremen,2,1,2,1,2.2,1.1
-593,Freiburg,Wolfsburg,2,0,2,0,1.3,0.7
-594,Bayern Munich,RB Leipzig,1,3,1,0,1.7,3.0
-595,Schalke 04,Eintracht Frankfurt,2,2,2,2,1.0,1.6
-596,Hoffenheim,Union Berlin,4,2,2,2,2.4,2.0
-597,Hertha BSC,Bochum,1,1,1,1,1.2,1.1
-598,Werder Bremen,Köln,1,1,1,1,1.9,1.4
-599,Augsburg,Dortmund,0,3,0,1,0.2,3.3
-600,Mainz 05,Stuttgart,1,4,0,3,1.4,1.8
-601,Bayer Leverkusen,Mönchengladbach,2,2,2,1,1.6,1.7
-602,RB Leipzig,Schalke 04,4,2,3,1,2.7,1.2
-603,Union Berlin,Werder Bremen,1,0,1,0,0.9,0.4
-604,Stuttgart,Hoffenheim,1,1,1,1,2.5,0.8
-605,Bochum,Bayer Leverkusen,3,0,3,0,1.3,0.8
-606,Wolfsburg,Hertha BSC,1,2,1,1,3.5,2.1
-607,Mönchengladbach,Augsburg,2,0,2,0,3.2,0.5
-608,Köln,Bayern Munich,1,2,0,2,1.3,1.3
-609,Eintracht Frankfurt,Freiburg,2,1,1,0,2.1,1.6
-610,Dortmund,Mainz 05,2,2,2,2,4.0,1.8
-611,Werder Bremen,Bayern Munich,0,4,0,4,0.6,2.9
-612,Hoffenheim,Freiburg,1,2,0,0,1.4,2.7
-613,Bayer Leverkusen,RB Leipzig,3,2,3,2,1.4,1.6
-614,Dortmund,Köln,1,0,1,0,2.1,1.3
-615,Stuttgart,Bochum,5,0,5,0,3.1,0.8
-616,Wolfsburg,Heidenheim,2,0,2,0,2.2,1.2
-617,Augsburg,Mönchengladbach,4,4,3,3,2.3,1.7
-618,Union Berlin,Mainz 05,4,1,4,0,1.9,2.3
-619,Eintracht Frankfurt,Darmstadt 98,1,0,1,0,1.5,0.6
-620,RB Leipzig,Stuttgart,5,1,3,1,1.8,1.1
-621,Darmstadt 98,Union Berlin,1,4,0,3,2.3,1.7
-622,Bochum,Dortmund,1,1,1,1,1.0,1.3
-623,Köln,Wolfsburg,1,2,1,1,0.9,1.7
-624,Mönchengladbach,Bayer Leverkusen,0,3,0,3,0.9,2.8
-625,Heidenheim,Hoffenheim,2,3,1,1,2.5,3.0
-626,Freiburg,Werder Bremen,1,0,1,0,2.7,1.1
-627,Mainz 05,Eintracht Frankfurt,1,1,0,1,1.2,1.1
-628,Bayern Munich,Augsburg,3,1,1,1,2.9,0.7
-629,Dortmund,Heidenheim,2,2,1,1,3.4,2.4
-630,Bayer Leverkusen,Darmstadt 98,5,1,5,1,2.8,0.4
-631,Stuttgart,Freiburg,5,0,5,0,1.7,1.1
-632,Augsburg,Bochum,2,2,1,2,2.2,1.7
-633,Werder Bremen,Mainz 05,4,0,3,0,2.7,0.5
-634,Mönchengladbach,Bayern Munich,1,2,1,2,0.3,2.4
-635,Hoffenheim,Wolfsburg,3,1,3,1,2.0,1.2
-636,Eintracht Frankfurt,Köln,1,1,1,0,1.4,0.9
-637,Union Berlin,RB Leipzig,0,3,0,3,0.3,1.2
-638,Bayern Munich,Bayer Leverkusen,2,2,1,0,2.1,2.1
-639,Freiburg,Dortmund,2,4,2,4,1.1,2.4
-640,Mainz 05,Stuttgart,1,3,1,3,1.0,1.6
-641,Wolfsburg,Union Berlin,2,1,1,1,0.4,1.1
-642,Bochum,Eintracht Frankfurt,1,1,0,0,2.0,0.6
-643,RB Leipzig,Augsburg,3,0,3,0,1.1,1.7
-644,Köln,Hoffenheim,1,3,1,1,1.0,1.0
-645,Heidenheim,Werder Bremen,4,2,3,1,2.2,3.0
-646,Darmstadt 98,Mönchengladbach,3,3,3,2,1.2,3.9
-647,Stuttgart,Darmstadt 98,3,1,3,0,2.3,0.2
-648,Bayern Munich,Bochum,7,0,5,0,5.1,0.1
-649,Augsburg,Mainz 05,2,1,1,1,0.8,0.6
-650,Werder Bremen,Köln,2,1,2,0,2.1,1.5
-651,Dortmund,Wolfsburg,1,0,1,0,1.7,0.5
-652,Union Berlin,Hoffenheim,0,2,0,1,1.6,2.0
-653,Mönchengladbach,RB Leipzig,0,1,0,0,0.8,0.7
-654,Bayer Leverkusen,Heidenheim,4,1,3,1,3.5,0.5
-655,Eintracht Frankfurt,Freiburg,0,0,0,0,0.6,0.6
-656,Hoffenheim,Dortmund,1,3,0,1,2.0,1.6
-657,Heidenheim,Union Berlin,1,0,0,0,0.8,2.2
-658,Bochum,Mönchengladbach,1,3,1,3,1.7,3.1
-659,Köln,Stuttgart,0,2,0,1,0.7,2.7
-660,Mainz 05,Bayer Leverkusen,0,3,0,1,0.5,1.1
-661,RB Leipzig,Bayern Munich,2,2,2,1,0.7,2.4
-662,Wolfsburg,Eintracht Frankfurt,2,0,0,0,3.3,1.3
-663,Freiburg,Augsburg,2,0,1,0,1.0,0.8
-664,Darmstadt 98,Werder Bremen,4,2,3,2,2.4,1.5
-665,Mönchengladbach,Mainz 05,2,2,2,2,2.4,0.8
-666,Werder Bremen,Hoffenheim,2,3,2,2,0.8,1.9
-667,Dortmund,Union Berlin,4,2,2,1,1.6,1.4
-668,Stuttgart,Wolfsburg,3,1,1,0,2.7,1.2
-669,RB Leipzig,Bochum,0,0,0,0,2.5,0.4
-670,Augsburg,Darmstadt 98,1,2,0,0,0.9,1.8
-671,Eintracht Frankfurt,Heidenheim,2,0,1,0,1.9,1.2
-672,Bayer Leverkusen,Köln,3,0,3,0,3.3,1.4
-673,Bayern Munich,Freiburg,3,0,3,0,2.4,0.1
-674,Dortmund,Werder Bremen,1,0,1,0,2.7,0.4
-675,Wolfsburg,Bayer Leverkusen,1,2,1,2,1.5,1.9
-676,Mainz 05,Bayern Munich,1,3,1,3,1.1,1.8
-677,Freiburg,Bochum,2,1,1,1,2.4,1.5
-678,Hoffenheim,Eintracht Frankfurt,1,3,1,2,1.4,2.5
-679,Darmstadt 98,RB Leipzig,1,3,0,2,2.5,1.9
-680,Union Berlin,Stuttgart,0,3,0,3,0.6,1.4
-681,Heidenheim,Augsburg,2,5,2,3,1.6,2.6
-682,Köln,Mönchengladbach,3,1,1,1,2.7,0.3
-683,Bochum,Mainz 05,2,2,1,1,1.4,0.4
-684,Mönchengladbach,Heidenheim,2,1,0,0,1.0,0.4
-685,Stuttgart,Hoffenheim,2,3,1,0,3.6,1.8
-686,RB Leipzig,Köln,6,0,3,0,4.3,0.9
-687,Werder Bremen,Union Berlin,2,0,1,0,0.8,0.6
-688,Bayern Munich,Darmstadt 98,8,0,8,0,5.9,0.7
-689,Augsburg,Wolfsburg,3,2,1,0,1.4,1.4
-690,Bayer Leverkusen,Freiburg,2,1,2,1,1.4,0.9
-691,Eintracht Frankfurt,Dortmund,3,3,1,2,2.8,2.2
-692,Darmstadt 98,Bochum,1,2,1,1,0.7,1.2
-693,Mainz 05,RB Leipzig,2,0,1,0,1.0,0.5
-694,Union Berlin,Eintracht Frankfurt,0,3,0,2,0.7,1.6
-695,Köln,Augsburg,1,1,0,1,2.1,2.6
-696,Dortmund,Bayern Munich,0,4,0,4,1.0,3.4
-697,Hoffenheim,Bayer Leverkusen,2,3,0,3,1.8,1.0
-698,Freiburg,Mönchengladbach,3,3,2,2,3.4,2.2
-699,Heidenheim,Stuttgart,2,0,1,0,1.2,2.9
-700,Wolfsburg,Werder Bremen,2,2,1,1,1.6,1.3
-701,Mönchengladbach,Wolfsburg,4,0,3,0,1.5,0.5
-702,Darmstadt 98,Mainz 05,0,0,0,0,0.5,0.7
-703,Augsburg,Hoffenheim,1,1,1,1,1.0,0.9
-704,Bochum,Köln,1,1,0,1,4.0,0.9
-705,Stuttgart,Dortmund,2,1,1,1,4.3,1.0
-706,Bayern Munich,Heidenheim,4,2,3,0,2.0,0.9
-707,RB Leipzig,Freiburg,3,1,1,1,1.9,0.5
-708,Werder Bremen,Eintracht Frankfurt,2,2,1,2,1.5,2.0
-709,Bayer Leverkusen,Union Berlin,4,0,4,0,2.4,0.0
-710,Köln,Bayern Munich,0,1,0,0,0.2,3.9
-711,Wolfsburg,RB Leipzig,2,1,2,1,1.0,2.8
-712,Eintracht Frankfurt,Stuttgart,1,2,0,2,0.9,2.3
-713,Freiburg,Darmstadt 98,1,1,1,1,1.6,0.4
-714,Dortmund,Mönchengladbach,4,2,3,2,3.2,1.0
-715,Werder Bremen,Bayer Leverkusen,0,3,0,2,0.2,1.0
-716,Union Berlin,Augsburg,1,1,0,0,2.2,1.7
-717,Heidenheim,Bochum,0,0,0,0,0.8,0.4
-718,Hoffenheim,Mainz 05,1,1,1,1,1.5,1.8
-719,Darmstadt 98,Köln,0,1,0,0,0.7,1.5
-720,RB Leipzig,Heidenheim,2,1,1,1,4.1,1.1
-721,Mönchengladbach,Hoffenheim,2,1,1,1,1.6,1.4
-722,Bochum,Wolfsburg,3,1,3,1,1.5,1.3
-723,Stuttgart,Werder Bremen,2,0,0,0,3.5,0.8
-724,Augsburg,Eintracht Frankfurt,2,1,2,0,1.4,1.1
-725,Bayer Leverkusen,Dortmund,1,1,0,1,2.1,0.7
-726,Mainz 05,Freiburg,0,1,0,1,2.4,0.9
-727,Hoffenheim,Bochum,3,1,2,1,1.5,1.6
-728,Wolfsburg,Freiburg,0,1,0,1,1.2,1.1
-729,Werder Bremen,Augsburg,2,0,2,0,1.5,0.7
-730,Eintracht Frankfurt,Bayern Munich,5,1,3,1,1.3,2.1
-731,Union Berlin,Mönchengladbach,3,1,0,1,2.1,1.1
-732,Dortmund,RB Leipzig,2,3,2,1,1.6,2.9
-733,Heidenheim,Darmstadt 98,3,2,3,1,1.5,0.9
-734,Stuttgart,Bayer Leverkusen,1,1,1,1,2.7,1.3
-735,Köln,Mainz 05,0,0,0,0,0.3,1.5
-736,Mönchengladbach,Werder Bremen,2,2,2,2,1.4,1.6
-737,Mainz 05,Heidenheim,0,1,0,1,1.6,0.5
-738,Bochum,Union Berlin,3,0,1,0,2.8,0.7
-739,RB Leipzig,Hoffenheim,3,1,1,1,3.1,0.8
-740,Darmstadt 98,Wolfsburg,0,1,0,1,0.6,0.6
-741,Augsburg,Dortmund,1,1,1,1,1.8,2.8
-742,Bayern Munich,Stuttgart,3,0,2,0,2.9,0.4
-743,Bayer Leverkusen,Eintracht Frankfurt,3,0,2,0,2.7,0.2
-744,Freiburg,Köln,2,0,2,0,3.3,1.2
-745,Werder Bremen,RB Leipzig,1,1,1,0,1.5,1.7
-746,Hoffenheim,Darmstadt 98,3,3,2,3,3.5,0.8
-747,Dortmund,Mainz 05,1,1,0,1,1.2,1.0
-748,Union Berlin,Köln,2,0,2,0,1.6,0.8
-749,Bayer Leverkusen,Bochum,4,0,3,0,3.3,0.4
-750,Stuttgart,Augsburg,3,0,3,0,2.6,0.3
-751,Heidenheim,Freiburg,3,2,2,1,1.9,1.8
-752,Wolfsburg,Bayern Munich,1,2,1,2,0.3,2.6
-753,Eintracht Frankfurt,Mönchengladbach,2,1,1,1,1.4,0.3
-754,Bayern Munich,Hoffenheim,3,0,3,0,2.8,1.2
-755,Köln,Heidenheim,1,1,1,0,0.9,1.0
-756,Mainz 05,Wolfsburg,1,1,1,1,0.4,0.6
-757,RB Leipzig,Eintracht Frankfurt,0,1,0,1,3.6,1.1
-758,Augsburg,Bayer Leverkusen,0,1,0,1,0.4,2.0
-759,Darmstadt 98,Dortmund,0,3,0,3,1.0,3.1
-760,Freiburg,Union Berlin,0,0,0,0,1.8,0.5
-761,Mönchengladbach,Stuttgart,3,1,2,1,2.0,0.9
-762,Bochum,Werder Bremen,1,1,1,1,0.7,0.8
-763,Köln,Dortmund,0,4,0,3,1.3,3.4
-764,RB Leipzig,Bayer Leverkusen,2,3,2,3,1.6,2.0
-765,Freiburg,Hoffenheim,3,2,3,2,2.7,1.4
-766,Heidenheim,Wolfsburg,1,1,0,1,1.1,1.1
-767,Bochum,Stuttgart,1,0,1,0,0.9,1.4
-768,Darmstadt 98,Eintracht Frankfurt,2,2,2,2,1.1,1.3
-769,Mönchengladbach,Augsburg,1,2,0,2,1.7,1.3
-770,Bayern Munich,Werder Bremen,0,1,0,0,1.9,0.4
-771,Bayern Munich,Union Berlin,1,0,0,0,2.2,0.2
-772,Eintracht Frankfurt,Mainz 05,1,0,1,0,1.3,0.8
-773,Werder Bremen,Freiburg,3,1,1,0,2.5,1.2
-774,Hoffenheim,Heidenheim,1,1,0,1,3.0,1.1
-775,Stuttgart,RB Leipzig,5,2,2,2,2.3,0.4
-776,Wolfsburg,Köln,1,1,1,0,1.5,0.6
-777,Bayer Leverkusen,Mönchengladbach,0,0,0,0,3.0,0.3
-778,Augsburg,Bayern Munich,2,3,1,1,2.6,2.3
-779,Union Berlin,Darmstadt 98,1,0,1,0,2.5,1.1
-780,Dortmund,Bochum,3,1,1,0,3.0,0.5
-781,Heidenheim,Dortmund,0,0,0,0,1.2,0.6
-782,Köln,Eintracht Frankfurt,2,0,2,0,1.4,0.8
-783,Darmstadt 98,Bayer Leverkusen,0,2,0,2,0.6,1.9
-784,Bayern Munich,Mönchengladbach,3,1,2,1,2.1,1.0
-785,Freiburg,Stuttgart,1,3,1,3,0.7,1.8
-786,Mainz 05,Werder Bremen,0,1,0,0,0.8,0.6
-787,Bochum,Augsburg,1,1,0,0,0.9,1.7
-788,RB Leipzig,Union Berlin,2,0,1,0,1.1,0.5
-789,Wolfsburg,Hoffenheim,2,2,1,2,1.7,1.7
-790,Mainz 05,Union Berlin,1,1,1,1,1.4,1.0
-791,Dortmund,Freiburg,3,0,3,0,1.9,0.3
-792,Eintracht Frankfurt,Bochum,1,1,1,1,2.4,1.5
-793,Werder Bremen,Heidenheim,1,2,1,2,1.7,2.0
-794,Augsburg,RB Leipzig,2,2,2,2,0.7,1.4
-795,Bayer Leverkusen,Bayern Munich,3,0,3,0,1.3,0.6
-796,Mönchengladbach,Darmstadt 98,0,0,0,0,1.6,0.7
-797,Union Berlin,Wolfsburg,1,0,1,0,0.5,1.3
-798,Stuttgart,Mainz 05,3,1,3,1,1.9,1.4
-799,Hoffenheim,Köln,1,1,0,0,1.3,0.1
-800,Köln,Werder Bremen,0,1,0,1,0.8,1.8
-801,RB Leipzig,Mönchengladbach,2,0,2,0,1.7,0.7
-802,Mainz 05,Augsburg,1,0,1,0,2.2,1.0
-803,Heidenheim,Bayer Leverkusen,1,2,1,2,0.4,1.9
-804,Darmstadt 98,Stuttgart,1,2,1,1,1.7,1.8
-805,Wolfsburg,Dortmund,1,1,0,1,1.9,1.4
-806,Hoffenheim,Union Berlin,0,1,0,1,1.1,1.4
-807,Bochum,Bayern Munich,3,2,2,2,1.7,3.4
-808,Freiburg,Eintracht Frankfurt,3,3,2,3,2.3,1.0
-809,Bayer Leverkusen,Mainz 05,2,1,1,1,1.2,1.1
-810,Bayern Munich,RB Leipzig,2,1,2,1,1.5,0.9
-811,Mönchengladbach,Bochum,5,2,3,2,3.7,1.6
-812,Werder Bremen,Darmstadt 98,1,1,0,1,1.8,1.0
-813,Union Berlin,Heidenheim,2,2,1,1,1.1,1.1
-814,Stuttgart,Köln,1,1,1,1,2.2,0.7
-815,Eintracht Frankfurt,Wolfsburg,2,2,2,2,0.9,1.0
-816,Augsburg,Freiburg,2,1,1,0,1.7,1.6
-817,Dortmund,Hoffenheim,2,3,2,2,1.9,1.3
-818,Freiburg,Bayern Munich,2,2,2,1,1.5,1.8
-819,Bochum,RB Leipzig,1,4,0,3,0.8,2.1
-820,Union Berlin,Dortmund,0,2,0,1,1.3,1.6
-821,Heidenheim,Eintracht Frankfurt,1,2,1,1,1.0,1.2
-822,Darmstadt 98,Augsburg,0,6,0,4,0.8,2.9
-823,Wolfsburg,Stuttgart,2,3,1,2,0.9,1.1
-824,Mainz 05,Mönchengladbach,1,1,1,1,1.0,1.0
-825,Hoffenheim,Werder Bremen,2,1,2,1,1.7,1.3
-826,Köln,Bayer Leverkusen,0,2,0,1,1.0,1.6
-827,Stuttgart,Union Berlin,2,0,1,0,1.0,0.9
-828,Mönchengladbach,Köln,3,3,3,3,1.8,0.6
-829,RB Leipzig,Darmstadt 98,2,0,1,0,3.3,0.5
-830,Augsburg,Heidenheim,1,0,1,0,0.5,0.4
-831,Bayern Munich,Mainz 05,8,1,6,1,6.6,0.8
-832,Werder Bremen,Dortmund,1,2,1,1,1.8,1.2
-833,Bochum,Freiburg,1,2,1,2,1.2,1.4
-834,Bayer Leverkusen,Wolfsburg,2,0,2,0,2.1,0.2
-835,Eintracht Frankfurt,Hoffenheim,3,1,3,1,2.4,0.6
-836,Köln,RB Leipzig,1,5,1,4,1.3,3.4
-837,Darmstadt 98,Bayern Munich,2,5,2,2,1.2,3.7
-838,Wolfsburg,Augsburg,1,3,1,3,1.4,0.8
-839,Union Berlin,Werder Bremen,2,1,1,1,1.1,1.1
-840,Mainz 05,Bochum,2,0,1,0,2.5,0.8
-841,Hoffenheim,Stuttgart,0,3,0,2,0.5,3.8
-842,Heidenheim,Mönchengladbach,1,1,1,1,1.2,0.5
-843,Dortmund,Eintracht Frankfurt,3,1,2,0,2.3,1.0
-844,Freiburg,Bayer Leverkusen,2,3,1,2,0.9,2.3
-845,Bayern Munich,Dortmund,0,2,0,2,1.5,0.9
-846,Mönchengladbach,Freiburg,0,3,0,1,1.6,1.8
-847,RB Leipzig,Mainz 05,0,0,0,0,2.8,0.9
-848,Eintracht Frankfurt,Union Berlin,0,0,0,0,1.1,1.5
-849,Werder Bremen,Wolfsburg,0,2,0,2,0.5,2.4
-850,Bayer Leverkusen,Hoffenheim,2,1,2,1,3.2,0.8
-851,Stuttgart,Heidenheim,3,3,3,2,3.1,1.3
-852,Bochum,Darmstadt 98,2,2,2,2,1.8,0.9
-853,Augsburg,Köln,1,1,1,1,2.2,1.3
-854,Eintracht Frankfurt,Werder Bremen,1,1,1,0,2.2,1.7
-855,Dortmund,Stuttgart,0,1,0,1,2.5,1.6
-856,Freiburg,RB Leipzig,1,4,1,3,1.6,2.4
-857,Köln,Bochum,2,1,2,1,1.1,0.6
-858,Union Berlin,Bayer Leverkusen,0,1,0,0,0.3,2.9
-859,Heidenheim,Bayern Munich,3,2,3,2,1.4,1.9
-860,Mainz 05,Darmstadt 98,4,0,4,0,3.7,0.5
-861,Wolfsburg,Mönchengladbach,1,3,1,2,1.2,1.1
-862,Hoffenheim,Augsburg,3,1,3,1,1.8,1.3
-863,Augsburg,Union Berlin,2,0,1,0,1.6,1.6
-864,RB Leipzig,Wolfsburg,3,0,2,0,1.3,0.4
-865,Mönchengladbach,Dortmund,1,2,1,1,1.2,1.3
-866,Stuttgart,Eintracht Frankfurt,3,0,2,0,1.2,0.6
-867,Mainz 05,Hoffenheim,4,1,4,1,2.2,0.5
-868,Bayern Munich,Köln,2,0,1,0,2.2,0.9
-869,Bochum,Heidenheim,1,1,1,0,1.3,1.1
-870,Darmstadt 98,Freiburg,0,1,0,1,1.1,0.9
-871,Bayer Leverkusen,Werder Bremen,5,0,4,0,3.2,0.7
-872,Eintracht Frankfurt,Augsburg,3,1,2,1,1.8,0.5
-873,Wolfsburg,Bochum,1,0,0,0,0.8,1.3
-874,Heidenheim,RB Leipzig,1,2,1,1,1.0,1.8
-875,Hoffenheim,Mönchengladbach,4,3,4,3,2.4,1.0
-876,Union Berlin,Bayern Munich,1,5,1,4,1.4,1.4
-877,Köln,Darmstadt 98,0,2,0,0,1.0,2.0
-878,Dortmund,Bayer Leverkusen,1,1,1,1,0.5,1.1
-879,Werder Bremen,Stuttgart,2,1,1,0,1.5,2.2
-880,Freiburg,Mainz 05,1,1,1,1,1.1,1.1
-881,Bochum,Hoffenheim,3,2,1,2,3.4,1.0
-882,RB Leipzig,Dortmund,4,1,3,0,2.6,1.7
-883,Freiburg,Wolfsburg,1,2,0,1,2.3,0.5
-884,Augsburg,Werder Bremen,0,3,0,2,0.6,2.0
-885,Bayer Leverkusen,Stuttgart,2,2,2,0,1.5,1.7
-886,Bayern Munich,Eintracht Frankfurt,2,1,1,1,3.4,0.5
-887,Mönchengladbach,Union Berlin,0,0,0,0,0.9,1.0
-888,Darmstadt 98,Heidenheim,0,1,0,1,0.7,1.6
-889,Mainz 05,Köln,1,1,0,0,1.6,2.6
-890,Hoffenheim,RB Leipzig,1,1,1,1,1.6,0.8
-891,Stuttgart,Bayern Munich,3,1,3,0,1.8,1.7
-892,Köln,Freiburg,0,0,0,0,0.9,0.8
-893,Werder Bremen,Mönchengladbach,2,2,2,1,1.4,1.9
-894,Wolfsburg,Darmstadt 98,3,0,2,0,2.2,0.4
-895,Dortmund,Augsburg,5,1,4,1,4.4,2.7
-896,Eintracht Frankfurt,Bayer Leverkusen,1,5,1,3,2.0,2.7
-897,Union Berlin,Bochum,3,4,3,4,0.9,1.4
-898,Heidenheim,Mainz 05,1,1,1,1,0.9,1.4
-899,Augsburg,Stuttgart,0,1,0,1,0.7,1.9
-900,Köln,Union Berlin,3,2,2,1,3.2,1.6
-901,Mönchengladbach,Eintracht Frankfurt,1,1,1,1,0.4,1.6
-902,Freiburg,Heidenheim,1,1,1,1,1.5,0.7
-903,Mainz 05,Dortmund,3,0,2,0,2.2,0.4
-904,RB Leipzig,Werder Bremen,1,1,1,0,1.5,1.1
-905,Bochum,Bayer Leverkusen,0,5,0,4,0.3,4.3
-906,Darmstadt 98,Hoffenheim,0,6,0,6,0.6,3.3
-907,Bayern Munich,Wolfsburg,2,0,2,0,0.3,0.2
-908,Union Berlin,Freiburg,2,1,1,1,2.4,1.0
-909,Heidenheim,Köln,4,1,2,0,1.0,2.3
-910,Hoffenheim,Bayern Munich,4,2,3,2,1.8,1.5
-911,Eintracht Frankfurt,RB Leipzig,2,2,1,1,2.1,1.6
-912,Dortmund,Darmstadt 98,4,0,2,0,2.6,0.3
-913,Wolfsburg,Mainz 05,1,3,1,2,0.8,1.8
-914,Werder Bremen,Bochum,4,1,3,1,3.1,2.1
-915,Bayer Leverkusen,Augsburg,2,1,1,1,2.4,1.2
-916,Stuttgart,Mönchengladbach,4,0,4,0,1.6,1.5
+Home Team,Away Team,Home Goals,Away Goals,Home Ast,Away Ast,Home xG,Away xG
+Mönchengladbach,Bayern Munich,1,1,1,1,2.3,2.6
+Stuttgart,Greuther Fürth,5,1,5,1,3.1,1.2
+Dortmund,Eintracht Frankfurt,5,2,5,1,2.7,1.4
+Union Berlin,Bayer Leverkusen,1,1,1,1,0.5,0.8
+Arminia,Freiburg,0,0,0,0,0.4,1.6
+Augsburg,Hoffenheim,0,4,0,4,0.6,3.8
+Wolfsburg,Bochum,1,0,1,0,2.5,0.4
+Mainz 05,RB Leipzig,1,0,0,0,1.2,1.1
+Köln,Hertha BSC,3,1,3,1,1.6,1.9
+RB Leipzig,Stuttgart,4,0,1,0,3.8,1.1
+Hertha BSC,Wolfsburg,1,2,0,2,1.2,1.0
+Eintracht Frankfurt,Augsburg,0,0,0,0,1.6,0.3
+Bochum,Mainz 05,2,0,2,0,0.8,0.9
+Freiburg,Dortmund,2,1,1,0,1.3,1.6
+Bayer Leverkusen,Mönchengladbach,4,0,3,0,1.9,1.7
+Greuther Fürth,Arminia,1,1,0,1,2.6,0.8
+Hoffenheim,Union Berlin,2,2,2,0,1.0,1.8
+Bayern Munich,Köln,3,2,2,2,2.7,1.1
+Dortmund,Hoffenheim,3,2,1,2,3.5,2.3
+Bayern Munich,Hertha BSC,5,0,4,0,2.9,0.4
+Stuttgart,Freiburg,2,3,2,2,1.8,1.3
+Köln,Bochum,2,1,2,1,3.2,0.6
+Augsburg,Bayer Leverkusen,1,4,0,2,1.8,2.0
+Arminia,Eintracht Frankfurt,1,1,1,1,0.6,1.5
+Mainz 05,Greuther Fürth,3,0,3,0,2.8,0.2
+Wolfsburg,RB Leipzig,1,0,0,0,0.8,1.2
+Union Berlin,Mönchengladbach,2,1,2,0,1.9,1.9
+Hoffenheim,Mainz 05,0,2,0,2,0.7,0.9
+RB Leipzig,Bayern Munich,1,4,1,3,0.5,4.0
+Freiburg,Köln,1,1,0,1,0.8,1.1
+Greuther Fürth,Wolfsburg,0,2,0,1,0.3,1.4
+Bayer Leverkusen,Dortmund,3,4,2,2,0.7,1.9
+Union Berlin,Augsburg,0,0,0,0,1.0,1.0
+Eintracht Frankfurt,Stuttgart,1,1,1,0,1.1,0.9
+Bochum,Hertha BSC,1,3,0,2,1.2,0.3
+Mönchengladbach,Arminia,3,1,3,0,1.7,1.8
+Hertha BSC,Greuther Fürth,2,1,1,0,0.7,1.4
+Augsburg,Mönchengladbach,1,0,1,0,0.3,0.6
+Arminia,Hoffenheim,0,0,0,0,1.3,1.1
+Köln,RB Leipzig,1,1,0,1,1.8,2.8
+Mainz 05,Freiburg,0,0,0,0,1.0,0.4
+Bayern Munich,Bochum,7,0,3,0,5.8,0.4
+Stuttgart,Bayer Leverkusen,1,3,0,2,1.6,1.4
+Dortmund,Union Berlin,4,2,2,1,0.9,1.7
+Wolfsburg,Eintracht Frankfurt,1,1,0,1,1.2,0.3
+Greuther Fürth,Bayern Munich,1,3,1,1,0.7,0.8
+Bayer Leverkusen,Mainz 05,1,0,1,0,1.5,0.9
+Eintracht Frankfurt,Köln,1,1,1,1,1.0,0.9
+Hoffenheim,Wolfsburg,3,1,1,1,1.5,0.6
+RB Leipzig,Hertha BSC,6,0,4,0,3.8,0.2
+Mönchengladbach,Dortmund,1,0,0,0,1.6,0.4
+Union Berlin,Arminia,1,0,1,0,1.2,0.5
+Bochum,Stuttgart,0,0,0,0,0.8,0.3
+Freiburg,Augsburg,3,0,1,0,3.2,0.2
+Köln,Greuther Fürth,3,1,3,1,2.9,1.3
+Hertha BSC,Freiburg,1,2,1,1,1.1,0.7
+Dortmund,Augsburg,2,1,1,0,3.1,0.8
+Stuttgart,Hoffenheim,3,1,2,1,0.8,1.0
+Wolfsburg,Mönchengladbach,1,3,0,3,1.4,3.3
+RB Leipzig,Bochum,3,0,3,0,3.2,1.5
+Bayern Munich,Eintracht Frankfurt,1,2,1,2,2.2,0.8
+Mainz 05,Union Berlin,1,2,1,2,1.1,1.4
+Arminia,Bayer Leverkusen,0,4,0,2,0.4,3.1
+Hoffenheim,Köln,5,0,3,0,3.7,0.7
+Freiburg,RB Leipzig,1,1,1,0,1.4,1.8
+Greuther Fürth,Bochum,0,1,0,1,0.8,1.6
+Eintracht Frankfurt,Hertha BSC,1,2,0,2,1.6,1.8
+Dortmund,Mainz 05,3,1,1,1,2.4,0.8
+Union Berlin,Wolfsburg,2,0,2,0,0.9,1.5
+Mönchengladbach,Stuttgart,1,1,0,1,2.6,0.3
+Augsburg,Arminia,1,1,1,0,0.6,0.3
+Bayer Leverkusen,Bayern Munich,1,5,1,5,0.7,3.3
+Mainz 05,Augsburg,4,1,4,1,3.7,0.9
+Hertha BSC,Mönchengladbach,1,0,0,0,1.0,0.5
+Wolfsburg,Freiburg,0,2,0,1,1.3,1.5
+Arminia,Dortmund,1,3,0,1,1.4,2.4
+Bayern Munich,Hoffenheim,4,0,4,0,2.8,0.8
+RB Leipzig,Greuther Fürth,4,1,2,0,2.3,1.4
+Stuttgart,Union Berlin,1,1,1,1,0.5,1.0
+Bochum,Eintracht Frankfurt,2,0,1,0,2.2,1.6
+Köln,Bayer Leverkusen,2,2,2,1,1.8,1.0
+Hoffenheim,Hertha BSC,2,0,0,0,0.9,0.3
+Dortmund,Köln,2,0,2,0,1.4,1.3
+Union Berlin,Bayern Munich,2,5,2,4,0.9,3.2
+Freiburg,Greuther Fürth,3,1,1,1,1.5,0.8
+Bayer Leverkusen,Wolfsburg,0,2,0,0,1.5,2.0
+Arminia,Mainz 05,1,2,1,0,0.6,2.6
+Eintracht Frankfurt,RB Leipzig,1,1,1,1,0.6,3.1
+Mönchengladbach,Bochum,2,1,2,0,1.9,0.9
+Augsburg,Stuttgart,4,1,4,1,2.1,0.9
+Mainz 05,Mönchengladbach,1,1,0,0,1.1,1.6
+Wolfsburg,Augsburg,1,0,1,0,0.5,0.7
+Stuttgart,Arminia,0,1,0,1,0.9,1.8
+RB Leipzig,Dortmund,2,1,2,1,2.6,0.9
+Bochum,Hoffenheim,2,0,2,0,3.0,0.6
+Bayern Munich,Freiburg,2,1,2,0,3.0,1.0
+Greuther Fürth,Eintracht Frankfurt,1,2,0,2,2.5,1.3
+Hertha BSC,Bayer Leverkusen,1,1,1,1,0.8,1.0
+Köln,Union Berlin,2,2,1,2,1.8,1.0
+Augsburg,Bayern Munich,2,1,1,1,0.4,1.3
+Bayer Leverkusen,Bochum,1,0,1,0,1.7,0.8
+Arminia,Wolfsburg,2,2,1,2,1.3,1.9
+Dortmund,Stuttgart,2,1,1,1,2.6,1.6
+Union Berlin,Hertha BSC,2,0,1,0,1.5,0.4
+Mönchengladbach,Greuther Fürth,4,0,3,0,3.2,0.2
+Hoffenheim,RB Leipzig,2,0,1,0,3.2,0.2
+Mainz 05,Köln,1,1,1,1,0.8,2.2
+Freiburg,Eintracht Frankfurt,0,2,0,0,1.4,1.2
+Stuttgart,Mainz 05,2,1,2,1,0.3,0.8
+Wolfsburg,Dortmund,1,3,1,2,2.0,2.3
+Bayern Munich,Arminia,1,0,1,0,2.2,0.3
+Hertha BSC,Augsburg,1,1,0,1,1.7,1.3
+Köln,Mönchengladbach,4,1,2,1,1.4,1.0
+Greuther Fürth,Hoffenheim,3,6,3,4,1.1,4.1
+Bochum,Freiburg,2,1,1,1,1.1,2.4
+RB Leipzig,Bayer Leverkusen,1,3,1,3,1.5,1.5
+Eintracht Frankfurt,Union Berlin,2,1,1,0,1.3,1.1
+Union Berlin,RB Leipzig,2,1,1,1,2.6,1.4
+Bayer Leverkusen,Greuther Fürth,7,1,6,0,2.9,0.3
+Mainz 05,Wolfsburg,3,0,2,0,1.2,0.7
+Hoffenheim,Eintracht Frankfurt,3,2,1,2,0.9,1.5
+Dortmund,Bayern Munich,2,3,2,1,1.2,3.1
+Augsburg,Bochum,2,3,1,2,2.9,2.1
+Arminia,Köln,1,1,1,1,1.1,1.1
+Stuttgart,Hertha BSC,2,2,2,2,1.4,1.3
+Mönchengladbach,Freiburg,0,6,0,5,0.9,2.0
+Köln,Augsburg,0,2,0,0,1.0,0.8
+Bochum,Dortmund,1,1,0,1,0.9,2.3
+Bayern Munich,Mainz 05,2,1,2,1,1.6,0.8
+Hertha BSC,Arminia,2,0,1,0,2.1,0.5
+RB Leipzig,Mönchengladbach,4,1,4,1,4.7,1.2
+Freiburg,Hoffenheim,1,2,1,2,1.7,1.0
+Wolfsburg,Stuttgart,0,2,0,1,1.5,1.4
+Eintracht Frankfurt,Bayer Leverkusen,5,2,2,1,1.7,1.7
+Greuther Fürth,Union Berlin,1,0,0,0,0.8,1.5
+Stuttgart,Bayern Munich,0,5,0,4,1.2,3.6
+Arminia,Bochum,2,0,1,0,0.7,0.9
+Mainz 05,Hertha BSC,4,0,4,0,2.9,0.4
+Wolfsburg,Köln,2,3,2,1,2.5,3.9
+Dortmund,Greuther Fürth,3,0,2,0,1.8,0.4
+Mönchengladbach,Eintracht Frankfurt,2,3,1,3,2.1,2.3
+Augsburg,RB Leipzig,1,1,0,1,1.2,2.3
+Bayer Leverkusen,Hoffenheim,2,2,2,1,2.3,2.0
+Union Berlin,Freiburg,0,0,0,0,1.9,1.2
+Bayern Munich,Wolfsburg,4,0,3,0,3.7,1.1
+RB Leipzig,Arminia,0,2,0,1,1.6,0.9
+Eintracht Frankfurt,Mainz 05,1,0,1,0,1.8,0.6
+Hoffenheim,Mönchengladbach,1,1,1,0,2.1,1.4
+Hertha BSC,Dortmund,3,2,2,1,1.2,1.3
+Bochum,Union Berlin,0,1,0,1,1.1,0.8
+Greuther Fürth,Augsburg,0,0,0,0,0.1,1.2
+Freiburg,Bayer Leverkusen,2,1,1,1,2.2,1.0
+Köln,Stuttgart,1,0,1,0,2.0,0.4
+Bayern Munich,Mönchengladbach,1,2,1,1,1.9,1.0
+Eintracht Frankfurt,Dortmund,2,3,1,2,1.5,2.0
+Hoffenheim,Augsburg,3,1,2,1,2.2,0.9
+Greuther Fürth,Stuttgart,0,0,0,0,0.9,1.9
+RB Leipzig,Mainz 05,4,1,3,1,3.2,0.3
+Bayer Leverkusen,Union Berlin,2,2,1,1,1.7,3.0
+Freiburg,Arminia,2,2,1,2,1.9,1.0
+Bochum,Wolfsburg,1,0,0,0,0.9,0.4
+Hertha BSC,Köln,1,3,0,1,1.2,1.2
+Dortmund,Freiburg,5,1,5,0,2.4,0.9
+Stuttgart,RB Leipzig,0,2,0,1,1.0,1.5
+Wolfsburg,Hertha BSC,0,0,0,0,1.7,0.3
+Mainz 05,Bochum,1,0,1,0,1.7,1.5
+Mönchengladbach,Bayer Leverkusen,1,2,0,2,1.3,5.6
+Union Berlin,Hoffenheim,2,1,1,0,1.4,0.8
+Köln,Bayern Munich,0,4,0,4,1.1,3.3
+Augsburg,Eintracht Frankfurt,1,1,1,1,1.0,2.6
+Arminia,Greuther Fürth,2,2,1,2,0.5,0.7
+Eintracht Frankfurt,Arminia,0,2,0,1,1.9,1.3
+Greuther Fürth,Mainz 05,2,1,1,1,1.3,1.8
+Mönchengladbach,Union Berlin,1,2,1,1,1.5,1.1
+Bochum,Köln,2,2,2,1,1.8,1.1
+Freiburg,Stuttgart,2,0,1,0,1.6,0.3
+Bayer Leverkusen,Augsburg,5,1,4,0,2.9,1.5
+Hoffenheim,Dortmund,2,3,2,2,1.7,1.6
+Hertha BSC,Bayern Munich,1,4,0,0,0.9,5.5
+RB Leipzig,Wolfsburg,2,0,1,0,1.6,0.9
+Hertha BSC,Bochum,1,1,1,0,0.4,1.2
+Köln,Freiburg,1,0,1,0,1.0,0.8
+Mainz 05,Hoffenheim,2,0,1,0,2.2,1.6
+Augsburg,Union Berlin,2,0,1,0,2.0,1.7
+Stuttgart,Eintracht Frankfurt,2,3,2,3,1.6,1.1
+Arminia,Mönchengladbach,1,1,1,1,0.5,2.0
+Bayern Munich,RB Leipzig,3,2,1,2,3.2,2.2
+Dortmund,Bayer Leverkusen,2,5,0,2,1.7,2.0
+Wolfsburg,Greuther Fürth,4,1,1,0,2.5,1.1
+RB Leipzig,Köln,3,1,2,1,0.9,0.9
+Eintracht Frankfurt,Wolfsburg,0,2,0,0,1.0,1.5
+Bayer Leverkusen,Stuttgart,4,2,3,1,1.9,1.1
+Mönchengladbach,Augsburg,3,2,3,2,2.4,1.6
+Bochum,Bayern Munich,4,2,2,1,1.4,1.9
+Greuther Fürth,Hertha BSC,2,1,1,1,2.5,2.1
+Freiburg,Mainz 05,1,1,1,0,1.8,2.6
+Union Berlin,Dortmund,0,3,0,2,1.2,2.5
+Hoffenheim,Arminia,2,0,2,0,3.0,1.0
+Mainz 05,Bayer Leverkusen,3,2,0,2,1.0,1.0
+Köln,Eintracht Frankfurt,1,0,1,0,1.1,0.6
+Stuttgart,Bochum,1,1,0,0,1.2,2.0
+Wolfsburg,Hoffenheim,1,2,1,2,1.5,1.5
+Arminia,Union Berlin,1,0,1,0,0.8,0.9
+Augsburg,Freiburg,1,2,1,1,1.1,2.1
+Hertha BSC,RB Leipzig,1,6,1,3,1.0,3.4
+Bayern Munich,Greuther Fürth,4,1,3,0,1.8,0.8
+Dortmund,Mönchengladbach,6,0,4,0,3.9,0.9
+Hoffenheim,Stuttgart,2,1,1,1,3.0,1.8
+Bayer Leverkusen,Arminia,3,0,0,0,2.2,0.4
+Union Berlin,Mainz 05,3,1,2,1,1.0,1.0
+Eintracht Frankfurt,Bayern Munich,0,1,0,1,0.9,2.4
+Greuther Fürth,Köln,1,1,1,1,0.7,0.6
+Freiburg,Hertha BSC,3,0,1,0,2.6,1.3
+Mönchengladbach,Wolfsburg,2,2,2,2,2.4,1.4
+Augsburg,Dortmund,1,1,1,1,0.8,0.6
+Bochum,RB Leipzig,0,1,0,1,0.9,0.7
+Arminia,Augsburg,0,1,0,1,0.2,0.5
+Wolfsburg,Union Berlin,1,0,0,0,0.5,1.3
+Stuttgart,Mönchengladbach,3,2,1,2,2.4,0.9
+Bayern Munich,Bayer Leverkusen,1,1,0,0,1.6,2.1
+Hertha BSC,Eintracht Frankfurt,1,4,0,3,0.4,1.2
+RB Leipzig,Freiburg,1,1,1,0,0.6,0.4
+Bochum,Greuther Fürth,2,1,0,0,1.6,0.7
+Köln,Hoffenheim,0,1,0,1,1.6,2.7
+Hoffenheim,Bayern Munich,1,1,1,1,1.7,3.1
+Mönchengladbach,Hertha BSC,2,0,1,0,1.8,0.6
+Union Berlin,Stuttgart,1,1,0,1,1.5,1.0
+Freiburg,Wolfsburg,3,2,2,1,1.3,1.3
+Dortmund,Arminia,1,0,1,0,2.0,0.7
+Greuther Fürth,RB Leipzig,1,6,0,6,0.3,1.7
+Bayer Leverkusen,Köln,0,1,0,1,2.5,0.5
+Eintracht Frankfurt,Bochum,2,1,1,1,1.9,1.1
+Mainz 05,Dortmund,0,1,0,1,0.9,0.8
+Hertha BSC,Hoffenheim,3,0,2,0,1.3,0.8
+Mainz 05,Arminia,4,0,1,0,4.4,0.2
+Stuttgart,Augsburg,3,2,2,2,2.2,1.0
+Greuther Fürth,Freiburg,0,0,0,0,1.0,1.2
+Bayern Munich,Union Berlin,4,0,3,0,2.7,1.0
+Köln,Dortmund,1,1,1,1,1.2,1.2
+RB Leipzig,Eintracht Frankfurt,0,0,0,0,1.2,0.2
+Wolfsburg,Bayer Leverkusen,0,2,0,2,1.1,1.0
+Union Berlin,Köln,1,0,0,0,1.3,0.3
+Arminia,Stuttgart,1,1,1,0,1.0,2.3
+Eintracht Frankfurt,Greuther Fürth,0,0,0,0,1.2,0.6
+Bayer Leverkusen,Hertha BSC,2,1,2,1,1.6,0.8
+Freiburg,Bayern Munich,1,4,1,3,0.6,2.2
+Hoffenheim,Bochum,1,2,1,1,2.0,2.2
+Dortmund,RB Leipzig,1,4,1,3,0.7,1.1
+Augsburg,Wolfsburg,3,0,3,0,1.6,1.1
+Mönchengladbach,Mainz 05,1,1,1,1,1.5,2.1
+Augsburg,Mainz 05,2,1,1,1,1.8,1.8
+Stuttgart,Dortmund,0,2,0,2,1.7,1.9
+Bayern Munich,Augsburg,1,0,0,0,1.5,0.2
+Wolfsburg,Arminia,4,0,3,0,2.0,0.4
+Köln,Mainz 05,3,2,2,2,1.9,1.0
+Hertha BSC,Union Berlin,1,4,0,4,0.7,1.9
+Greuther Fürth,Mönchengladbach,0,2,0,1,0.5,2.7
+Eintracht Frankfurt,Freiburg,1,2,1,2,0.9,1.0
+Bochum,Bayer Leverkusen,0,0,0,0,0.7,1.4
+RB Leipzig,Hoffenheim,3,0,3,0,1.5,0.2
+Augsburg,Hertha BSC,0,1,0,1,1.0,1.1
+Mönchengladbach,Köln,1,3,1,3,1.2,2.1
+Freiburg,Bochum,3,0,3,0,2.2,0.4
+Dortmund,Wolfsburg,6,1,6,0,3.0,1.6
+Mainz 05,Stuttgart,0,0,0,0,0.6,0.7
+Hoffenheim,Greuther Fürth,0,0,0,0,1.0,0.3
+Arminia,Bayern Munich,0,3,0,2,0.4,2.7
+Bayer Leverkusen,RB Leipzig,0,1,0,1,0.8,0.5
+Union Berlin,Eintracht Frankfurt,2,0,2,0,1.1,0.5
+Wolfsburg,Mainz 05,5,0,2,0,3.9,0.7
+Köln,Arminia,3,1,3,0,2.0,0.9
+Eintracht Frankfurt,Hoffenheim,2,2,2,1,1.3,0.7
+Bayern Munich,Dortmund,3,1,3,0,1.8,1.3
+Greuther Fürth,Bayer Leverkusen,1,4,1,2,0.9,2.5
+Freiburg,Mönchengladbach,3,3,2,2,2.3,1.6
+RB Leipzig,Union Berlin,1,2,0,2,0.6,1.4
+Hertha BSC,Stuttgart,2,0,2,0,1.4,0.6
+Bochum,Augsburg,0,2,0,0,1.2,2.0
+Union Berlin,Greuther Fürth,1,1,0,0,1.4,0.3
+Hoffenheim,Freiburg,3,4,3,4,2.0,2.4
+Dortmund,Bochum,3,4,1,3,4.4,1.6
+Augsburg,Köln,1,4,1,3,1.7,2.5
+Stuttgart,Wolfsburg,1,1,1,1,0.8,1.4
+Mainz 05,Bayern Munich,3,1,3,1,3.4,1.4
+Arminia,Hertha BSC,1,1,1,1,0.5,1.5
+Bayer Leverkusen,Eintracht Frankfurt,2,0,2,0,1.8,0.3
+Mönchengladbach,RB Leipzig,3,1,2,1,1.5,1.1
+Bochum,Arminia,2,1,1,1,2.1,0.8
+Greuther Fürth,Dortmund,1,3,1,2,1.3,1.5
+Köln,Wolfsburg,0,1,0,1,1.2,1.1
+Hoffenheim,Bayer Leverkusen,2,4,2,4,2.6,4.0
+Freiburg,Union Berlin,1,4,1,2,1.8,2.0
+Hertha BSC,Mainz 05,1,2,0,2,1.1,0.7
+Bayern Munich,Stuttgart,2,2,2,2,2.6,1.5
+RB Leipzig,Augsburg,4,0,2,0,3.3,0.3
+Eintracht Frankfurt,Mönchengladbach,1,1,1,1,0.8,1.4
+Bayer Leverkusen,Freiburg,2,1,2,1,2.2,1.1
+Union Berlin,Bochum,3,2,1,2,2.7,0.2
+Wolfsburg,Bayern Munich,2,2,2,2,1.5,2.1
+Mönchengladbach,Hoffenheim,5,1,2,1,3.3,1.6
+Stuttgart,Köln,2,1,2,0,4.1,1.2
+Augsburg,Greuther Fürth,2,1,1,1,1.1,0.5
+Arminia,RB Leipzig,1,1,1,1,1.7,3.1
+Mainz 05,Eintracht Frankfurt,2,2,1,1,1.3,1.8
+Dortmund,Hertha BSC,2,1,1,0,1.4,1.0
+Eintracht Frankfurt,Bayern Munich,1,6,0,4,0.9,4.0
+Augsburg,Freiburg,0,4,0,2,0.7,1.2
+Wolfsburg,Werder Bremen,2,2,1,2,1.0,0.8
+Union Berlin,Hertha BSC,3,1,3,1,1.0,0.3
+Bochum,Mainz 05,1,2,1,2,0.9,1.4
+Mönchengladbach,Hoffenheim,3,1,3,1,2.0,0.1
+Dortmund,Bayer Leverkusen,1,0,0,0,1.8,1.3
+Stuttgart,RB Leipzig,1,1,1,1,0.8,1.7
+Köln,Schalke 04,3,1,2,1,4.4,0.2
+Freiburg,Dortmund,1,3,1,2,1.0,1.1
+RB Leipzig,Köln,2,2,2,1,1.0,1.5
+Bayer Leverkusen,Augsburg,1,2,0,1,2.6,0.4
+Hertha BSC,Eintracht Frankfurt,1,1,1,1,1.7,1.6
+Hoffenheim,Bochum,3,2,2,2,2.7,1.5
+Schalke 04,Mönchengladbach,2,2,1,1,1.4,1.3
+Werder Bremen,Stuttgart,2,2,2,2,0.5,1.4
+Mainz 05,Union Berlin,0,0,0,0,0.7,0.4
+Bayern Munich,Wolfsburg,2,0,1,0,2.2,0.5
+Mönchengladbach,Hertha BSC,1,0,0,0,2.7,1.0
+Wolfsburg,Schalke 04,0,0,0,0,1.3,1.1
+Dortmund,Werder Bremen,2,3,2,2,0.5,1.3
+Bayer Leverkusen,Hoffenheim,0,3,0,2,1.2,1.5
+Union Berlin,RB Leipzig,2,1,2,1,0.7,0.9
+Stuttgart,Freiburg,0,1,0,1,0.9,0.6
+Augsburg,Mainz 05,1,2,1,2,0.5,2.2
+Bochum,Bayern Munich,0,7,0,4,0.7,3.2
+Eintracht Frankfurt,Köln,1,1,0,0,0.9,0.3
+Freiburg,Bochum,1,0,0,0,4.2,1.3
+Hoffenheim,Augsburg,1,0,1,0,1.9,0.6
+Schalke 04,Union Berlin,1,6,0,4,1.9,1.1
+Bayern Munich,Mönchengladbach,1,1,1,0,2.8,0.5
+Mainz 05,Bayer Leverkusen,0,3,0,1,1.4,1.9
+Hertha BSC,Dortmund,0,1,0,1,0.5,2.7
+RB Leipzig,Wolfsburg,2,0,0,0,3.5,0.5
+Werder Bremen,Eintracht Frankfurt,3,4,1,3,1.8,1.8
+Köln,Stuttgart,0,0,0,0,0.6,2.2
+Dortmund,Hoffenheim,1,0,1,0,2.0,0.5
+Eintracht Frankfurt,RB Leipzig,4,0,2,0,3.1,0.2
+Bayer Leverkusen,Freiburg,2,3,1,3,1.8,1.9
+Stuttgart,Schalke 04,1,1,1,1,0.6,2.3
+Bochum,Werder Bremen,0,2,0,1,0.8,2.0
+Wolfsburg,Köln,2,4,2,2,1.0,2.7
+Union Berlin,Bayern Munich,1,1,1,0,0.3,1.5
+Augsburg,Hertha BSC,0,2,0,2,0.4,2.1
+Mönchengladbach,Mainz 05,0,1,0,0,1.2,0.6
+Werder Bremen,Augsburg,0,1,0,1,1.5,1.0
+Hoffenheim,Mainz 05,4,1,4,0,4.3,0.7
+RB Leipzig,Dortmund,3,0,3,0,2.0,0.6
+Schalke 04,Bochum,3,1,1,1,1.5,1.1
+Eintracht Frankfurt,Wolfsburg,0,1,0,1,0.7,1.0
+Bayern Munich,Stuttgart,2,2,2,1,2.2,1.2
+Hertha BSC,Bayer Leverkusen,2,2,1,1,1.9,1.3
+Köln,Union Berlin,0,1,0,0,0.6,1.5
+Freiburg,Mönchengladbach,0,0,0,0,1.1,1.2
+Mainz 05,Hertha BSC,1,1,0,1,0.7,0.4
+Bayer Leverkusen,Werder Bremen,1,1,1,0,1.9,2.2
+Augsburg,Bayern Munich,1,0,1,0,1.8,1.6
+Mönchengladbach,RB Leipzig,3,0,2,0,2.8,0.9
+Dortmund,Schalke 04,1,0,1,0,1.8,0.1
+Stuttgart,Eintracht Frankfurt,1,3,1,1,1.1,1.0
+Union Berlin,Wolfsburg,2,0,2,0,1.4,0.3
+Bochum,Köln,1,1,0,0,0.2,2.1
+Hoffenheim,Freiburg,0,0,0,0,0.7,1.0
+Bayern Munich,Bayer Leverkusen,4,0,3,0,1.9,0.8
+RB Leipzig,Bochum,4,0,1,0,4.1,0.1
+Wolfsburg,Stuttgart,3,2,3,2,2.1,1.5
+Eintracht Frankfurt,Union Berlin,2,0,1,0,0.9,1.0
+Werder Bremen,Mönchengladbach,5,1,3,1,1.9,2.3
+Freiburg,Mainz 05,2,1,1,1,2.4,1.7
+Köln,Dortmund,3,2,3,1,1.9,2.6
+Hertha BSC,Hoffenheim,1,1,1,1,0.9,1.5
+Schalke 04,Augsburg,2,3,2,2,1.9,1.4
+Hoffenheim,Werder Bremen,1,2,1,1,1.8,1.4
+Augsburg,Wolfsburg,1,1,0,1,2.0,1.8
+Mainz 05,RB Leipzig,1,1,1,1,0.6,1.1
+Dortmund,Bayern Munich,2,2,2,1,1.6,0.6
+Bayer Leverkusen,Schalke 04,4,0,4,0,1.5,0.4
+Bochum,Eintracht Frankfurt,3,0,2,0,0.6,0.9
+Mönchengladbach,Köln,5,2,3,0,3.0,1.3
+Hertha BSC,Freiburg,2,2,1,2,1.6,1.0
+Stuttgart,Union Berlin,0,1,0,1,1.0,0.7
+Schalke 04,Hoffenheim,0,3,0,1,0.7,3.3
+Eintracht Frankfurt,Bayer Leverkusen,5,1,2,1,3.9,0.4
+RB Leipzig,Hertha BSC,3,2,2,0,3.1,2.4
+Stuttgart,Bochum,4,1,2,0,2.2,1.6
+Wolfsburg,Mönchengladbach,2,2,2,1,1.8,0.8
+Werder Bremen,Mainz 05,0,2,0,2,1.3,1.1
+Union Berlin,Dortmund,2,0,1,0,1.9,0.8
+Bayern Munich,Freiburg,5,0,3,0,2.1,0.3
+Köln,Augsburg,3,2,1,2,1.5,0.4
+Mainz 05,Köln,5,0,2,0,1.9,0.7
+Augsburg,RB Leipzig,3,3,2,1,1.6,2.5
+Freiburg,Werder Bremen,2,0,1,0,3.0,0.5
+Dortmund,Stuttgart,5,0,5,0,2.6,1.0
+Mönchengladbach,Eintracht Frankfurt,1,3,1,2,1.0,1.9
+Hoffenheim,Bayern Munich,0,2,0,2,0.8,2.5
+Bayer Leverkusen,Wolfsburg,2,2,2,0,2.3,1.2
+Bochum,Union Berlin,2,1,2,0,1.1,1.0
+Hertha BSC,Schalke 04,2,1,1,1,0.8,0.6
+Werder Bremen,Hertha BSC,1,0,1,0,1.4,0.4
+Wolfsburg,Bochum,4,0,4,0,2.0,0.5
+Bayern Munich,Mainz 05,6,2,5,2,3.2,2.2
+Eintracht Frankfurt,Dortmund,1,2,1,2,2.0,0.6
+Stuttgart,Augsburg,2,1,2,1,2.7,1.0
+RB Leipzig,Bayer Leverkusen,2,0,2,0,1.2,0.1
+Schalke 04,Freiburg,0,2,0,1,0.6,2.3
+Köln,Hoffenheim,1,1,1,1,1.2,0.9
+Union Berlin,Mönchengladbach,2,1,2,1,0.9,1.0
+Mönchengladbach,Stuttgart,3,1,3,1,0.9,1.2
+Werder Bremen,Schalke 04,2,1,2,1,1.0,1.4
+Dortmund,Bochum,3,0,0,0,1.5,0.6
+Mainz 05,Wolfsburg,0,3,0,2,1.0,0.6
+Hertha BSC,Bayern Munich,2,3,1,1,1.2,1.9
+Augsburg,Eintracht Frankfurt,1,2,1,1,1.2,1.2
+Hoffenheim,RB Leipzig,1,3,1,1,0.9,1.7
+Bayer Leverkusen,Union Berlin,5,0,5,0,1.9,0.3
+Freiburg,Köln,2,0,2,0,1.5,0.5
+Stuttgart,Hertha BSC,2,1,2,1,2.0,0.7
+Bayern Munich,Werder Bremen,6,1,4,1,4.4,1.3
+Wolfsburg,Dortmund,2,0,1,0,2.5,1.6
+Bochum,Mönchengladbach,2,1,1,1,2.0,0.8
+Union Berlin,Augsburg,2,2,2,1,1.2,0.6
+Eintracht Frankfurt,Hoffenheim,4,2,3,1,2.8,1.8
+Köln,Bayer Leverkusen,1,2,1,1,1.5,1.4
+Schalke 04,Mainz 05,1,0,0,0,1.5,0.8
+RB Leipzig,Freiburg,3,1,1,0,3.0,0.2
+Mönchengladbach,Dortmund,4,2,4,1,2.1,3.3
+Bayer Leverkusen,Stuttgart,2,0,2,0,1.6,0.3
+Werder Bremen,RB Leipzig,1,2,1,2,0.9,1.7
+Schalke 04,Bayern Munich,0,2,0,2,0.8,1.9
+Hoffenheim,Wolfsburg,1,2,1,1,1.4,0.7
+Hertha BSC,Köln,2,0,1,0,1.8,1.8
+Augsburg,Bochum,0,1,0,1,2.3,1.1
+Freiburg,Union Berlin,4,1,2,0,2.3,1.7
+Mainz 05,Eintracht Frankfurt,1,1,1,1,1.5,1.8
+RB Leipzig,Bayern Munich,1,1,1,1,0.8,0.7
+Stuttgart,Mainz 05,1,1,1,0,1.7,1.5
+Union Berlin,Hoffenheim,3,1,3,1,2.9,1.0
+Eintracht Frankfurt,Schalke 04,3,0,3,0,1.2,1.9
+Bochum,Hertha BSC,3,1,3,0,1.6,1.0
+Wolfsburg,Freiburg,6,0,5,0,2.7,0.7
+Köln,Werder Bremen,7,1,5,1,3.2,0.3
+Dortmund,Augsburg,4,3,4,1,2.9,1.8
+Mönchengladbach,Bayer Leverkusen,2,3,2,2,1.0,2.1
+Hoffenheim,Stuttgart,2,2,1,2,2.0,0.8
+Schalke 04,RB Leipzig,1,6,1,3,0.7,2.8
+Bayern Munich,Köln,1,1,1,1,1.4,0.8
+Hertha BSC,Wolfsburg,0,5,0,4,0.4,3.3
+Bayer Leverkusen,Bochum,2,0,1,0,1.7,0.7
+Mainz 05,Dortmund,1,2,1,2,1.2,1.5
+Augsburg,Mönchengladbach,1,0,1,0,0.9,0.3
+Freiburg,Eintracht Frankfurt,1,1,1,0,1.9,0.2
+Werder Bremen,Union Berlin,1,2,1,1,0.6,1.1
+RB Leipzig,Stuttgart,2,1,1,0,1.0,1.7
+Hertha BSC,Union Berlin,0,2,0,2,0.5,1.0
+Hoffenheim,Mönchengladbach,1,4,1,3,1.8,1.7
+Mainz 05,Bochum,5,2,3,1,2.1,1.5
+Werder Bremen,Wolfsburg,2,1,1,0,2.3,0.7
+Freiburg,Augsburg,3,1,3,0,1.8,1.7
+Bayern Munich,Eintracht Frankfurt,1,1,1,1,1.7,0.6
+Bayer Leverkusen,Dortmund,0,2,0,1,1.7,0.9
+Schalke 04,Köln,0,0,0,0,1.2,0.3
+Augsburg,Bayer Leverkusen,1,0,1,0,0.9,0.6
+Mönchengladbach,Schalke 04,0,0,0,0,1.1,1.0
+Dortmund,Freiburg,5,1,4,0,1.9,0.4
+Eintracht Frankfurt,Hertha BSC,3,0,1,0,2.2,0.9
+Köln,RB Leipzig,0,0,0,0,0.8,1.3
+Union Berlin,Mainz 05,2,1,2,0,1.1,1.3
+Bochum,Hoffenheim,5,2,5,2,2.7,0.9
+Stuttgart,Werder Bremen,0,2,0,1,1.4,0.5
+Wolfsburg,Bayern Munich,2,4,1,4,2.3,0.5
+Schalke 04,Wolfsburg,0,0,0,0,1.3,1.5
+Werder Bremen,Dortmund,0,2,0,2,0.6,2.5
+Hoffenheim,Bayer Leverkusen,1,3,0,3,0.7,1.4
+Freiburg,Stuttgart,2,1,0,1,2.1,1.1
+Bayern Munich,Bochum,3,0,1,0,3.8,0.3
+Mainz 05,Augsburg,3,1,3,0,2.4,1.5
+RB Leipzig,Union Berlin,1,2,1,0,0.6,1.7
+Hertha BSC,Mönchengladbach,4,1,3,1,3.0,0.5
+Köln,Eintracht Frankfurt,3,0,2,0,1.2,0.3
+Augsburg,Hoffenheim,1,0,1,0,1.7,0.7
+Mönchengladbach,Bayern Munich,3,2,3,2,2.4,1.1
+Wolfsburg,RB Leipzig,0,3,0,2,0.2,3.1
+Stuttgart,Köln,3,0,2,0,1.6,0.5
+Eintracht Frankfurt,Werder Bremen,2,0,1,0,2.1,0.3
+Bochum,Freiburg,0,2,0,2,1.4,2.7
+Union Berlin,Schalke 04,0,0,0,0,0.9,0.4
+Bayer Leverkusen,Mainz 05,2,3,2,1,2.4,1.6
+Dortmund,Hertha BSC,4,1,3,1,2.6,1.1
+Mainz 05,Mönchengladbach,4,0,3,0,1.8,1.2
+RB Leipzig,Eintracht Frankfurt,2,1,2,1,1.7,0.8
+Hoffenheim,Dortmund,0,1,0,1,1.3,2.4
+Schalke 04,Stuttgart,2,1,2,1,1.6,1.2
+Köln,Wolfsburg,0,2,0,1,1.3,1.0
+Werder Bremen,Bochum,3,0,2,0,1.2,0.5
+Hertha BSC,Augsburg,2,0,1,0,0.6,0.5
+Bayern Munich,Union Berlin,3,0,3,0,3.6,0.4
+Freiburg,Bayer Leverkusen,1,1,0,1,0.9,2.2
+Dortmund,RB Leipzig,2,1,0,1,1.2,2.2
+Bochum,Schalke 04,0,2,0,1,1.3,0.6
+Mainz 05,Hoffenheim,1,0,1,0,1.2,0.8
+Union Berlin,Köln,0,0,0,0,0.5,0.9
+Stuttgart,Bayern Munich,1,2,1,2,0.8,2.1
+Mönchengladbach,Freiburg,0,0,0,0,1.5,0.3
+Augsburg,Werder Bremen,2,1,2,1,0.6,2.4
+Bayer Leverkusen,Hertha BSC,4,1,4,0,1.7,1.1
+Wolfsburg,Eintracht Frankfurt,2,2,2,1,1.9,0.6
+Köln,Bochum,0,2,0,1,0.7,1.4
+RB Leipzig,Mönchengladbach,3,0,1,0,2.5,1.6
+Eintracht Frankfurt,Stuttgart,1,1,0,1,0.7,0.8
+Bayern Munich,Augsburg,5,3,3,1,2.4,2.5
+Hertha BSC,Mainz 05,1,1,0,1,1.5,0.5
+Schalke 04,Dortmund,2,2,2,2,1.5,2.0
+Werder Bremen,Bayer Leverkusen,2,3,1,2,1.8,1.0
+Freiburg,Hoffenheim,2,1,1,1,0.6,1.0
+Wolfsburg,Union Berlin,1,1,1,0,1.7,1.3
+Mönchengladbach,Werder Bremen,2,2,1,2,3.4,1.3
+Stuttgart,Wolfsburg,0,1,0,1,0.5,0.6
+Dortmund,Köln,6,1,5,0,3.5,1.7
+Hoffenheim,Hertha BSC,3,1,0,0,2.7,1.0
+Bochum,RB Leipzig,1,0,1,0,1.2,1.9
+Augsburg,Schalke 04,1,1,1,0,0.3,1.8
+Union Berlin,Eintracht Frankfurt,2,0,2,0,1.5,2.7
+Mainz 05,Freiburg,1,1,0,1,1.0,1.7
+Bayer Leverkusen,Bayern Munich,2,1,0,1,2.0,1.0
+Eintracht Frankfurt,Bochum,1,1,0,0,3.2,1.2
+Schalke 04,Bayer Leverkusen,0,3,0,3,1.1,2.8
+RB Leipzig,Mainz 05,0,3,0,1,0.8,3.2
+Wolfsburg,Augsburg,2,2,2,1,3.7,0.6
+Freiburg,Hertha BSC,1,1,1,0,1.2,1.9
+Bayern Munich,Dortmund,4,2,2,1,2.4,1.7
+Union Berlin,Stuttgart,3,0,1,0,1.9,2.2
+Köln,Mönchengladbach,0,0,0,0,1.0,1.0
+Werder Bremen,Hoffenheim,1,2,1,2,0.9,1.1
+Bayer Leverkusen,Eintracht Frankfurt,3,1,3,1,2.1,1.0
+Augsburg,Köln,1,3,1,3,0.9,1.7
+Hertha BSC,RB Leipzig,0,1,0,0,0.5,2.4
+Dortmund,Union Berlin,2,1,1,1,2.6,0.5
+Mainz 05,Werder Bremen,2,2,2,1,1.9,0.9
+Freiburg,Bayern Munich,0,1,0,1,1.0,3.5
+Hoffenheim,Schalke 04,2,0,0,0,2.2,0.7
+Bochum,Stuttgart,2,3,1,2,2.4,2.2
+Mönchengladbach,Wolfsburg,2,0,2,0,1.6,1.5
+Schalke 04,Hertha BSC,5,2,3,0,2.2,1.6
+Köln,Mainz 05,1,1,1,1,1.0,0.8
+Stuttgart,Dortmund,3,3,2,1,1.4,1.9
+Bayern Munich,Hoffenheim,1,1,1,0,1.7,0.5
+Eintracht Frankfurt,Mönchengladbach,1,1,1,1,2.2,1.2
+RB Leipzig,Augsburg,3,2,3,1,1.8,0.7
+Wolfsburg,Bayer Leverkusen,0,0,0,0,0.9,1.2
+Werder Bremen,Freiburg,1,2,1,2,1.7,0.8
+Union Berlin,Bochum,1,1,0,0,1.2,1.8
+Augsburg,Stuttgart,1,1,1,0,0.7,1.1
+Hoffenheim,Köln,1,3,0,1,0.9,1.7
+Mainz 05,Bayern Munich,3,1,2,1,1.6,1.9
+Dortmund,Eintracht Frankfurt,4,0,4,0,1.1,0.6
+Hertha BSC,Werder Bremen,2,4,1,3,1.6,2.0
+Bochum,Wolfsburg,1,5,0,3,3.0,4.3
+Bayer Leverkusen,RB Leipzig,2,0,1,0,1.1,2.2
+Mönchengladbach,Union Berlin,0,1,0,1,0.7,1.3
+Freiburg,Schalke 04,4,0,3,0,2.1,0.3
+Bochum,Dortmund,1,1,0,1,0.9,2.9
+RB Leipzig,Hoffenheim,1,0,1,0,1.4,0.3
+Union Berlin,Bayer Leverkusen,0,0,0,0,0.8,0.8
+Eintracht Frankfurt,Augsburg,1,1,0,1,0.6,0.7
+Köln,Freiburg,0,1,0,1,1.6,1.6
+Schalke 04,Werder Bremen,2,1,2,1,1.6,1.2
+Stuttgart,Mönchengladbach,2,1,1,0,2.4,1.2
+Bayern Munich,Hertha BSC,2,0,2,0,2.7,0.1
+Wolfsburg,Mainz 05,3,0,3,0,1.9,1.8
+Mainz 05,Schalke 04,2,3,1,2,1.4,3.0
+Bayer Leverkusen,Köln,1,2,1,2,0.9,0.8
+Hertha BSC,Stuttgart,2,1,2,1,1.2,1.5
+Hoffenheim,Eintracht Frankfurt,3,1,2,0,2.2,2.3
+Freiburg,RB Leipzig,0,1,0,0,0.4,2.0
+Mönchengladbach,Bochum,2,0,1,0,1.9,1.1
+Werder Bremen,Bayern Munich,1,2,1,1,0.7,1.4
+Augsburg,Union Berlin,1,0,1,0,0.9,0.7
+Dortmund,Wolfsburg,6,0,6,0,4.2,1.4
+Köln,Hertha BSC,5,2,4,1,4.5,1.1
+Union Berlin,Freiburg,4,2,4,1,1.5,2.1
+Wolfsburg,Hoffenheim,2,1,2,0,1.1,1.0
+Eintracht Frankfurt,Mainz 05,3,0,2,0,2.3,1.0
+Dortmund,Mönchengladbach,5,2,2,1,4.7,2.0
+Bayern Munich,Schalke 04,6,0,4,0,5.4,0.4
+Bochum,Augsburg,3,2,2,2,1.3,1.9
+Stuttgart,Bayer Leverkusen,1,1,0,0,1.4,1.8
+RB Leipzig,Werder Bremen,2,1,2,1,2.2,1.1
+Freiburg,Wolfsburg,2,0,2,0,1.3,0.7
+Bayern Munich,RB Leipzig,1,3,1,0,1.7,3.0
+Schalke 04,Eintracht Frankfurt,2,2,2,2,1.0,1.6
+Hoffenheim,Union Berlin,4,2,2,2,2.4,2.0
+Hertha BSC,Bochum,1,1,1,1,1.2,1.1
+Werder Bremen,Köln,1,1,1,1,1.9,1.4
+Augsburg,Dortmund,0,3,0,1,0.2,3.3
+Mainz 05,Stuttgart,1,4,0,3,1.4,1.8
+Bayer Leverkusen,Mönchengladbach,2,2,2,1,1.6,1.7
+RB Leipzig,Schalke 04,4,2,3,1,2.7,1.2
+Union Berlin,Werder Bremen,1,0,1,0,0.9,0.4
+Stuttgart,Hoffenheim,1,1,1,1,2.5,0.8
+Bochum,Bayer Leverkusen,3,0,3,0,1.3,0.8
+Wolfsburg,Hertha BSC,1,2,1,1,3.5,2.1
+Mönchengladbach,Augsburg,2,0,2,0,3.2,0.5
+Köln,Bayern Munich,1,2,0,2,1.3,1.3
+Eintracht Frankfurt,Freiburg,2,1,1,0,2.1,1.6
+Dortmund,Mainz 05,2,2,2,2,4.0,1.8
+Werder Bremen,Bayern Munich,0,4,0,4,0.6,2.9
+Hoffenheim,Freiburg,1,2,0,0,1.4,2.7
+Bayer Leverkusen,RB Leipzig,3,2,3,2,1.4,1.6
+Dortmund,Köln,1,0,1,0,2.1,1.3
+Stuttgart,Bochum,5,0,5,0,3.1,0.8
+Wolfsburg,Heidenheim,2,0,2,0,2.2,1.2
+Augsburg,Mönchengladbach,4,4,3,3,2.3,1.7
+Union Berlin,Mainz 05,4,1,4,0,1.9,2.3
+Eintracht Frankfurt,Darmstadt 98,1,0,1,0,1.5,0.6
+RB Leipzig,Stuttgart,5,1,3,1,1.8,1.1
+Darmstadt 98,Union Berlin,1,4,0,3,2.3,1.7
+Bochum,Dortmund,1,1,1,1,1.0,1.3
+Köln,Wolfsburg,1,2,1,1,0.9,1.7
+Mönchengladbach,Bayer Leverkusen,0,3,0,3,0.9,2.8
+Heidenheim,Hoffenheim,2,3,1,1,2.5,3.0
+Freiburg,Werder Bremen,1,0,1,0,2.7,1.1
+Mainz 05,Eintracht Frankfurt,1,1,0,1,1.2,1.1
+Bayern Munich,Augsburg,3,1,1,1,2.9,0.7
+Dortmund,Heidenheim,2,2,1,1,3.4,2.4
+Bayer Leverkusen,Darmstadt 98,5,1,5,1,2.8,0.4
+Stuttgart,Freiburg,5,0,5,0,1.7,1.1
+Augsburg,Bochum,2,2,1,2,2.2,1.7
+Werder Bremen,Mainz 05,4,0,3,0,2.7,0.5
+Mönchengladbach,Bayern Munich,1,2,1,2,0.3,2.4
+Hoffenheim,Wolfsburg,3,1,3,1,2.0,1.2
+Eintracht Frankfurt,Köln,1,1,1,0,1.4,0.9
+Union Berlin,RB Leipzig,0,3,0,3,0.3,1.2
+Bayern Munich,Bayer Leverkusen,2,2,1,0,2.1,2.1
+Freiburg,Dortmund,2,4,2,4,1.1,2.4
+Mainz 05,Stuttgart,1,3,1,3,1.0,1.6
+Wolfsburg,Union Berlin,2,1,1,1,0.4,1.1
+Bochum,Eintracht Frankfurt,1,1,0,0,2.0,0.6
+RB Leipzig,Augsburg,3,0,3,0,1.1,1.7
+Köln,Hoffenheim,1,3,1,1,1.0,1.0
+Heidenheim,Werder Bremen,4,2,3,1,2.2,3.0
+Darmstadt 98,Mönchengladbach,3,3,3,2,1.2,3.9
+Stuttgart,Darmstadt 98,3,1,3,0,2.3,0.2
+Bayern Munich,Bochum,7,0,5,0,5.1,0.1
+Augsburg,Mainz 05,2,1,1,1,0.8,0.6
+Werder Bremen,Köln,2,1,2,0,2.1,1.5
+Dortmund,Wolfsburg,1,0,1,0,1.7,0.5
+Union Berlin,Hoffenheim,0,2,0,1,1.6,2.0
+Mönchengladbach,RB Leipzig,0,1,0,0,0.8,0.7
+Bayer Leverkusen,Heidenheim,4,1,3,1,3.5,0.5
+Eintracht Frankfurt,Freiburg,0,0,0,0,0.6,0.6
+Hoffenheim,Dortmund,1,3,0,1,2.0,1.6
+Heidenheim,Union Berlin,1,0,0,0,0.8,2.2
+Bochum,Mönchengladbach,1,3,1,3,1.7,3.1
+Köln,Stuttgart,0,2,0,1,0.7,2.7
+Mainz 05,Bayer Leverkusen,0,3,0,1,0.5,1.1
+RB Leipzig,Bayern Munich,2,2,2,1,0.7,2.4
+Wolfsburg,Eintracht Frankfurt,2,0,0,0,3.3,1.3
+Freiburg,Augsburg,2,0,1,0,1.0,0.8
+Darmstadt 98,Werder Bremen,4,2,3,2,2.4,1.5
+Mönchengladbach,Mainz 05,2,2,2,2,2.4,0.8
+Werder Bremen,Hoffenheim,2,3,2,2,0.8,1.9
+Dortmund,Union Berlin,4,2,2,1,1.6,1.4
+Stuttgart,Wolfsburg,3,1,1,0,2.7,1.2
+RB Leipzig,Bochum,0,0,0,0,2.5,0.4
+Augsburg,Darmstadt 98,1,2,0,0,0.9,1.8
+Eintracht Frankfurt,Heidenheim,2,0,1,0,1.9,1.2
+Bayer Leverkusen,Köln,3,0,3,0,3.3,1.4
+Bayern Munich,Freiburg,3,0,3,0,2.4,0.1
+Dortmund,Werder Bremen,1,0,1,0,2.7,0.4
+Wolfsburg,Bayer Leverkusen,1,2,1,2,1.5,1.9
+Mainz 05,Bayern Munich,1,3,1,3,1.1,1.8
+Freiburg,Bochum,2,1,1,1,2.4,1.5
+Hoffenheim,Eintracht Frankfurt,1,3,1,2,1.4,2.5
+Darmstadt 98,RB Leipzig,1,3,0,2,2.5,1.9
+Union Berlin,Stuttgart,0,3,0,3,0.6,1.4
+Heidenheim,Augsburg,2,5,2,3,1.6,2.6
+Köln,Mönchengladbach,3,1,1,1,2.7,0.3
+Bochum,Mainz 05,2,2,1,1,1.4,0.4
+Mönchengladbach,Heidenheim,2,1,0,0,1.0,0.4
+Stuttgart,Hoffenheim,2,3,1,0,3.6,1.8
+RB Leipzig,Köln,6,0,3,0,4.3,0.9
+Werder Bremen,Union Berlin,2,0,1,0,0.8,0.6
+Bayern Munich,Darmstadt 98,8,0,8,0,5.9,0.7
+Augsburg,Wolfsburg,3,2,1,0,1.4,1.4
+Bayer Leverkusen,Freiburg,2,1,2,1,1.4,0.9
+Eintracht Frankfurt,Dortmund,3,3,1,2,2.8,2.2
+Darmstadt 98,Bochum,1,2,1,1,0.7,1.2
+Mainz 05,RB Leipzig,2,0,1,0,1.0,0.5
+Union Berlin,Eintracht Frankfurt,0,3,0,2,0.7,1.6
+Köln,Augsburg,1,1,0,1,2.1,2.6
+Dortmund,Bayern Munich,0,4,0,4,1.0,3.4
+Hoffenheim,Bayer Leverkusen,2,3,0,3,1.8,1.0
+Freiburg,Mönchengladbach,3,3,2,2,3.4,2.2
+Heidenheim,Stuttgart,2,0,1,0,1.2,2.9
+Wolfsburg,Werder Bremen,2,2,1,1,1.6,1.3
+Mönchengladbach,Wolfsburg,4,0,3,0,1.5,0.5
+Darmstadt 98,Mainz 05,0,0,0,0,0.5,0.7
+Augsburg,Hoffenheim,1,1,1,1,1.0,0.9
+Bochum,Köln,1,1,0,1,4.0,0.9
+Stuttgart,Dortmund,2,1,1,1,4.3,1.0
+Bayern Munich,Heidenheim,4,2,3,0,2.0,0.9
+RB Leipzig,Freiburg,3,1,1,1,1.9,0.5
+Werder Bremen,Eintracht Frankfurt,2,2,1,2,1.5,2.0
+Bayer Leverkusen,Union Berlin,4,0,4,0,2.4,0.0
+Köln,Bayern Munich,0,1,0,0,0.2,3.9
+Wolfsburg,RB Leipzig,2,1,2,1,1.0,2.8
+Eintracht Frankfurt,Stuttgart,1,2,0,2,0.9,2.3
+Freiburg,Darmstadt 98,1,1,1,1,1.6,0.4
+Dortmund,Mönchengladbach,4,2,3,2,3.2,1.0
+Werder Bremen,Bayer Leverkusen,0,3,0,2,0.2,1.0
+Union Berlin,Augsburg,1,1,0,0,2.2,1.7
+Heidenheim,Bochum,0,0,0,0,0.8,0.4
+Hoffenheim,Mainz 05,1,1,1,1,1.5,1.8
+Darmstadt 98,Köln,0,1,0,0,0.7,1.5
+RB Leipzig,Heidenheim,2,1,1,1,4.1,1.1
+Mönchengladbach,Hoffenheim,2,1,1,1,1.6,1.4
+Bochum,Wolfsburg,3,1,3,1,1.5,1.3
+Stuttgart,Werder Bremen,2,0,0,0,3.5,0.8
+Augsburg,Eintracht Frankfurt,2,1,2,0,1.4,1.1
+Bayer Leverkusen,Dortmund,1,1,0,1,2.1,0.7
+Mainz 05,Freiburg,0,1,0,1,2.4,0.9
+Hoffenheim,Bochum,3,1,2,1,1.5,1.6
+Wolfsburg,Freiburg,0,1,0,1,1.2,1.1
+Werder Bremen,Augsburg,2,0,2,0,1.5,0.7
+Eintracht Frankfurt,Bayern Munich,5,1,3,1,1.3,2.1
+Union Berlin,Mönchengladbach,3,1,0,1,2.1,1.1
+Dortmund,RB Leipzig,2,3,2,1,1.6,2.9
+Heidenheim,Darmstadt 98,3,2,3,1,1.5,0.9
+Stuttgart,Bayer Leverkusen,1,1,1,1,2.7,1.3
+Köln,Mainz 05,0,0,0,0,0.3,1.5
+Mönchengladbach,Werder Bremen,2,2,2,2,1.4,1.6
+Mainz 05,Heidenheim,0,1,0,1,1.6,0.5
+Bochum,Union Berlin,3,0,1,0,2.8,0.7
+RB Leipzig,Hoffenheim,3,1,1,1,3.1,0.8
+Darmstadt 98,Wolfsburg,0,1,0,1,0.6,0.6
+Augsburg,Dortmund,1,1,1,1,1.8,2.8
+Bayern Munich,Stuttgart,3,0,2,0,2.9,0.4
+Bayer Leverkusen,Eintracht Frankfurt,3,0,2,0,2.7,0.2
+Freiburg,Köln,2,0,2,0,3.3,1.2
+Werder Bremen,RB Leipzig,1,1,1,0,1.5,1.7
+Hoffenheim,Darmstadt 98,3,3,2,3,3.5,0.8
+Dortmund,Mainz 05,1,1,0,1,1.2,1.0
+Union Berlin,Köln,2,0,2,0,1.6,0.8
+Bayer Leverkusen,Bochum,4,0,3,0,3.3,0.4
+Stuttgart,Augsburg,3,0,3,0,2.6,0.3
+Heidenheim,Freiburg,3,2,2,1,1.9,1.8
+Wolfsburg,Bayern Munich,1,2,1,2,0.3,2.6
+Eintracht Frankfurt,Mönchengladbach,2,1,1,1,1.4,0.3
+Bayern Munich,Hoffenheim,3,0,3,0,2.8,1.2
+Köln,Heidenheim,1,1,1,0,0.9,1.0
+Mainz 05,Wolfsburg,1,1,1,1,0.4,0.6
+RB Leipzig,Eintracht Frankfurt,0,1,0,1,3.6,1.1
+Augsburg,Bayer Leverkusen,0,1,0,1,0.4,2.0
+Darmstadt 98,Dortmund,0,3,0,3,1.0,3.1
+Freiburg,Union Berlin,0,0,0,0,1.8,0.5
+Mönchengladbach,Stuttgart,3,1,2,1,2.0,0.9
+Bochum,Werder Bremen,1,1,1,1,0.7,0.8
+Köln,Dortmund,0,4,0,3,1.3,3.4
+RB Leipzig,Bayer Leverkusen,2,3,2,3,1.6,2.0
+Freiburg,Hoffenheim,3,2,3,2,2.7,1.4
+Heidenheim,Wolfsburg,1,1,0,1,1.1,1.1
+Bochum,Stuttgart,1,0,1,0,0.9,1.4
+Darmstadt 98,Eintracht Frankfurt,2,2,2,2,1.1,1.3
+Mönchengladbach,Augsburg,1,2,0,2,1.7,1.3
+Bayern Munich,Werder Bremen,0,1,0,0,1.9,0.4
+Bayern Munich,Union Berlin,1,0,0,0,2.2,0.2
+Eintracht Frankfurt,Mainz 05,1,0,1,0,1.3,0.8
+Werder Bremen,Freiburg,3,1,1,0,2.5,1.2
+Hoffenheim,Heidenheim,1,1,0,1,3.0,1.1
+Stuttgart,RB Leipzig,5,2,2,2,2.3,0.4
+Wolfsburg,Köln,1,1,1,0,1.5,0.6
+Bayer Leverkusen,Mönchengladbach,0,0,0,0,3.0,0.3
+Augsburg,Bayern Munich,2,3,1,1,2.6,2.3
+Union Berlin,Darmstadt 98,1,0,1,0,2.5,1.1
+Dortmund,Bochum,3,1,1,0,3.0,0.5
+Heidenheim,Dortmund,0,0,0,0,1.2,0.6
+Köln,Eintracht Frankfurt,2,0,2,0,1.4,0.8
+Darmstadt 98,Bayer Leverkusen,0,2,0,2,0.6,1.9
+Bayern Munich,Mönchengladbach,3,1,2,1,2.1,1.0
+Freiburg,Stuttgart,1,3,1,3,0.7,1.8
+Mainz 05,Werder Bremen,0,1,0,0,0.8,0.6
+Bochum,Augsburg,1,1,0,0,0.9,1.7
+RB Leipzig,Union Berlin,2,0,1,0,1.1,0.5
+Wolfsburg,Hoffenheim,2,2,1,2,1.7,1.7
+Mainz 05,Union Berlin,1,1,1,1,1.4,1.0
+Dortmund,Freiburg,3,0,3,0,1.9,0.3
+Eintracht Frankfurt,Bochum,1,1,1,1,2.4,1.5
+Werder Bremen,Heidenheim,1,2,1,2,1.7,2.0
+Augsburg,RB Leipzig,2,2,2,2,0.7,1.4
+Bayer Leverkusen,Bayern Munich,3,0,3,0,1.3,0.6
+Mönchengladbach,Darmstadt 98,0,0,0,0,1.6,0.7
+Union Berlin,Wolfsburg,1,0,1,0,0.5,1.3
+Stuttgart,Mainz 05,3,1,3,1,1.9,1.4
+Hoffenheim,Köln,1,1,0,0,1.3,0.1
+Köln,Werder Bremen,0,1,0,1,0.8,1.8
+RB Leipzig,Mönchengladbach,2,0,2,0,1.7,0.7
+Mainz 05,Augsburg,1,0,1,0,2.2,1.0
+Heidenheim,Bayer Leverkusen,1,2,1,2,0.4,1.9
+Darmstadt 98,Stuttgart,1,2,1,1,1.7,1.8
+Wolfsburg,Dortmund,1,1,0,1,1.9,1.4
+Hoffenheim,Union Berlin,0,1,0,1,1.1,1.4
+Bochum,Bayern Munich,3,2,2,2,1.7,3.4
+Freiburg,Eintracht Frankfurt,3,3,2,3,2.3,1.0
+Bayer Leverkusen,Mainz 05,2,1,1,1,1.2,1.1
+Bayern Munich,RB Leipzig,2,1,2,1,1.5,0.9
+Mönchengladbach,Bochum,5,2,3,2,3.7,1.6
+Werder Bremen,Darmstadt 98,1,1,0,1,1.8,1.0
+Union Berlin,Heidenheim,2,2,1,1,1.1,1.1
+Stuttgart,Köln,1,1,1,1,2.2,0.7
+Eintracht Frankfurt,Wolfsburg,2,2,2,2,0.9,1.0
+Augsburg,Freiburg,2,1,1,0,1.7,1.6
+Dortmund,Hoffenheim,2,3,2,2,1.9,1.3
+Freiburg,Bayern Munich,2,2,2,1,1.5,1.8
+Bochum,RB Leipzig,1,4,0,3,0.8,2.1
+Union Berlin,Dortmund,0,2,0,1,1.3,1.6
+Heidenheim,Eintracht Frankfurt,1,2,1,1,1.0,1.2
+Darmstadt 98,Augsburg,0,6,0,4,0.8,2.9
+Wolfsburg,Stuttgart,2,3,1,2,0.9,1.1
+Mainz 05,Mönchengladbach,1,1,1,1,1.0,1.0
+Hoffenheim,Werder Bremen,2,1,2,1,1.7,1.3
+Köln,Bayer Leverkusen,0,2,0,1,1.0,1.6
+Stuttgart,Union Berlin,2,0,1,0,1.0,0.9
+Mönchengladbach,Köln,3,3,3,3,1.8,0.6
+RB Leipzig,Darmstadt 98,2,0,1,0,3.3,0.5
+Augsburg,Heidenheim,1,0,1,0,0.5,0.4
+Bayern Munich,Mainz 05,8,1,6,1,6.6,0.8
+Werder Bremen,Dortmund,1,2,1,1,1.8,1.2
+Bochum,Freiburg,1,2,1,2,1.2,1.4
+Bayer Leverkusen,Wolfsburg,2,0,2,0,2.1,0.2
+Eintracht Frankfurt,Hoffenheim,3,1,3,1,2.4,0.6
+Köln,RB Leipzig,1,5,1,4,1.3,3.4
+Darmstadt 98,Bayern Munich,2,5,2,2,1.2,3.7
+Wolfsburg,Augsburg,1,3,1,3,1.4,0.8
+Union Berlin,Werder Bremen,2,1,1,1,1.1,1.1
+Mainz 05,Bochum,2,0,1,0,2.5,0.8
+Hoffenheim,Stuttgart,0,3,0,2,0.5,3.8
+Heidenheim,Mönchengladbach,1,1,1,1,1.2,0.5
+Dortmund,Eintracht Frankfurt,3,1,2,0,2.3,1.0
+Freiburg,Bayer Leverkusen,2,3,1,2,0.9,2.3
+Bayern Munich,Dortmund,0,2,0,2,1.5,0.9
+Mönchengladbach,Freiburg,0,3,0,1,1.6,1.8
+RB Leipzig,Mainz 05,0,0,0,0,2.8,0.9
+Eintracht Frankfurt,Union Berlin,0,0,0,0,1.1,1.5
+Werder Bremen,Wolfsburg,0,2,0,2,0.5,2.4
+Bayer Leverkusen,Hoffenheim,2,1,2,1,3.2,0.8
+Stuttgart,Heidenheim,3,3,3,2,3.1,1.3
+Bochum,Darmstadt 98,2,2,2,2,1.8,0.9
+Augsburg,Köln,1,1,1,1,2.2,1.3
+Eintracht Frankfurt,Werder Bremen,1,1,1,0,2.2,1.7
+Dortmund,Stuttgart,0,1,0,1,2.5,1.6
+Freiburg,RB Leipzig,1,4,1,3,1.6,2.4
+Köln,Bochum,2,1,2,1,1.1,0.6
+Union Berlin,Bayer Leverkusen,0,1,0,0,0.3,2.9
+Heidenheim,Bayern Munich,3,2,3,2,1.4,1.9
+Mainz 05,Darmstadt 98,4,0,4,0,3.7,0.5
+Wolfsburg,Mönchengladbach,1,3,1,2,1.2,1.1
+Hoffenheim,Augsburg,3,1,3,1,1.8,1.3
+Augsburg,Union Berlin,2,0,1,0,1.6,1.6
+RB Leipzig,Wolfsburg,3,0,2,0,1.3,0.4
+Mönchengladbach,Dortmund,1,2,1,1,1.2,1.3
+Stuttgart,Eintracht Frankfurt,3,0,2,0,1.2,0.6
+Mainz 05,Hoffenheim,4,1,4,1,2.2,0.5
+Bayern Munich,Köln,2,0,1,0,2.2,0.9
+Bochum,Heidenheim,1,1,1,0,1.3,1.1
+Darmstadt 98,Freiburg,0,1,0,1,1.1,0.9
+Bayer Leverkusen,Werder Bremen,5,0,4,0,3.2,0.7
+Eintracht Frankfurt,Augsburg,3,1,2,1,1.8,0.5
+Wolfsburg,Bochum,1,0,0,0,0.8,1.3
+Heidenheim,RB Leipzig,1,2,1,1,1.0,1.8
+Hoffenheim,Mönchengladbach,4,3,4,3,2.4,1.0
+Union Berlin,Bayern Munich,1,5,1,4,1.4,1.4
+Köln,Darmstadt 98,0,2,0,0,1.0,2.0
+Dortmund,Bayer Leverkusen,1,1,1,1,0.5,1.1
+Werder Bremen,Stuttgart,2,1,1,0,1.5,2.2
+Freiburg,Mainz 05,1,1,1,1,1.1,1.1
+Bochum,Hoffenheim,3,2,1,2,3.4,1.0
+RB Leipzig,Dortmund,4,1,3,0,2.6,1.7
+Freiburg,Wolfsburg,1,2,0,1,2.3,0.5
+Augsburg,Werder Bremen,0,3,0,2,0.6,2.0
+Bayer Leverkusen,Stuttgart,2,2,2,0,1.5,1.7
+Bayern Munich,Eintracht Frankfurt,2,1,1,1,3.4,0.5
+Mönchengladbach,Union Berlin,0,0,0,0,0.9,1.0
+Darmstadt 98,Heidenheim,0,1,0,1,0.7,1.6
+Mainz 05,Köln,1,1,0,0,1.6,2.6
+Hoffenheim,RB Leipzig,1,1,1,1,1.6,0.8
+Stuttgart,Bayern Munich,3,1,3,0,1.8,1.7
+Köln,Freiburg,0,0,0,0,0.9,0.8
+Werder Bremen,Mönchengladbach,2,2,2,1,1.4,1.9
+Wolfsburg,Darmstadt 98,3,0,2,0,2.2,0.4
+Dortmund,Augsburg,5,1,4,1,4.4,2.7
+Eintracht Frankfurt,Bayer Leverkusen,1,5,1,3,2.0,2.7
+Union Berlin,Bochum,3,4,3,4,0.9,1.4
+Heidenheim,Mainz 05,1,1,1,1,0.9,1.4
+Augsburg,Stuttgart,0,1,0,1,0.7,1.9
+Köln,Union Berlin,3,2,2,1,3.2,1.6
+Mönchengladbach,Eintracht Frankfurt,1,1,1,1,0.4,1.6
+Freiburg,Heidenheim,1,1,1,1,1.5,0.7
+Mainz 05,Dortmund,3,0,2,0,2.2,0.4
+RB Leipzig,Werder Bremen,1,1,1,0,1.5,1.1
+Bochum,Bayer Leverkusen,0,5,0,4,0.3,4.3
+Darmstadt 98,Hoffenheim,0,6,0,6,0.6,3.3
+Bayern Munich,Wolfsburg,2,0,2,0,0.3,0.2
+Union Berlin,Freiburg,2,1,1,1,2.4,1.0
+Heidenheim,Köln,4,1,2,0,1.0,2.3
+Hoffenheim,Bayern Munich,4,2,3,2,1.8,1.5
+Eintracht Frankfurt,RB Leipzig,2,2,1,1,2.1,1.6
+Dortmund,Darmstadt 98,4,0,2,0,2.6,0.3
+Wolfsburg,Mainz 05,1,3,1,2,0.8,1.8
+Werder Bremen,Bochum,4,1,3,1,3.1,2.1
+Bayer Leverkusen,Augsburg,2,1,1,1,2.4,1.2
+Stuttgart,Mönchengladbach,4,0,4,0,1.6,1.5
