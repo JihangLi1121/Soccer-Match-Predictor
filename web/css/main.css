@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Nunito Sans Bold";
+    src: url("https://starblast.dankdmitron.dev/fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+    font-display: swap;
+}
+
+.logo-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.team-card:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+body {
+    font-family: "Nunito Sans Bold", sans-serif;
+}
