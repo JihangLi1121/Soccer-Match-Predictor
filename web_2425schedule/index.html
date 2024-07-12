@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundesliga Schedule 2024-2025</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "Nunito Sans";
+        src: url("../fonts/NunitoSans-ExtraBold.ttf");
+        font-display: swap;
+        font-weight: bold;
+      }
+
+      body {
+        font-family: "Nunito Sans", sans-serif;
+      }
+
+      .calendar-table th,
+      .calendar-table td {
+        vertical-align: top;
+        font-size: 14px;
+      }
+
+      .match-details {
+        margin-bottom: 5px;
+        font-size: 12px;
+      }
+
+      footer {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        id="bundesliga-logo"
+        src="https://www.bundesliga.com/assets/logo/bundesliga_neg.svg"
+        alt="Bundesliga Logo"
+      />
+      <h1 class="my-4">2024-2025 Bundesliga Schedule</h1>
+      <div class="table-responsive">
+        <table
+          id="bundesliga-schedule"
+          class="table table-bordered calendar-table"
+        >
+          <thead class="thead-dark">
+            <tr id="calendar-header"></tr>
+          </thead>
+          <tbody id="calendar-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <h2 class="my-4">Full Schedule</h2>
+        <div class="table-responsive">
+          <table id="full-schedule" class="table table-striped table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th>Date</th>
+                <th>Matchday</th>
+                <th>Home Team</th>
+                <th>Away Team</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("combined_bundesliga_schedule.json")
+          .then((response) => response.json())
+          .then((data) => {
+            const scheduleData = data.matches;
+
+            console.log(scheduleData);
+
+            const fullScheduleTbody = document.querySelector(
+              "#full-schedule tbody"
+            );
+            scheduleData.forEach((match) => {
+              const row = document.createElement("tr");
+              row.innerHTML = `
+              <td>${match.Date}</td>
+              <td>${match.Matchday}</td>
+              <td>${match["Home Team"]}</td>
+              <td>${match["Away Team"]}</td>
+            `;
+              fullScheduleTbody.appendChild(row);
+            });
+
+            const startDate = new Date("2024-08-23");
+            const endDate = new Date("2025-05-24");
+            const totalDays = Math.ceil(
+              (endDate - startDate) / (1000 * 3600 * 24)
+            );
+
+            const headerRow = document.getElementById("calendar-header");
+            const bodyRow = document.getElementById("calendar-body");
+
+            for (let i = 0; i <= totalDays; i++) {
+              const currentDate = new Date(startDate);
+              currentDate.setDate(startDate.getDate() + i);
+              const th = document.createElement("th");
+              th.innerText = currentDate.toISOString().split("T")[0];
+              headerRow.appendChild(th);
+            }
+
+            const tr = document.createElement("tr");
+            for (let i = 0; i <= totalDays; i++) {
+              const td = document.createElement("td");
+              const currentDate = new Date(startDate);
+              currentDate.setDate(startDate.getDate() + i);
+              const currentDateString = currentDate.toISOString().split("T")[0];
+
+              scheduleData.forEach((match) => {
+                const matchDates = match.Date.split(" - ");
+                matchDates.forEach((matchDate) => {
+                  if (
+                    new Date(matchDate).toISOString().split("T")[0] ===
+                    currentDateString
+                  ) {
+                    const matchDetails = document.createElement("div");
+                    matchDetails.classList.add("match-details");
+                    matchDetails.innerHTML = `
+                    <strong>Matchday ${match.Matchday}</strong><br>
+                    ${match["Home Team"]} vs ${match["Away Team"]}
+                  `;
+                    td.appendChild(matchDetails);
+                  }
+                });
+              });
+
+              tr.appendChild(td);
+            }
+            bodyRow.appendChild(tr);
+          })
+          .catch((error) => console.error("Error loading schedule:", error));
+      });
+    </script>
+  </body>
+</html>
