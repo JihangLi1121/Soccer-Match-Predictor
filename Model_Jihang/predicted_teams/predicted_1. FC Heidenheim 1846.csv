@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+St. Pauli,Heidenheim,1.6194,0.8722,54.81,25.12,20.07
+Heidenheim,Augsburg,1.5765,1.0239,50.17,25.23,24.6
+Dortmund,Heidenheim,1.8175,0.7221,63.18,22.18,14.64
+Heidenheim,Freiburg,1.1405,1.3331,31.36,27.55,41.09
+Mainz 05,Heidenheim,1.4571,0.7624,53.03,26.79,20.18
+Heidenheim,RB Leipzig,1.1441,1.4134,30.67,26.02,43.31
+Mönchengladbach,Heidenheim,1.2097,1.02,40.48,28.37,31.15
+Heidenheim,Hoffenheim,1.1851,1.8957,24.52,21.67,53.81
+Holstein Kiel,Heidenheim,1.1643,0.9525,40.8,29.02,30.18
+Heidenheim,Wolfsburg,1.1777,0.9394,41.89,29.27,28.84
+Bayer Leverkusen,Heidenheim,1.9302,0.7322,65.14,21.41,13.45
+Heidenheim,Eintracht Frankfurt,1.4218,1.353,39.1,25.24,35.66
+Bayern Munich,Heidenheim,1.633,0.6866,60.71,24.45,14.84
+Heidenheim,Stuttgart,1.1289,1.9637,21.48,21.76,56.76
+Bochum,Heidenheim,1.6214,0.9265,53.5,25.28,21.22
+Heidenheim,Union Berlin,1.5139,1.1161,46.45,25.27,28.28
+Werder Bremen,Heidenheim,1.5876,0.7906,55.44,25.66,18.9
+Heidenheim,St. Pauli,1.5256,1.0984,47.42,25.96,26.62
+Augsburg,Heidenheim,1.1738,1.115,37.71,29.36,32.93
+Heidenheim,Dortmund,1.2797,1.9602,24.55,22.14,53.31
+Freiburg,Heidenheim,1.4185,0.9066,48.98,27.25,23.77
+Heidenheim,Mainz 05,1.0865,1.4265,29.22,26.37,44.41
+RB Leipzig,Heidenheim,1.5078,0.7422,55.05,26.78,18.17
+Heidenheim,Mönchengladbach,1.4509,1.0404,45.69,26.86,27.45
+Hoffenheim,Heidenheim,2.0496,0.6883,68.34,19.55,12.11
+Heidenheim,Holstein Kiel,1.4081,1.087,44.12,26.48,29.4
+Wolfsburg,Heidenheim,0.9343,0.9391,32.69,32.37,34.94
+Heidenheim,Bayer Leverkusen,1.0286,1.9864,18.75,21.58,59.67
+Eintracht Frankfurt,Heidenheim,1.5057,0.9582,49.65,26.44,23.91
+Heidenheim,Bayern Munich,1.3096,1.3449,35.87,26.17,37.96
+Stuttgart,Heidenheim,1.6833,0.8257,57.88,23.71,18.41
+Heidenheim,Bochum,1.5062,1.3501,41.43,24.61,33.96
+Union Berlin,Heidenheim,1.6166,0.9364,53.22,24.92,21.86
+Heidenheim,Werder Bremen,1.1436,2.0081,21.71,20.96,57.33

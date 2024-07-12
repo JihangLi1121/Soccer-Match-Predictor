@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+RB Leipzig,Bochum,2.3715,1.176,63.45,18.5,18.05
+Bayer Leverkusen,RB Leipzig,1.7435,1.3551,45.49,23.78,30.73
+RB Leipzig,Union Berlin,2.5244,0.9284,71.67,16.85,11.48
+St. Pauli,RB Leipzig,1.7436,1.6254,41.38,22.59,36.03
+RB Leipzig,Augsburg,2.005,0.8848,63.43,20.27,16.3
+Heidenheim,RB Leipzig,1.1441,1.4134,29.95,27.18,42.87
+Mainz 05,RB Leipzig,1.6383,1.2907,45.89,23.81,30.3
+RB Leipzig,Freiburg,1.5753,1.2682,44.58,24.78,30.64
+Dortmund,RB Leipzig,1.5018,1.4366,39.75,23.71,36.54
+RB Leipzig,Mönchengladbach,2.0633,0.9127,64.4,20.21,15.39
+Hoffenheim,RB Leipzig,1.5872,1.4357,41.05,24.03,34.92
+RB Leipzig,Wolfsburg,1.4798,0.7972,53.51,26.63,19.86
+Holstein Kiel,RB Leipzig,1.1931,1.4206,31.95,25.86,42.19
+RB Leipzig,Eintracht Frankfurt,2.0016,1.1908,56.62,21.13,22.25
+Bayern Munich,RB Leipzig,1.6467,1.3713,44.28,23.84,31.88
+RB Leipzig,Werder Bremen,1.3928,1.6208,32.74,24.11,43.15
+Stuttgart,RB Leipzig,1.5441,1.2162,45.35,24.25,30.4
+Bochum,RB Leipzig,1.5446,1.8697,32.74,22.11,45.15
+RB Leipzig,Bayer Leverkusen,1.2141,1.7274,27.33,23.66,49.01
+Union Berlin,RB Leipzig,1.706,1.6966,39.11,22.17,38.72
+RB Leipzig,St. Pauli,2.6226,0.9261,74.1,15.01,10.89
+Augsburg,RB Leipzig,1.1639,1.6814,26.54,23.67,49.79
+RB Leipzig,Heidenheim,1.5078,0.7422,54.82,26.91,18.27
+RB Leipzig,Mainz 05,1.1523,1.3029,32.68,27.59,39.73
+Freiburg,RB Leipzig,1.5336,1.1923,45.38,25.2,29.42
+RB Leipzig,Dortmund,1.8076,1.5627,42.94,22.52,34.54
+Mönchengladbach,RB Leipzig,1.2166,1.3224,34.37,26.9,38.73
+RB Leipzig,Hoffenheim,1.6342,1.3844,43.15,24.39,32.46
+Wolfsburg,RB Leipzig,0.8722,1.4267,22.76,27.6,49.64
+RB Leipzig,Holstein Kiel,1.8009,0.9096,58.38,23.05,18.57
+Eintracht Frankfurt,RB Leipzig,1.6218,1.5915,39.2,23.01,37.79
+RB Leipzig,Bayern Munich,1.7768,1.2352,50.32,23.27,26.41
+Werder Bremen,RB Leipzig,1.5043,1.2132,43.45,25.76,30.79
+RB Leipzig,Stuttgart,1.3777,1.5894,33.34,24.43,42.23

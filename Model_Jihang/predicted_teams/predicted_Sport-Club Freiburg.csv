@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Freiburg,Stuttgart,1.4415,1.8069,30.45,23.11,46.44
+Bayern Munich,Freiburg,1.651,1.1578,49.71,23.95,26.34
+Freiburg,Bochum,1.8742,1.1864,53.05,22.41,24.54
+Heidenheim,Freiburg,1.1405,1.3331,32.33,26.82,40.85
+Freiburg,St. Pauli,1.9904,1.0322,59.07,21.45,19.48
+Werder Bremen,Freiburg,1.4998,1.2471,42.93,25.86,31.21
+Freiburg,Augsburg,1.6804,1.0626,51.66,23.75,24.59
+RB Leipzig,Freiburg,1.5753,1.2682,45.0,24.22,30.78
+Freiburg,Mainz 05,1.3835,1.1829,41.75,26.07,32.18
+Union Berlin,Freiburg,1.7771,1.1726,52.03,23.5,24.47
+Dortmund,Freiburg,1.7421,1.2164,49.17,24.06,26.77
+Freiburg,Mönchengladbach,1.611,1.088,49.33,24.41,26.26
+Hoffenheim,Freiburg,1.9446,1.2433,54.15,22.06,23.79
+Freiburg,Wolfsburg,1.4697,0.8872,51.1,26.31,22.59
+Bayer Leverkusen,Freiburg,2.036,1.1495,57.09,21.53,21.38
+Freiburg,Holstein Kiel,1.477,1.1579,43.86,25.61,30.53
+Eintracht Frankfurt,Freiburg,1.6654,1.2078,47.71,23.99,28.3
+Stuttgart,Freiburg,1.5719,1.2591,45.22,24.41,30.37
+Freiburg,Bayern Munich,1.5677,1.2105,45.96,24.84,29.2
+Bochum,Freiburg,1.672,1.3004,45.39,25.0,29.61
+Freiburg,Heidenheim,1.4185,0.9066,49.12,27.45,23.43
+St. Pauli,Freiburg,1.8117,1.1151,53.59,22.93,23.48
+Freiburg,Werder Bremen,1.437,1.8895,28.96,22.03,49.01
+Augsburg,Freiburg,1.1381,1.4479,29.95,26.22,43.83
+Freiburg,RB Leipzig,1.5336,1.1923,45.08,24.99,29.93
+Mainz 05,Freiburg,1.6664,1.2096,48.7,23.98,27.32
+Freiburg,Union Berlin,1.8985,1.0404,57.63,21.13,21.24
+Freiburg,Dortmund,1.5133,1.7143,34.72,22.93,42.35
+Mönchengladbach,Freiburg,1.177,1.1762,36.24,28.32,35.44
+Freiburg,Hoffenheim,1.3282,1.6628,30.41,24.25,45.34
+Wolfsburg,Freiburg,0.9226,1.3689,25.46,27.4,47.14
+Freiburg,Bayer Leverkusen,1.1889,1.9658,23.05,21.55,55.4
+Holstein Kiel,Freiburg,1.1556,1.2099,34.61,27.48,37.91
+Freiburg,Eintracht Frankfurt,1.6212,1.1613,47.84,25.05,27.11

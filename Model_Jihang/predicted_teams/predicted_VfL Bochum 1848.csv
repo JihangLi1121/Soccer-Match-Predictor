@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+RB Leipzig,Bochum,2.3715,1.176,63.96,18.14,17.9
+Bochum,Mönchengladbach,2.2543,1.0369,64.86,18.71,16.43
+Freiburg,Bochum,1.8742,1.1864,53.81,22.38,23.81
+Bochum,Holstein Kiel,1.9524,1.0613,58.48,21.57,19.95
+Dortmund,Bochum,2.4614,1.3027,62.63,18.11,19.26
+Bochum,Wolfsburg,1.726,0.945,56.27,23.51,20.22
+Hoffenheim,Bochum,2.3791,1.2185,63.04,18.59,18.37
+Bochum,Bayern Munich,1.7998,1.9994,35.46,21.22,43.32
+Eintracht Frankfurt,Bochum,2.2384,1.614,52.64,19.72,27.64
+Bochum,Bayer Leverkusen,1.3255,2.4502,19.35,17.78,62.87
+Stuttgart,Bochum,2.3792,1.0327,66.27,18.58,15.15
+Augsburg,Bochum,1.3819,1.8188,29.21,22.74,48.05
+Bochum,Werder Bremen,1.5331,2.1382,27.98,20.16,51.86
+Union Berlin,Bochum,2.1793,1.8186,47.4,19.59,33.01
+Bochum,Heidenheim,1.6214,0.9265,53.07,24.89,22.04
+Mainz 05,Bochum,2.355,1.1624,63.37,19.01,17.62
+Bochum,St. Pauli,2.5963,1.4406,62.11,18.17,19.72
+Bochum,RB Leipzig,1.5446,1.8697,31.99,21.8,46.21
+Mönchengladbach,Bochum,1.541,1.398,41.15,24.37,34.48
+Bochum,Freiburg,1.672,1.3004,46.48,23.51,30.01
+Holstein Kiel,Bochum,1.5028,1.4679,39.18,24.45,36.37
+Bochum,Dortmund,1.8672,2.4204,30.18,19.73,50.09
+Wolfsburg,Bochum,1.191,1.392,31.63,26.27,42.1
+Bochum,Hoffenheim,1.6609,2.1349,30.52,20.57,48.91
+Bayern Munich,Bochum,2.2179,1.2545,59.24,19.79,20.97
+Bochum,Eintracht Frankfurt,2.0815,1.9224,42.37,21.23,36.4
+Bayer Leverkusen,Bochum,2.5712,1.0429,69.81,16.65,13.54
+Bochum,Stuttgart,1.4905,2.1573,26.56,19.79,53.65
+Bochum,Augsburg,2.1064,0.9858,63.42,19.47,17.11
+Werder Bremen,Bochum,2.3214,1.0065,66.31,18.11,15.58
+Bochum,Union Berlin,2.4938,1.3841,61.9,17.7,20.4
+Heidenheim,Bochum,1.5062,1.3501,40.99,25.19,33.82
+Bochum,Mainz 05,1.312,1.6675,30.32,23.39,46.29
+St. Pauli,Bochum,2.1421,1.7781,46.54,21.06,32.4

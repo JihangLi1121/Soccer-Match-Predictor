@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Hoffenheim,Holstein Kiel,2.2519,0.8889,68.66,17.76,13.58
+Eintracht Frankfurt,Hoffenheim,1.6911,1.7917,36.75,21.88,41.37
+Hoffenheim,Bayer Leverkusen,1.6747,1.8397,34.61,22.34,43.05
+Union Berlin,Hoffenheim,1.6714,1.9798,33.44,21.94,44.62
+Hoffenheim,Werder Bremen,1.6593,1.4349,43.06,23.9,33.04
+Stuttgart,Hoffenheim,1.7514,1.4022,45.86,22.53,31.61
+Hoffenheim,Bochum,2.3791,1.2185,63.73,18.75,17.52
+Heidenheim,Hoffenheim,1.1851,1.8957,23.61,22.52,53.87
+Hoffenheim,St. Pauli,2.4258,1.1353,66.34,17.44,16.22
+Augsburg,Hoffenheim,1.1558,2.3749,17.36,19.1,63.54
+Hoffenheim,RB Leipzig,1.5872,1.4357,41.73,24.02,34.25
+Mainz 05,Hoffenheim,1.702,1.5149,42.17,22.99,34.84
+Hoffenheim,Freiburg,1.9446,1.2433,54.06,22.21,23.73
+Dortmund,Hoffenheim,1.7571,1.4155,45.09,24.07,30.84
+Hoffenheim,Mönchengladbach,2.2892,0.8864,68.8,18.48,12.72
+Hoffenheim,Wolfsburg,2.1531,0.7608,70.58,18.34,11.08
+Bayern Munich,Hoffenheim,1.6369,1.3946,43.89,23.62,32.49
+Holstein Kiel,Hoffenheim,1.2314,2.002,22.84,21.4,55.76
+Hoffenheim,Eintracht Frankfurt,2.3017,1.3129,59.96,19.38,20.66
+Bayer Leverkusen,Hoffenheim,2.2102,1.467,54.36,20.35,25.29
+Hoffenheim,Union Berlin,2.3449,1.1606,63.21,18.68,18.11
+Werder Bremen,Hoffenheim,1.6948,1.4269,44.03,23.88,32.09
+Hoffenheim,Stuttgart,1.6642,1.4129,44.07,23.3,32.63
+Bochum,Hoffenheim,1.6609,2.1349,30.45,21.1,48.45
+Hoffenheim,Heidenheim,2.0496,0.6883,69.5,19.59,10.91
+St. Pauli,Hoffenheim,1.679,1.9884,32.86,21.7,45.44
+Hoffenheim,Augsburg,2.3856,0.8841,70.68,17.24,12.08
+RB Leipzig,Hoffenheim,1.6342,1.3844,43.87,23.02,33.11
+Hoffenheim,Mainz 05,1.6626,1.3875,44.29,24.36,31.35
+Freiburg,Hoffenheim,1.3282,1.6628,30.45,24.37,45.18
+Hoffenheim,Dortmund,2.0377,1.3121,54.32,21.76,23.92
+Mönchengladbach,Hoffenheim,1.2564,2.0494,23.02,20.95,56.03
+Wolfsburg,Hoffenheim,0.9274,1.9533,17.9,21.02,61.08
+Hoffenheim,Bayern Munich,2.039,1.4142,52.04,21.12,26.84

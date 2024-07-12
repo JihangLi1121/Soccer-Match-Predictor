@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Mönchengladbach,Bayer Leverkusen,1.0543,2.4988,14.16,17.0,68.84
+Bochum,Mönchengladbach,2.2543,1.0369,64.24,19.44,16.32
+Mönchengladbach,Stuttgart,1.2312,2.1506,21.49,19.65,58.86
+Eintracht Frankfurt,Mönchengladbach,1.9801,1.07,58.91,21.44,19.65
+Mönchengladbach,Union Berlin,1.5326,1.1722,45.67,24.98,29.35
+Augsburg,Mönchengladbach,1.4143,1.2485,41.18,26.1,32.72
+Mönchengladbach,Heidenheim,1.2097,1.02,40.27,28.7,31.03
+Mainz 05,Mönchengladbach,2.0685,0.8546,65.58,19.88,14.54
+Mönchengladbach,Werder Bremen,1.2381,2.1866,20.65,20.26,59.09
+RB Leipzig,Mönchengladbach,2.0633,0.9127,63.75,19.95,16.3
+Mönchengladbach,St. Pauli,1.5793,1.1927,46.02,25.31,28.67
+Freiburg,Mönchengladbach,1.611,1.088,49.85,24.47,25.68
+Mönchengladbach,Dortmund,1.3354,2.1894,22.04,20.57,57.39
+Mönchengladbach,Holstein Kiel,1.4456,1.3201,40.88,24.5,34.62
+Hoffenheim,Mönchengladbach,2.2892,0.8864,69.16,17.99,12.85
+Mönchengladbach,Bayern Munich,1.3946,1.4296,35.92,25.41,38.67
+Wolfsburg,Mönchengladbach,1.199,1.0311,39.42,29.44,31.14
+Bayer Leverkusen,Mönchengladbach,2.1999,0.943,66.04,19.31,14.65
+Mönchengladbach,Bochum,1.541,1.398,39.87,24.93,35.2
+Stuttgart,Mönchengladbach,2.1762,1.0431,62.42,20.32,17.26
+Mönchengladbach,Eintracht Frankfurt,1.4915,1.4104,39.67,25.2,35.13
+Union Berlin,Mönchengladbach,1.9584,1.0467,58.76,21.58,19.66
+Mönchengladbach,Augsburg,1.5465,1.2164,45.23,25.26,29.51
+Heidenheim,Mönchengladbach,1.4509,1.0404,46.44,26.02,27.54
+Mönchengladbach,Mainz 05,1.1671,1.2479,34.06,27.32,38.62
+Werder Bremen,Mönchengladbach,2.1097,0.9572,64.67,19.08,16.25
+Mönchengladbach,RB Leipzig,1.2166,1.3224,33.88,27.31,38.81
+St. Pauli,Mönchengladbach,1.9633,1.0101,59.16,21.14,19.7
+Mönchengladbach,Freiburg,1.177,1.1762,36.55,28.15,35.3
+Dortmund,Mönchengladbach,2.444,0.9147,71.16,16.72,12.12
+Holstein Kiel,Mönchengladbach,1.4665,1.1271,44.87,26.16,28.97
+Mönchengladbach,Hoffenheim,1.2564,2.0494,23.33,20.99,55.68
+Bayern Munich,Mönchengladbach,1.9483,0.8122,63.9,20.54,15.56
+Mönchengladbach,Wolfsburg,1.2605,1.0135,41.57,28.67,29.76

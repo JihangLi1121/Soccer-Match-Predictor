@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Dortmund,Eintracht Frankfurt,2.2673,1.3023,58.69,19.76,21.55
+Werder Bremen,Dortmund,1.8266,1.4932,45.27,22.94,31.79
+Dortmund,Heidenheim,1.8175,0.7221,63.88,22.07,14.05
+Stuttgart,Dortmund,1.8828,1.4823,47.76,21.7,30.54
+Dortmund,Bochum,2.4614,1.3027,62.18,18.24,19.58
+Union Berlin,Dortmund,1.8668,2.292,31.98,20.26,47.76
+Dortmund,St. Pauli,2.5464,0.9939,71.26,16.38,12.36
+Augsburg,Dortmund,1.2365,2.6859,14.93,16.24,68.83
+Dortmund,RB Leipzig,1.5018,1.4366,39.0,25.57,35.43
+Mainz 05,Dortmund,1.8725,1.687,41.86,22.74,35.4
+Dortmund,Freiburg,1.7421,1.2164,49.19,23.08,27.73
+Dortmund,Bayern Munich,1.8289,1.3656,48.13,23.15,28.72
+Mönchengladbach,Dortmund,1.3354,2.1894,22.21,20.75,57.04
+Dortmund,Hoffenheim,1.7571,1.4155,45.62,22.65,31.73
+Wolfsburg,Dortmund,1.0557,2.0709,17.86,20.51,61.63
+Dortmund,Bayer Leverkusen,1.4448,1.8056,31.12,22.91,45.97
+Holstein Kiel,Dortmund,1.3115,2.1895,22.25,20.33,57.42
+Eintracht Frankfurt,Dortmund,1.8837,2.1293,35.24,20.34,44.42
+Dortmund,Werder Bremen,1.532,1.6639,35.16,23.9,40.94
+Heidenheim,Dortmund,1.2797,1.9602,24.27,22.8,52.93
+Dortmund,Stuttgart,1.5399,1.6192,36.63,23.65,39.72
+Bochum,Dortmund,1.8672,2.4204,30.65,18.63,50.72
+Dortmund,Union Berlin,2.4455,0.9766,69.75,17.28,12.97
+St. Pauli,Dortmund,1.8916,2.2894,31.94,20.04,48.02
+Dortmund,Augsburg,2.5227,0.9188,71.63,16.66,11.71
+RB Leipzig,Dortmund,1.8076,1.5627,44.0,22.11,33.89
+Dortmund,Mainz 05,1.3834,1.3785,36.59,25.65,37.76
+Freiburg,Dortmund,1.5133,1.7143,33.76,23.12,43.12
+Bayern Munich,Dortmund,1.8274,1.575,44.76,21.23,34.01
+Dortmund,Mönchengladbach,2.444,0.9147,70.66,16.87,12.47
+Hoffenheim,Dortmund,2.0377,1.3121,53.86,21.25,24.89
+Dortmund,Wolfsburg,1.8771,0.8256,62.58,22.12,15.3
+Bayer Leverkusen,Dortmund,2.1688,1.4993,53.23,20.36,26.41
+Dortmund,Holstein Kiel,2.1913,0.9162,66.63,18.93,14.44

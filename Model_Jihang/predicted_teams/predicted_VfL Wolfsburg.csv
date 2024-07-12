@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Wolfsburg,Bayern Munich,1.0389,1.3496,28.66,26.9,44.44
+Holstein Kiel,Wolfsburg,1.2408,0.9346,44.35,27.99,27.66
+Wolfsburg,Eintracht Frankfurt,1.1182,1.3731,30.46,27.02,42.52
+Bayer Leverkusen,Wolfsburg,2.0228,0.8458,64.73,20.66,14.61
+Wolfsburg,Stuttgart,0.9125,2.0854,15.14,21.02,63.84
+Bochum,Wolfsburg,1.726,0.945,55.65,23.95,20.4
+Wolfsburg,Werder Bremen,0.9258,2.1163,15.44,19.44,65.12
+St. Pauli,Wolfsburg,1.762,0.9203,56.61,23.79,19.6
+Wolfsburg,Augsburg,1.2851,1.0148,43.55,27.67,28.78
+Heidenheim,Wolfsburg,1.1777,0.9394,41.29,29.52,29.19
+Wolfsburg,Union Berlin,1.1969,1.1599,37.09,28.33,34.58
+RB Leipzig,Wolfsburg,1.4798,0.7972,53.42,26.48,20.1
+Wolfsburg,Mainz 05,0.8885,1.4788,22.68,27.2,50.12
+Freiburg,Wolfsburg,1.4697,0.8872,50.45,26.85,22.7
+Wolfsburg,Dortmund,1.0557,2.0709,19.05,20.63,60.32
+Hoffenheim,Wolfsburg,2.1531,0.7608,69.47,18.98,11.55
+Wolfsburg,Mönchengladbach,1.199,1.0311,39.99,27.67,32.34
+Bayern Munich,Wolfsburg,1.5906,0.7317,57.75,25.27,16.98
+Wolfsburg,Holstein Kiel,1.1645,1.0846,37.59,28.4,34.01
+Eintracht Frankfurt,Wolfsburg,1.6845,0.9781,54.84,23.59,21.57
+Wolfsburg,Bayer Leverkusen,0.8988,2.0576,15.11,20.22,64.67
+Stuttgart,Wolfsburg,1.6357,0.8452,56.54,24.87,18.59
+Wolfsburg,Bochum,1.191,1.392,32.33,25.71,41.96
+Werder Bremen,Wolfsburg,1.5086,0.8111,53.94,25.83,20.23
+Wolfsburg,St. Pauli,1.2056,1.148,37.63,28.61,33.76
+Augsburg,Wolfsburg,1.2511,1.0748,40.51,27.85,31.64
+Wolfsburg,Heidenheim,0.9343,0.9391,33.26,32.3,34.44
+Union Berlin,Wolfsburg,1.7511,0.9684,54.71,24.08,21.21
+Wolfsburg,RB Leipzig,0.8722,1.4267,22.69,26.89,50.42
+Mainz 05,Wolfsburg,1.6679,0.7839,58.3,24.56,17.14
+Wolfsburg,Freiburg,0.9226,1.3689,25.44,28.64,45.92
+Dortmund,Wolfsburg,1.8771,0.8256,62.97,21.35,15.68
+Wolfsburg,Hoffenheim,0.9274,1.9533,17.47,21.45,61.08
+Mönchengladbach,Wolfsburg,1.2605,1.0135,41.65,28.22,30.13

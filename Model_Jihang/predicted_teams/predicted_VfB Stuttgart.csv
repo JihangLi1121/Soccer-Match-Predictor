@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Freiburg,Stuttgart,1.4415,1.8069,30.56,22.85,46.59
+Stuttgart,Mainz 05,1.3137,1.166,40.19,27.1,32.71
+Mönchengladbach,Stuttgart,1.2312,2.1506,21.04,19.65,59.31
+Stuttgart,Dortmund,1.8828,1.4823,46.15,23.14,30.71
+Wolfsburg,Stuttgart,0.9125,2.0854,14.79,20.41,64.8
+Stuttgart,Hoffenheim,1.7514,1.4022,46.02,23.55,30.43
+Bayern Munich,Stuttgart,1.5235,1.6557,34.81,23.43,41.76
+Stuttgart,Holstein Kiel,1.9235,1.0101,58.83,22.27,18.9
+Bayer Leverkusen,Stuttgart,1.8044,1.5646,44.07,22.36,33.57
+Stuttgart,Eintracht Frankfurt,2.1187,1.0197,62.87,20.44,16.69
+Stuttgart,Bochum,2.3792,1.0327,66.73,18.29,14.98
+Werder Bremen,Stuttgart,1.4732,1.5329,36.01,24.74,39.25
+Stuttgart,Union Berlin,2.3656,0.8337,72.1,16.65,11.25
+Heidenheim,Stuttgart,1.1289,1.9637,21.13,21.91,56.96
+Stuttgart,St. Pauli,2.4765,0.8366,72.37,16.68,10.95
+Augsburg,Stuttgart,1.1742,2.4043,17.08,18.24,64.68
+Stuttgart,RB Leipzig,1.5441,1.2162,44.82,24.92,30.26
+Stuttgart,Freiburg,1.5719,1.2591,43.96,25.95,30.09
+Mainz 05,Stuttgart,1.3415,1.6576,31.09,23.86,45.05
+Stuttgart,Mönchengladbach,2.1762,1.0431,63.33,20.09,16.58
+Dortmund,Stuttgart,1.5399,1.6192,36.02,23.92,40.06
+Stuttgart,Wolfsburg,1.6357,0.8452,55.6,24.84,19.56
+Hoffenheim,Stuttgart,1.6642,1.4129,43.17,23.51,33.32
+Stuttgart,Bayern Munich,1.8123,1.1586,52.98,23.33,23.69
+Holstein Kiel,Stuttgart,1.1778,2.1326,20.31,21.08,58.61
+Stuttgart,Bayer Leverkusen,1.426,1.664,33.58,23.76,42.66
+Eintracht Frankfurt,Stuttgart,1.4234,1.9799,28.59,21.95,49.46
+Bochum,Stuttgart,1.4905,2.1573,26.57,20.3,53.13
+Stuttgart,Werder Bremen,1.5054,1.5589,37.0,23.95,39.05
+Union Berlin,Stuttgart,1.5826,2.0693,29.45,21.39,49.16
+Stuttgart,Heidenheim,1.6833,0.8257,58.36,23.67,17.97
+St. Pauli,Stuttgart,1.5929,2.005,31.21,21.32,47.47
+Stuttgart,Augsburg,2.3502,0.9583,68.36,18.16,13.48
+RB Leipzig,Stuttgart,1.3777,1.5894,33.05,24.67,42.28

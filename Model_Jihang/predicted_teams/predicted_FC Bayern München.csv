@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Wolfsburg,Bayern Munich,1.0389,1.3496,28.12,27.63,44.25
+Bayern Munich,Freiburg,1.651,1.1578,48.44,24.56,27.0
+Holstein Kiel,Bayern Munich,1.365,1.4894,34.55,24.93,40.52
+Werder Bremen,Bayern Munich,1.7722,1.1662,52.39,23.16,24.45
+Bayern Munich,Bayer Leverkusen,1.2779,1.9024,25.96,22.04,52.0
+Eintracht Frankfurt,Bayern Munich,1.8695,1.6353,43.67,21.84,34.49
+Bayern Munich,Stuttgart,1.5235,1.6557,35.55,23.29,41.16
+Bochum,Bayern Munich,1.7998,1.9994,35.29,21.15,43.56
+Bayern Munich,Union Berlin,2.3371,0.896,69.56,17.8,12.64
+St. Pauli,Bayern Munich,1.9156,1.7475,42.6,21.5,35.9
+Bayern Munich,Augsburg,1.8222,0.8054,60.39,23.19,16.42
+Dortmund,Bayern Munich,1.8289,1.3656,48.06,23.16,28.78
+Bayern Munich,Heidenheim,1.633,0.6866,61.03,23.52,15.45
+Mainz 05,Bayern Munich,1.8737,1.2615,51.4,23.03,25.57
+Bayern Munich,RB Leipzig,1.6467,1.3713,44.24,23.85,31.91
+Mönchengladbach,Bayern Munich,1.3946,1.4296,36.81,24.67,38.52
+Bayern Munich,Hoffenheim,1.6369,1.3946,43.86,23.19,32.95
+Bayern Munich,Wolfsburg,1.5906,0.7317,58.27,24.83,16.9
+Freiburg,Bayern Munich,1.5677,1.2105,45.44,24.52,30.04
+Bayern Munich,Holstein Kiel,1.8289,0.8232,61.22,22.87,15.91
+Bayern Munich,Werder Bremen,1.5229,1.6959,34.69,22.83,42.48
+Bayer Leverkusen,Bayern Munich,2.1698,1.3409,56.53,20.34,23.13
+Bayern Munich,Eintracht Frankfurt,1.9262,1.2418,53.89,21.15,24.96
+Stuttgart,Bayern Munich,1.8123,1.1586,52.52,23.16,24.32
+Bayern Munich,Bochum,2.2179,1.2545,59.05,20.04,20.91
+Union Berlin,Bayern Munich,1.8846,1.8199,39.16,21.93,38.91
+Bayern Munich,St. Pauli,2.4432,0.9257,70.42,17.27,12.31
+Augsburg,Bayern Munich,1.2763,1.7576,28.17,23.26,48.57
+Bayern Munich,Dortmund,1.8274,1.575,44.75,22.06,33.19
+Heidenheim,Bayern Munich,1.3096,1.3449,35.53,26.52,37.95
+Bayern Munich,Mainz 05,1.2414,1.2968,34.77,27.14,38.09
+RB Leipzig,Bayern Munich,1.7768,1.2352,49.41,22.94,27.65
+Bayern Munich,Mönchengladbach,1.9483,0.8122,64.29,21.12,14.59
+Hoffenheim,Bayern Munich,2.039,1.4142,52.19,20.82,26.99
