@@ -14,6 +14,21 @@
     cursor: pointer;
 }
 
+.match-card:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+#upcomingMatches {
+    max-height: 60vh;
+    overflow: scroll;
+
+}
+
+#upcomingMatches::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     font-family: "Nunito Sans Bold", sans-serif;
 }

@@ -16,36 +16,17 @@
             <div class="modal-body">
                 <div class="row" id="statRow">
                     <div class="col-sm-6">
-                        <h5 class="text-center">Past Matches</h5>
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="mb-0 w-100 text-center">
-                                    <span class="float-start">Munich</span>
-                                    <span>vs.</span>
-                                    <span class="float-end">Dortmund</span>
-                                </h3>
-                                <h1 class="mb-0 w-100 text-center">
-                                    <span class="float-start mx-3">2</span>
-                                    <span>LOSS</span>
-                                    <span class="float-end mx-3">3</span>
-                                </h1>
-                            </div>
+                        <h5 class="text-center">Upcoming Matches</h5>
+                        <div id="upcomingMatches" style="max-height: 60vh; overflow: scroll">
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <h5 class="text-center">Upcoming Matches (predicted)</h5>
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="mb-0 w-100 text-center">
-                                    <span class="float-start">Munich</span>
-                                    <span>vs.</span>
-                                    <span class="float-end">Berlin</span>
-                                </h3>
-                                <h1 class="mb-0 w-100 text-center">
-                                    <span class="float-start mx-3">5</span>
-                                    <span>WIN</span>
-                                    <span class="float-end mx-3">2</span>
-                                </h1>
+                        <h5 class="text-center">Prediction</h5>
+                        <div class="card match-report-card" style="height: 80%">
+                            <div class="card-body h-100">
+                                <h3 class="text-center mb-0" id="SR_Name">Munich vs Berlin</h3>
+                                <b class="float-start">Matchday</b><span class="float-end" id="SR_Mode">-1</span><br>
+
                             </div>
                         </div>
                     </div>
@@ -58,6 +39,7 @@
     <div class="row h-100 justify-content-center align-items-center text-center">
         <div class="card w-75 p-0 border-0">
             <h1 class="card-header bg-transparent border-0">Forecast FC</h1>
+            <sub><a href="web_2425schedule/index.html">View full season schedule</a></sub>
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-4" id="col0">
