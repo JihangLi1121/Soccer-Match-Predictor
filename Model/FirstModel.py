@@ -15,10 +15,9 @@ data = pd.concat([data_2021, data_2022, data_2023])
 
 # Extract relevant features and the target variable
 data['Outcome'] = data.apply(lambda row: 'HomeWin' if row['Home Goals'] > row['Away Goals'] else ('AwayWin' if row['Home Goals'] < row['Away Goals'] else 'Draw'), axis=1)
-features = ['Home Team', 'Away Team', 'Home Goals', 'Away Goals', 'Home xG', 'Away xG']
+features = ['Home Team', 'Away Team', 'Home xG', 'Away xG']  # Removed 'Home Goals' and 'Away Goals'
 X = data[features]
 y = data['Outcome']
-
 
 # Encode categorical variables
 label_encoder = LabelEncoder()
@@ -45,4 +44,5 @@ classification_report_str = classification_report(y_test, y_pred, target_names=l
 print(f'Accuracy: {accuracy:.2f}')
 print('Classification Report:')
 print(classification_report_str)
+
 

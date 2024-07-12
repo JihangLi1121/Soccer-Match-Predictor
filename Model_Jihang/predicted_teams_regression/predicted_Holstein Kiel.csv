@@ -1,0 +1,35 @@
+Home Team,Away Team,Predicted_Home_xG,Predicted_Away_xG,Home_Win_Probability,Tie_Probability,Away_Win_Probability
+Hoffenheim,Holstein Kiel,2.4662,0.583,79.05,13.97,6.98
+Holstein Kiel,Wolfsburg,0.9925,1.1662,30.7,29.2,40.1
+Holstein Kiel,Bayern Munich,1.1005,1.8121,22.66,23.4,53.94
+Bochum,Holstein Kiel,2.3535,1.0301,67.12,18.33,14.55
+Holstein Kiel,Eintracht Frankfurt,1.2754,1.7791,27.43,23.45,49.12
+Bayer Leverkusen,Holstein Kiel,2.8678,0.5394,84.77,10.45,4.78
+Holstein Kiel,Union Berlin,1.4194,1.6535,33.58,24.28,42.14
+Stuttgart,Holstein Kiel,2.3934,0.6029,76.75,15.73,7.52
+Holstein Kiel,Heidenheim,0.9331,1.2684,27.1,28.53,44.37
+Werder Bremen,Holstein Kiel,2.3443,0.5938,76.6,15.65,7.75
+Holstein Kiel,Mainz 05,0.7876,1.7994,16.92,23.01,60.07
+St. Pauli,Holstein Kiel,2.7027,0.902,75.43,14.9,9.67
+Holstein Kiel,RB Leipzig,0.9113,1.828,18.46,22.49,59.05
+Mönchengladbach,Holstein Kiel,1.8225,0.8956,59.62,22.8,17.58
+Holstein Kiel,Augsburg,1.5792,1.3781,42.03,23.91,34.06
+Freiburg,Holstein Kiel,2.0566,0.7623,67.82,19.69,12.49
+Holstein Kiel,Dortmund,1.0576,2.0715,18.98,20.45,60.57
+Holstein Kiel,Hoffenheim,1.0941,2.0637,19.01,20.41,60.58
+Wolfsburg,Holstein Kiel,1.5286,0.7079,56.19,26.03,17.78
+Bayern Munich,Holstein Kiel,2.1993,0.7234,70.44,18.58,10.98
+Holstein Kiel,Bochum,1.5286,1.8721,31.29,22.04,46.67
+Eintracht Frankfurt,Holstein Kiel,2.24,0.8771,68.85,17.64,13.51
+Holstein Kiel,Bayer Leverkusen,0.7359,2.4685,9.25,15.74,75.01
+Union Berlin,Holstein Kiel,2.1032,0.9478,64.86,19.73,15.41
+Holstein Kiel,Stuttgart,0.8254,1.9815,15.4,20.42,64.18
+Heidenheim,Holstein Kiel,1.6521,0.6351,62.74,23.92,13.34
+Holstein Kiel,Werder Bremen,0.8006,1.9698,14.48,20.35,65.17
+Mainz 05,Holstein Kiel,2.2113,0.6068,74.41,16.6,8.99
+Holstein Kiel,St. Pauli,1.096,2.1817,18.67,20.03,61.3
+RB Leipzig,Holstein Kiel,2.2354,0.659,73.62,17.41,8.97
+Holstein Kiel,Mönchengladbach,1.348,1.365,36.81,25.58,37.61
+Augsburg,Holstein Kiel,1.9048,1.0646,57.13,22.38,20.49
+Holstein Kiel,Freiburg,1.0092,1.5608,24.71,25.05,50.24
+Dortmund,Holstein Kiel,2.4803,0.7709,74.13,16.19,9.68

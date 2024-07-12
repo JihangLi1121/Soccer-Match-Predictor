@@ -1,0 +1,35 @@
+Home Team,Away Team,Home Win Probability,Draw Probability,Away Win Probability
+St. Pauli,Heidenheim,0.21,0.38,0.41
+Heidenheim,Augsburg,0.87,0.1,0.03
+Dortmund,Heidenheim,0.41,0.21,0.38
+Heidenheim,Freiburg,0.6,0.31,0.09
+Mainz 05,Heidenheim,0.57,0.23,0.2
+Heidenheim,RB Leipzig,0.45,0.32,0.23
+Mönchengladbach,Heidenheim,0.15,0.26,0.59
+Heidenheim,Hoffenheim,0.47,0.24,0.29
+Holstein Kiel,Heidenheim,0.1,0.33,0.57
+Heidenheim,Wolfsburg,0.56,0.18,0.26
+Bayer Leverkusen,Heidenheim,0.82,0.16,0.02
+Heidenheim,Eintracht Frankfurt,0.56,0.33,0.11
+Bayern Munich,Heidenheim,0.65,0.15,0.2
+Heidenheim,Stuttgart,0.26,0.43,0.31
+Bochum,Heidenheim,0.25,0.23,0.52
+Heidenheim,Union Berlin,0.59,0.27,0.14
+Werder Bremen,Heidenheim,0.73,0.2,0.07
+Heidenheim,St. Pauli,0.82,0.11,0.07
+Augsburg,Heidenheim,0.07,0.24,0.69
+Heidenheim,Dortmund,0.44,0.43,0.13
+Freiburg,Heidenheim,0.43,0.23,0.34
+Heidenheim,Mainz 05,0.29,0.2,0.51
+RB Leipzig,Heidenheim,0.62,0.22,0.16
+Heidenheim,Mönchengladbach,0.63,0.28,0.09
+Hoffenheim,Heidenheim,0.54,0.21,0.25
+Heidenheim,Holstein Kiel,0.83,0.14,0.03
+Wolfsburg,Heidenheim,0.33,0.3,0.37
+Heidenheim,Bayer Leverkusen,0.19,0.42,0.39
+Eintracht Frankfurt,Heidenheim,0.23,0.19,0.58
+Heidenheim,Bayern Munich,0.41,0.32,0.27
+Stuttgart,Heidenheim,0.6,0.32,0.08
+Heidenheim,Bochum,0.58,0.32,0.1
+Union Berlin,Heidenheim,0.23,0.3,0.47
+Heidenheim,Werder Bremen,0.23,0.42,0.35
