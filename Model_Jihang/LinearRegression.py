@@ -3,6 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import cross_val_score
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
 import os
 
 
@@ -14,8 +17,8 @@ encoding_dict = {
     'Greuther Fürth': 'Holstein Kiel',
     'Schalke 04': 'St. Pauli',
     'Hertha BSC': 'Holstein Kiel',
-    # 'Köln': 'St. Pauli',
-    # 'Darmstadt 98': 'Holstein Kiel'
+    'Köln': 'St. Pauli',
+    'Darmstadt 98': 'Holstein Kiel'
 }
 
 # Apply the encoding to the 'Home Team' and 'Away Team' columns
@@ -91,93 +94,30 @@ y_away = data[target_away]
 X_train, X_test, y_train_home, y_test_home = train_test_split(X, y_home, test_size=0.2, random_state=42)
 _, _, y_train_away, y_test_away = train_test_split(X, y_away, test_size=0.2, random_state=42)
 
-# # Train model for home team expected goals
-# model_home = RandomForestRegressor(random_state=42)
-# model_home.fit(X_train, y_train_home)
+model_home_lr = LinearRegression()
+model_away_lr = LinearRegression()
 
-# # Train model for away team expected goals
-# model_away = RandomForestRegressor(random_state=42)
-# model_away.fit(X_train, y_train_away)
+model_home_lr.fit(X_train, y_train_home)
+model_away_lr.fit(X_train, y_train_away)
 
-# # Predictions
-# y_pred_home = model_home.predict(X_test)
-# y_pred_away = model_away.predict(X_test)
+y_pred_home_lr = model_home_lr.predict(X_test)
+mse_home_lr = mean_squared_error(y_test_home, y_pred_home_lr)
 
-def train_and_evaluate(X_train, X_test, y_train, y_test, params):
-    model = RandomForestRegressor(**params, random_state=42)
-    model.fit(X_train, y_train)
-    y_pred = model.predict(X_test)
-    mse = mean_squared_error(y_test, y_pred)
-    return mse
+y_pred_away_lr = model_away_lr.predict(X_test)
+mse_away_lr = mean_squared_error(y_test_away, y_pred_away_lr)
 
-# param_grid = {
-#     'n_estimators': [50, 100, 200],
-#     'max_depth': [None, 10, 20, 30],
-#     'min_samples_split': [2, 5, 10],
-#     'min_samples_leaf': [1, 2, 4],
-#     'bootstrap': [True, False]
-# }
+print(f'Test Set Mean Squared Error for Home Model: {mse_home_lr:.4f}')
+print(f'Test Set Mean Squared Error for Away Model: {mse_away_lr:.4f}')
 
-# grid_search_home = GridSearchCV(estimator=RandomForestRegressor(random_state=42), param_grid=param_grid, 
-#                                 cv=3, n_jobs=-1, verbose=2)
+# Calculate R-squared for the home team model
+r2_home_lr = r2_score(y_test_home, y_pred_home_lr)
 
-# grid_search_away = GridSearchCV(estimator=RandomForestRegressor(random_state=42), param_grid=param_grid, 
-#                                 cv=3, n_jobs=-1, verbose=2)
+# Calculate R-squared for the away team model
+r2_away_lr = r2_score(y_test_away, y_pred_away_lr)
 
-# # Fit the grid search to the data
-# grid_search_home.fit(X_train, y_train_home)
-# grid_search_away.fit(X_train, y_train_away)
+print(f'Home Model (Linear Regression) R-squared: {r2_home_lr:.4f}')
+print(f'Away Model (Linear Regression) R-squared: {r2_away_lr:.4f}')
 
-# # Get the best parameters
-# best_params_home = grid_search_home.best_params_
-# best_params_away = grid_search_away.best_params_
-
-best_params_home = {'bootstrap': True, 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
-best_params_away = {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 100}
-
-# Train the final model for home team expected goals
-model_home_final = RandomForestRegressor(**best_params_home, random_state=42)
-model_home_final.fit(X_train, y_train_home)
-
-# Train the final model for away team expected goals
-model_away_final = RandomForestRegressor(**best_params_away, random_state=42)
-model_away_final.fit(X_train, y_train_away)
-
-# Predictions
-y_pred_home_final = model_home_final.predict(X_test)
-y_pred_away_final = model_away_final.predict(X_test)
-
-# Evaluation
-mse_home_final = mean_squared_error(y_test_home, y_pred_home_final)
-mse_away_final = mean_squared_error(y_test_away, y_pred_away_final)
-
-print(mse_home_final, mse_away_final)
-
-# Function to predict fixture outcome
-def predict_fixture(home_team, away_team, model_home, model_away, team_stats, window=5):
-    # Calculate the feature values for the home team
-    home_avg_goals_scored = sum(team_stats[home_team]['goals_scored'][-window:]) / len(team_stats[home_team]['goals_scored'][-window:])
-    home_avg_goals_conceded = sum(team_stats[home_team]['goals_conceded'][-window:]) / len(team_stats[home_team]['goals_conceded'][-window:])
-    home_avg_assists = sum(team_stats[home_team]['assists'][-window:]) / len(team_stats[home_team]['assists'][-window:])
-    home_avg_xG = sum(team_stats[home_team]['xG'][-window:]) / len(team_stats[home_team]['xG'][-window:])
-    
-    # Calculate the feature values for the away team
-    away_avg_goals_scored = sum(team_stats[away_team]['goals_scored'][-window:]) / len(team_stats[away_team]['goals_scored'][-window:])
-    away_avg_goals_conceded = sum(team_stats[away_team]['goals_conceded'][-window:]) / len(team_stats[away_team]['goals_conceded'][-window:])
-    away_avg_assists = sum(team_stats[away_team]['assists'][-window:]) / len(team_stats[away_team]['assists'][-window:])
-    away_avg_xG = sum(team_stats[away_team]['xG'][-window:]) / len(team_stats[away_team]['xG'][-window:])
-    
-    # Prepare the feature vector
-    features = [
-        home_avg_goals_scored, home_avg_goals_conceded, home_avg_assists, home_avg_xG,
-        away_avg_goals_scored, away_avg_goals_conceded, away_avg_assists, away_avg_xG
-    ]
-    
-    # Predict expected goals for home and away teams
-    predicted_home_xG = model_home.predict([features])[0]
-    predicted_away_xG = model_away.predict([features])[0]
-    
-    return predicted_home_xG, predicted_away_xG
 
 # Creating a team_stats dictionary for prediction
 teams = pd.concat([data['Home Team'], data['Away Team']]).unique()
@@ -276,13 +216,13 @@ for csv_file in csv_files:
     
     new_matches_features = df[features]
     
-    predicted_home_xG_new = model_home_final.predict(new_matches_features)
-    predicted_away_xG_new = model_away_final.predict(new_matches_features)
+    predicted_home_xG_new = model_home_lr.predict(new_matches_features)
+    predicted_away_xG_new = model_away_lr.predict(new_matches_features)
     
     df['Predicted_Home_xG'] = predicted_home_xG_new.round(4)
     df['Predicted_Away_xG'] = predicted_away_xG_new.round(4)
     
-    output_file_path = os.path.join('/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams', 
+    output_file_path = os.path.join('/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams_regression', 
                                     'predicted_' + csv_file)
     
     df = df.drop(columns=['Home_avg_goals_scored', 'Home_avg_goals_conceded', 'Home_avg_assists', 'Home_avg_xG', 

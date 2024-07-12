@@ -1,0 +1,35 @@
+Home Team,Away Team,Home Win Probability,Draw Probability,Away Win Probability
+Hoffenheim,Holstein Kiel,0.89,0.11,0.0
+Holstein Kiel,Wolfsburg,0.2,0.47,0.33
+Holstein Kiel,Bayern Munich,0.13,0.29,0.58
+Bochum,Holstein Kiel,0.71,0.19,0.1
+Holstein Kiel,Eintracht Frankfurt,0.19,0.31,0.5
+Bayer Leverkusen,Holstein Kiel,0.97,0.03,0.0
+Holstein Kiel,Union Berlin,0.22,0.3,0.48
+Stuttgart,Holstein Kiel,0.98,0.02,0.0
+Holstein Kiel,Heidenheim,0.1,0.33,0.57
+Werder Bremen,Holstein Kiel,0.98,0.02,0.0
+Holstein Kiel,Mainz 05,0.02,0.23,0.75
+St. Pauli,Holstein Kiel,0.52,0.38,0.1
+Holstein Kiel,RB Leipzig,0.06,0.36,0.58
+Mönchengladbach,Holstein Kiel,0.42,0.54,0.04
+Holstein Kiel,Augsburg,0.24,0.58,0.18
+Freiburg,Holstein Kiel,0.51,0.35,0.14
+Holstein Kiel,Dortmund,0.14,0.38,0.48
+Holstein Kiel,Hoffenheim,0.13,0.11,0.76
+Wolfsburg,Holstein Kiel,0.63,0.27,0.1
+Bayern Munich,Holstein Kiel,0.91,0.08,0.01
+Holstein Kiel,Bochum,0.21,0.34,0.45
+Eintracht Frankfurt,Holstein Kiel,0.73,0.18,0.09
+Holstein Kiel,Bayer Leverkusen,0.09,0.02,0.89
+Union Berlin,Holstein Kiel,0.75,0.19,0.06
+Holstein Kiel,Stuttgart,0.18,0.14,0.68
+Heidenheim,Holstein Kiel,0.83,0.14,0.03
+Holstein Kiel,Werder Bremen,0.16,0.13,0.71
+Mainz 05,Holstein Kiel,0.93,0.06,0.01
+Holstein Kiel,St. Pauli,0.36,0.37,0.27
+RB Leipzig,Holstein Kiel,0.92,0.04,0.04
+Holstein Kiel,Mönchengladbach,0.26,0.43,0.31
+Augsburg,Holstein Kiel,0.28,0.65,0.07
+Holstein Kiel,Freiburg,0.28,0.47,0.25
+Dortmund,Holstein Kiel,0.87,0.12,0.01

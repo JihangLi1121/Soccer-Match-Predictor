@@ -25,7 +25,7 @@ def simulate_match_outcomes(predicted_home_xG, predicted_away_xG, num_simulation
     
     return home_win_probability, tie_probability, away_win_probability
 
-team_prediction_dir = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams'
+team_prediction_dir = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams_regression'
 
 csv_files = [f for f in os.listdir(team_prediction_dir) if f.endswith('.csv')]
 

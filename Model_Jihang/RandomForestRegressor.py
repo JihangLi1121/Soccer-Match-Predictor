@@ -169,80 +169,80 @@ pred_away_goals_refined = model_away_goals_refined.predict(X_test_important)
 mae_home_goals_refined = mean_absolute_error(y_test_home, pred_home_goals_refined)
 mae_away_goals_refined = mean_absolute_error(y_test_away, pred_away_goals_refined)
 
-# print(f'Refined Model MAE for Home Goals: {mae_home_goals_refined}')
-# print(f'Refined Model MAE for Away Goals: {mae_away_goals_refined}')
+print(f'Refined Model MAE for Home Goals: {mae_home_goals_refined}')
+print(f'Refined Model MAE for Away Goals: {mae_away_goals_refined}')
 
-upcoming_matches_path = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/2425_Calendars/Team_Calendars/FC Augsburg.csv'
-upcoming_matches = pd.read_csv(upcoming_matches_path)
+# upcoming_matches_path = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/2425_Calendars/Team_Calendars/FC Augsburg.csv'
+# upcoming_matches = pd.read_csv(upcoming_matches_path)
 
-team_name_mapping = {
-    '1. FC Heidenheim 1846': 'Heidenheim',
-    '1. FC Union Berlin': 'Union Berlin',
-    '1. FSV Mainz 05': 'Mainz 05',
-    'Bayer 04 Leverkusen': 'Bayer Leverkusen',
-    'Borussia Dortmund': 'Dortmund',
-    'Borussia Mönchengladbach': 'Mönchengladbach',
-    'Eintracht Frankfurt': 'Eintracht Frankfurt',
-    'FC Augsburg': 'Augsburg',
-    'FC Bayern München': 'Bayern Munich',
-    'FC St. Pauli': 'St. Pauli',
-    'Holstein Kiel': 'Holstein Kiel',
-    'RB Leipzig': 'RB Leipzig',
-    'Sport-Club Freiburg': 'Freiburg',
-    'SV Werder Bremen': 'Werder Bremen',
-    'TSG Hoffenheim': 'Hoffenheim',
-    'VfB Stuttgart': 'Stuttgart',
-    'VfL Bochum 1848': 'Bochum',
-    'VfL Wolfsburg': 'Wolfsburg'
-}
+# team_name_mapping = {
+#     '1. FC Heidenheim 1846': 'Heidenheim',
+#     '1. FC Union Berlin': 'Union Berlin',
+#     '1. FSV Mainz 05': 'Mainz 05',
+#     'Bayer 04 Leverkusen': 'Bayer Leverkusen',
+#     'Borussia Dortmund': 'Dortmund',
+#     'Borussia Mönchengladbach': 'Mönchengladbach',
+#     'Eintracht Frankfurt': 'Eintracht Frankfurt',
+#     'FC Augsburg': 'Augsburg',
+#     'FC Bayern München': 'Bayern Munich',
+#     'FC St. Pauli': 'St. Pauli',
+#     'Holstein Kiel': 'Holstein Kiel',
+#     'RB Leipzig': 'RB Leipzig',
+#     'Sport-Club Freiburg': 'Freiburg',
+#     'SV Werder Bremen': 'Werder Bremen',
+#     'TSG Hoffenheim': 'Hoffenheim',
+#     'VfB Stuttgart': 'Stuttgart',
+#     'VfL Bochum 1848': 'Bochum',
+#     'VfL Wolfsburg': 'Wolfsburg'
+# }
 
-# Apply the mapping to Home Team and Away Team columns
-upcoming_matches['Home Team'] = upcoming_matches['Home Team'].map(team_name_mapping)
-upcoming_matches['Away Team'] = upcoming_matches['Away Team'].map(team_name_mapping)
+# # Apply the mapping to Home Team and Away Team columns
+# upcoming_matches['Home Team'] = upcoming_matches['Home Team'].map(team_name_mapping)
+# upcoming_matches['Away Team'] = upcoming_matches['Away Team'].map(team_name_mapping)
 
-# Handle any missing values if the mapping failed
-upcoming_matches.dropna(subset=['Home Team', 'Away Team'], inplace=True)
+# # Handle any missing values if the mapping failed
+# upcoming_matches.dropna(subset=['Home Team', 'Away Team'], inplace=True)
 
-upcoming_matches = upcoming_matches.drop(columns=['Date', 'Matchday'])
+# upcoming_matches = upcoming_matches.drop(columns=['Date', 'Matchday'])
 
-# Encode the team names using the label encoder from the training data
-label_encoder = LabelEncoder()
-label_encoder.fit(list(team_name_mapping.values()))
+# # Encode the team names using the label encoder from the training data
+# label_encoder = LabelEncoder()
+# label_encoder.fit(list(team_name_mapping.values()))
 
-upcoming_matches['Home Team'] = label_encoder.transform(upcoming_matches['Home Team'])
-upcoming_matches['Away Team'] = label_encoder.transform(upcoming_matches['Away Team'])
+# upcoming_matches['Home Team'] = label_encoder.transform(upcoming_matches['Home Team'])
+# upcoming_matches['Away Team'] = label_encoder.transform(upcoming_matches['Away Team'])
 
-# Merge with team statistics to get all necessary features
-upcoming_matches = upcoming_matches.merge(data[['Home xG', 'Home Ast']], left_on='Home Team', right_index=True, suffixes=('', '_HomeTeam'))
-upcoming_matches = upcoming_matches.merge(data[['Away xG', 'Away Ast']], left_on='Away Team', right_index=True, suffixes=('_HomeTeam', '_AwayTeam'))
+# # Merge with team statistics to get all necessary features
+# upcoming_matches = upcoming_matches.merge(data[['Home xG', 'Home Ast']], left_on='Home Team', right_index=True, suffixes=('', '_HomeTeam'))
+# upcoming_matches = upcoming_matches.merge(data[['Away xG', 'Away Ast']], left_on='Away Team', right_index=True, suffixes=('_HomeTeam', '_AwayTeam'))
 
-# Select the columns relevant for the model
-upcoming_matches = upcoming_matches[['Home Ast', 'Away Ast', 'Home xG', 'Away xG']]
+# # Select the columns relevant for the model
+# upcoming_matches = upcoming_matches[['Home Ast', 'Away Ast', 'Home xG', 'Away xG']]
 
-# print(upcoming_matches.head())
+# # print(upcoming_matches.head())
 
-# Function to simulate a single match multiple times
-def simulate_match(model, match_data, n_simulations=1):
-    simulations = []
-    for _ in range(n_simulations):
-        prediction = model.predict(match_data)
-        simulations.append(prediction[0])
-    return simulations
+# # Function to simulate a single match multiple times
+# def simulate_match(model, match_data, n_simulations=1):
+#     simulations = []
+#     for _ in range(n_simulations):
+#         prediction = model.predict(match_data)
+#         simulations.append(prediction[0])
+#     return simulations
 
-first_match = upcoming_matches.iloc[0].values.reshape(1, -1)
+# first_match = upcoming_matches.iloc[0].values.reshape(1, -1)
 
-home_goals_simulations = simulate_match(model_home_goals_refined, first_match, n_simulations=1)
-away_goals_simulations = simulate_match(model_away_goals_refined, first_match, n_simulations=1)
+# home_goals_simulations = simulate_match(model_home_goals_refined, first_match, n_simulations=1)
+# away_goals_simulations = simulate_match(model_away_goals_refined, first_match, n_simulations=1)
 
-# Store results in a DataFrame
-simulation_results = pd.DataFrame({
-    'Home Goals Simulations': home_goals_simulations,
-    'Away Goals Simulations': away_goals_simulations
-})
+# # Store results in a DataFrame
+# simulation_results = pd.DataFrame({
+#     'Home Goals Simulations': home_goals_simulations,
+#     'Away Goals Simulations': away_goals_simulations
+# })
 
-# write the simulation result
-with open('result.csv', 'a') as f:
-    simulation_results.to_csv(f, header=f.tell()==0, index=False)
+# # write the simulation result
+# with open('result.csv', 'a') as f:
+#     simulation_results.to_csv(f, header=f.tell()==0, index=False)
 
 
 
