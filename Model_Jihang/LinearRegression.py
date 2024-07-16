@@ -223,10 +223,10 @@ for csv_file in csv_files:
     df['Predicted_Away_xG'] = predicted_away_xG_new.round(4)
     
     output_file_path = os.path.join('/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams_regression', 
-                                    'predicted_' + csv_file)
+                                    'predicted_' + csv_file.replace('.csv', '.json'))
     
     df = df.drop(columns=['Home_avg_goals_scored', 'Home_avg_goals_conceded', 'Home_avg_assists', 'Home_avg_xG', 
                           'Away_avg_goals_scored', 'Away_avg_goals_conceded', 'Away_avg_assists', 'Away_avg_xG'])
     
-    df.to_csv(output_file_path, index=False)
+    df.to_json(output_file_path)
 

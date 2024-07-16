@@ -268,6 +268,6 @@ for csv_file in csv_files:
     predictions_df = pd.DataFrame(predictions)
     
     output_file_path = os.path.join('/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams_classify', 
-                                    'predicted_' + csv_file)
+                                    'predicted_' + csv_file.replace('.csv', '.json'))
     
-    predictions_df.to_csv(output_file_path, index=False)
+    predictions_df.to_json(output_file_path)

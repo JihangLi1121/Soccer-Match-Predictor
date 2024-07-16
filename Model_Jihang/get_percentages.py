@@ -27,11 +27,11 @@ def simulate_match_outcomes(predicted_home_xG, predicted_away_xG, num_simulation
 
 team_prediction_dir = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/Model_Jihang/predicted_teams_regression'
 
-csv_files = [f for f in os.listdir(team_prediction_dir) if f.endswith('.csv')]
+json_files = [f for f in os.listdir(team_prediction_dir) if f.endswith('.csv')]
 
-for csv_file in csv_files:
-    file_path = os.path.join(team_prediction_dir, csv_file)
-    df = pd.read_csv(file_path)
+for json_file in json_files:
+    file_path = os.path.join(team_prediction_dir, json_file)
+    df = pd.read_json(file_path)
 
     df['Home_Win_Probability'] = 0.0
     df['Tie_Probability'] = 0.0
@@ -43,4 +43,4 @@ for csv_file in csv_files:
         df.at[index, 'Tie_Probability'] = round(tie_prob, ndigits=4)
         df.at[index, 'Away_Win_Probability'] = round(away_win_prob, ndigits=4)
     
-    df.to_csv(file_path, index=False)
+    df.to_json(file_path)
