@@ -1,19 +1,24 @@
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error
-from sklearn.model_selection import GridSearchCV
-import matplotlib.pyplot as plt
-import pandas as pd
+# Data manipulation and visualization
+import pandas as pd  # Data manipulation and analysis
+import matplotlib.pyplot as plt  # Plotting library
+
+# Machine learning preprocessing, model selection, and evaluation
+from sklearn.preprocessing import LabelEncoder  # Encoding categorical data
+from sklearn.model_selection import train_test_split, GridSearchCV  # Splitting data and hyperparameter tuning
+from sklearn.ensemble import RandomForestRegressor  # Random Forest regression model
+from sklearn.metrics import mean_absolute_error  # Error metric for regression
+
 
 data = pd.read_csv('/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/data/cleaned_data/bundesliga_cleaned.csv')
 
 missing_values = data.isnull().sum()
 
+# Encode categorical features
 label_encoder = LabelEncoder()
 data['Home Team'] = label_encoder.fit_transform(data['Home Team'])
 data['Away Team'] = label_encoder.fit_transform(data['Away Team'])
 
+# Calculate aggregated statistics for home teams
 team_stats = data.groupby('Home Team').agg({
     'Home Goals': 'mean',
     'Away Goals': 'mean',
@@ -30,6 +35,7 @@ team_stats = data.groupby('Home Team').agg({
     'Away xG': 'Avg Home xG Conceded'
 })
 
+# Calculate aggregated statistics for away teams
 away_team_stats = data.groupby('Away Team').agg({
     'Home Goals': 'mean',
     'Away Goals': 'mean',
@@ -46,28 +52,35 @@ away_team_stats = data.groupby('Away Team').agg({
     'Away xG': 'Avg Away xG'
 })
 
+# Merge home and away team statistics
 team_stats = team_stats.merge(away_team_stats, left_index=True, right_index=True, suffixes=('_Home', '_Away'))
 
+# Merge statistics with the main dataset for home and away teams
 data = data.merge(team_stats, left_on='Home Team', right_index=True)
 data = data.merge(team_stats, left_on='Away Team', right_index=True, suffixes=('_HomeTeam', '_AwayTeam'))
 
+# Define features and target variables
 features = data.drop(columns=['Home Goals', 'Away Goals'])
 target_home_goals = data['Home Goals']
 target_away_goals = data['Away Goals']
 
+# Split the data into training and testing sets
 X_train, X_test, y_train_home, y_test_home, y_train_away, y_test_away = train_test_split(
     features, target_home_goals, target_away_goals, test_size=0.2, random_state=42
 )
 
+# Initialize and train Random Forest models for home and away goals
 model_home_goals = RandomForestRegressor(random_state=42)
 model_away_goals = RandomForestRegressor(random_state=42)
 
 model_home_goals.fit(X_train, y_train_home)
 model_away_goals.fit(X_train, y_train_away)
 
+# Make predictions
 pred_home_goals = model_home_goals.predict(X_test)
 pred_away_goals = model_away_goals.predict(X_test)
 
+# Calculate mean absolute error for the predictions
 mae_home_goals = mean_absolute_error(y_test_home, pred_home_goals)
 mae_away_goals = mean_absolute_error(y_test_away, pred_away_goals)
 
@@ -80,36 +93,43 @@ param_grid = {
     'min_samples_leaf': [1, 2, 4]
 }
 
+# GridSearchCV for home goals
 grid_search_home = GridSearchCV(estimator=RandomForestRegressor(random_state=42),
                                 param_grid=param_grid,
                                 cv=3,
                                 n_jobs=-1,
                                 scoring='neg_mean_absolute_error')
 
+# GridSearchCV for away goals
 grid_search_away = GridSearchCV(estimator=RandomForestRegressor(random_state=42),
                                 param_grid=param_grid,
                                 cv=3,
                                 n_jobs=-1,
                                 scoring='neg_mean_absolute_error')
 
+# Fit GridSearchCV for home and away goals
 grid_search_home.fit(X_train, y_train_home)
 grid_search_away.fit(X_train, y_train_away)
 
+# Extract best parameters and best scores from GridSearchCV
 best_params_home = grid_search_home.best_params_
 best_score_home = -grid_search_home.best_score_ 
 
 best_params_away = grid_search_away.best_params_
 best_score_away = -grid_search_away.best_score_
 
+# Train the best Random Forest model on the training data
 model_home_goals_best = RandomForestRegressor(**best_params_home, random_state=42)
 model_away_goals_best = RandomForestRegressor(**best_params_away, random_state=42)
 
 model_home_goals_best.fit(X_train, y_train_home)
 model_away_goals_best.fit(X_train, y_train_away)
 
+# Make predictions
 pred_home_goals_best = model_home_goals_best.predict(X_test)
 pred_away_goals_best = model_away_goals_best.predict(X_test)
 
+# Calculate mean absolute error for the predictions
 mae_home_goals_best = mean_absolute_error(y_test_home, pred_home_goals_best)
 mae_away_goals_best = mean_absolute_error(y_test_away, pred_away_goals_best)
 

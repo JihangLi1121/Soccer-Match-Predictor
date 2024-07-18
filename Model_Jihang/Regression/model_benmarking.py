@@ -1,16 +1,22 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import r2_score
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import cross_val_score
-from sklearn.linear_model import LinearRegression
-from sklearn.svm import SVR
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.ensemble import GradientBoostingRegressor
-from xgboost import XGBRegressor
-from sklearn.linear_model import Ridge, Lasso
+import pandas as pd # Data manipulation and analysis
+
+# Machine learning model selection and evaluation
+from sklearn.model_selection import train_test_split  # Splitting data into training and testing sets
+from sklearn.model_selection import GridSearchCV  # Hyperparameter tuning using grid search
+from sklearn.model_selection import cross_val_score  # Evaluating model performance using cross-validation
+
+# Regression models
+from sklearn.ensemble import RandomForestRegressor  # Random Forest regression
+from sklearn.linear_model import LinearRegression  # Linear regression
+from sklearn.svm import SVR  # Support Vector Regression
+from sklearn.neighbors import KNeighborsRegressor  # k-Nearest Neighbors regression
+from sklearn.ensemble import GradientBoostingRegressor  # Gradient Boosting regression
+from xgboost import XGBRegressor  # XGBoost regression
+from sklearn.linear_model import Ridge, Lasso  # Ridge and Lasso regression
+
+# Metrics for evaluating model performance
+from sklearn.metrics import mean_squared_error  # Calculating Mean Squared Error
+from sklearn.metrics import r2_score  # Calculating R-squared metric
 
 file_path = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/data/cleaned_data/bundesliga_cleaned.csv'
 data = pd.read_csv(file_path)
@@ -31,7 +37,22 @@ data['Away Team'] = data['Away Team'].replace(encoding_dict)
 # Feature engineering
 def feature_engineering(df, window=5):
 
+    """
+    Perform feature engineering on the given DataFrame by calculating rolling averages
+    for goals scored, goals conceded, assists, and expected goals (xG) over a specified window.
+
+    Args:
+        df: The input DataFrame containing match data.
+        window: The window size for calculating rolling averages.
+
+    Returns:
+        pd.DataFrame: The DataFrame with additional features for each match.
+    """
+
+    # Get unique team names from the DataFrame
     teams = pd.concat([df['Home Team'], df['Away Team']]).unique()
+
+    # Dictionary for team stats
     team_stats = {team: {'goals_scored': [], 'goals_conceded': [], 'assists': [], 'xG': []} for team in teams}
 
     for idx, row in df.iterrows():
@@ -56,21 +77,25 @@ def feature_engineering(df, window=5):
             team_stats[away_team]['assists'].pop(0)
             team_stats[away_team]['xG'].pop(0)
 
+         # Update statistics for home team
         team_stats[home_team]['goals_scored'].append(home_goals)
         team_stats[home_team]['goals_conceded'].append(away_goals)
         team_stats[home_team]['assists'].append(home_ast)
         team_stats[home_team]['xG'].append(home_xG)
 
+        # Update statistics for away team
         team_stats[away_team]['goals_scored'].append(away_goals)
         team_stats[away_team]['goals_conceded'].append(home_goals)
         team_stats[away_team]['assists'].append(away_ast)
         team_stats[away_team]['xG'].append(away_xG)
 
+        # Calculate rolling averages for home team and assign to DataFrame
         df.at[idx, 'Home_avg_goals_scored'] = sum(team_stats[home_team]['goals_scored']) / len(team_stats[home_team]['goals_scored'])
         df.at[idx, 'Home_avg_goals_conceded'] = sum(team_stats[home_team]['goals_conceded']) / len(team_stats[home_team]['goals_conceded'])
         df.at[idx, 'Home_avg_assists'] = sum(team_stats[home_team]['assists']) / len(team_stats[home_team]['assists'])
         df.at[idx, 'Home_avg_xG'] = sum(team_stats[home_team]['xG']) / len(team_stats[home_team]['xG'])
 
+        # Calculate rolling averages for away team and assign to DataFrame
         df.at[idx, 'Away_avg_goals_scored'] = sum(team_stats[away_team]['goals_scored']) / len(team_stats[away_team]['goals_scored'])
         df.at[idx, 'Away_avg_goals_conceded'] = sum(team_stats[away_team]['goals_conceded']) / len(team_stats[away_team]['goals_conceded'])
         df.at[idx, 'Away_avg_assists'] = sum(team_stats[away_team]['assists']) / len(team_stats[away_team]['assists'])
@@ -94,6 +119,7 @@ X = data[features]
 y_home = data[target_home]
 y_away = data[target_away]
 
+# Split the data into training and testing sets for home/away team predictions
 X_train, X_test, y_train_home, y_test_home = train_test_split(X, y_home, test_size=0.2, random_state=42)
 _, _, y_train_away, y_test_away = train_test_split(X, y_away, test_size=0.2, random_state=42)
 
