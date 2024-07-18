@@ -21,11 +21,11 @@ encoding_dict = {
 data['Home Team'] = data['Home Team'].replace(encoding_dict)
 data['Away Team'] = data['Away Team'].replace(encoding_dict)
 
-# Feature engineering
-def feature_engineering(df, window=5):
+teams = pd.concat([data['Home Team'], data['Away Team']]).unique()
+team_stats = {team: {'goals_scored': [], 'goals_conceded': [], 'assists': [], 'xG': []} for team in teams}
 
-    teams = pd.concat([df['Home Team'], df['Away Team']]).unique()
-    team_stats = {team: {'goals_scored': [], 'goals_conceded': [], 'assists': [], 'xG': []} for team in teams}
+# Feature engineering
+def feature_engineering(df, team_stats, window=5):
 
     for idx, row in df.iterrows():
         home_team = row['Home Team']
@@ -69,10 +69,10 @@ def feature_engineering(df, window=5):
         df.at[idx, 'Away_avg_assists'] = sum(team_stats[away_team]['assists']) / len(team_stats[away_team]['assists'])
         df.at[idx, 'Away_avg_xG'] = sum(team_stats[away_team]['xG']) / len(team_stats[away_team]['xG'])
 
-    return df
+    return df, team_stats
 
 # Apply feature engineering
-data = feature_engineering(data)
+data, team_stats = feature_engineering(data, team_stats)
 
 # Select features and target variables
 features = [
@@ -148,30 +148,6 @@ print(f'Classification Report (Home Model):\n{class_report_home_rf}')
 
 print(f'Away Model (RandomForestClassifier) Test Accuracy: {accuracy_away_rf:.4f}')
 print(f'Classification Report (Away Model):\n{class_report_away_rf}')
-
-
-teams = pd.concat([data['Home Team'], data['Away Team']]).unique()
-team_stats = {team: {'goals_scored': [], 'goals_conceded': [], 'assists': [], 'xG': []} for team in teams}
-
-for idx, row in data.iterrows():
-    home_team = row['Home Team']
-    away_team = row['Away Team']
-    home_goals = row['Home Goals']
-    away_goals = row['Away Goals']
-    home_ast = row['Home Ast']
-    away_ast = row['Away Ast']
-    home_xG = row['Home xG']
-    away_xG = row['Away xG']
-    
-    team_stats[home_team]['goals_scored'].append(home_goals)
-    team_stats[home_team]['goals_conceded'].append(away_goals)
-    team_stats[home_team]['assists'].append(home_ast)
-    team_stats[home_team]['xG'].append(home_xG)
-    
-    team_stats[away_team]['goals_scored'].append(away_goals)
-    team_stats[away_team]['goals_conceded'].append(home_goals)
-    team_stats[away_team]['assists'].append(away_ast)
-    team_stats[away_team]['xG'].append(away_xG)
 
 team_calendar_dir = '/Users/jihangli/ucsc_cse_course/CSE115A/Soccer-Match-Predictor/2425_Calendars/Team_Calendars'
 
