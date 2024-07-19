@@ -15,23 +15,103 @@
         font-display: swap;
         font-weight: bold;
       }
+
       body {
         font-family: "Nunito Sans", sans-serif;
       }
+
       .calendar-table th,
       .calendar-table td {
         vertical-align: top;
         font-size: 14px;
+        padding: 10px;
       }
+
       .match-details {
-        margin-bottom: 5px;
-        font-size: 12px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        position: relative;
       }
+
+      .matchday-box {
+        font-size: 10px;
+        background-color: red;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 5px;
+      }
+
+      .team-name {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+
+      .team-vs {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+
+      .h2h-team {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .h2h-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      .h2h-wins {
+        background-color: green;
+        color: white;
+      }
+
+      .h2h-draws {
+        background-color: yellow;
+      }
+
+      .h2h-losses {
+        background-color: red;
+        color: white;
+      }
+
+      .h2h-goals {
+        background-color: blue;
+        color: white;
+      }
+
       footer {
         margin-top: 50px;
         padding: 20px;
         background-color: #f8f9fa;
         font-size: 14px;
+      }
+
+      .modal-body div {
+        margin-bottom: 10px;
+      }
+
+      .nav-tabs .nav-link {
+        font-weight: normal;
+      }
+
+      .table th,
+      .table td {
+        font-weight: normal;
       }
     </style>
   </head>
@@ -126,7 +206,6 @@
       </div>
     </footer>
 
-    <!-- Modal -->
     <div
       class="modal fade"
       id="h2hModal"
@@ -223,14 +302,13 @@
                     const matchDetails = document.createElement("div");
                     matchDetails.classList.add("match-details");
                     matchDetails.innerHTML = `
-                                    <strong>Matchday ${match.Matchday}</strong><br>
-                                    ${match["Home Team"]} vs ${match["Away Team"]}
-                                    `;
+                      <div class="matchday-box">Matchday ${match.Matchday}</div>
+                      <div class="team-name">${match["Home Team"]}</div>
+                      <div class="team-vs">vs${match["Away Team"]}</div>`;
                     td.appendChild(matchDetails);
                   }
                 });
               });
-
               tr.appendChild(td);
             }
             bodyRow.appendChild(tr);
@@ -253,15 +331,28 @@
 
             const modalBody = document.querySelector("#h2hModal .modal-body");
             modalBody.innerHTML = `
-                        <h6>Matchday ${matchday}</h6>
-                        ${data
-                          .map(
-                            (team) => `
-                            <div><strong>${team.team}:</strong> ${team.wins}, ${team.draws}, ${team.losses}, ${team.goals}</div>
-                        `
-                          )
-                          .join("")}
-                    `;
+          <div class="h2h-team">${data[0].team} vs ${data[1].team}</div>
+          <div class="h2h-bar h2h-wins">
+            <span>Wins</span>
+            <span>${data[0].wins}</span>
+            <span>${data[1].wins}</span>
+          </div>
+          <div class="h2h-bar h2h-draws">
+            <span>Draws</span>
+            <span>${data[0].draws}</span>
+            <span>${data[1].draws}</span>
+          </div>
+          <div class="h2h-bar h2h-losses">
+            <span>Losses</span>
+            <span>${data[0].losses}</span>
+            <span>${data[1].losses}</span>
+          </div>
+          <div class="h2h-bar h2h-goals">
+            <span>Goals</span>
+            <span>${data[0].goals}</span>
+            <span>${data[1].goals}</span>
+          </div>
+        `;
 
             $("#h2hModal").modal("show");
           })
