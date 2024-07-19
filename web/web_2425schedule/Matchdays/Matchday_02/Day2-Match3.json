@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Freiburg",
+    "wins": "5 wins",
+    "draws": "10 draws",
+    "losses": "34 losses",
+    "goals": "41 goals"
+  },
+  {
+    "team": "Bayern Munich",
+    "wins": "34 wins",
+    "draws": "10 draws",
+    "losses": "5 losses",
+    "goals": "112 goals"
+  }
+]

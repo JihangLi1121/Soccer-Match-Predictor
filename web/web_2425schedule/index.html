@@ -15,22 +15,18 @@
         font-display: swap;
         font-weight: bold;
       }
-
       body {
         font-family: "Nunito Sans", sans-serif;
       }
-
       .calendar-table th,
       .calendar-table td {
         vertical-align: top;
         font-size: 14px;
       }
-
       .match-details {
         margin-bottom: 5px;
         font-size: 12px;
       }
-
       footer {
         margin-top: 50px;
         padding: 20px;
@@ -47,37 +43,123 @@
         alt="Bundesliga Logo"
       />
       <h1 class="my-4">2024-2025 Bundesliga Schedule</h1>
-      <div class="table-responsive">
-        <table
-          id="bundesliga-schedule"
-          class="table table-bordered calendar-table"
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="full-schedule-tab"
+            data-toggle="tab"
+            href="#full-schedule"
+            role="tab"
+            aria-controls="full-schedule"
+            aria-selected="true"
+            >Full Schedule</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="calendar-view-tab"
+            data-toggle="tab"
+            href="#calendar-view"
+            role="tab"
+            aria-controls="calendar-view"
+            aria-selected="false"
+            >Calendar View</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="full-schedule"
+          role="tabpanel"
+          aria-labelledby="full-schedule-tab"
         >
-          <thead class="thead-dark">
-            <tr id="calendar-header"></tr>
-          </thead>
-          <tbody id="calendar-body"></tbody>
-        </table>
+          <div class="table-responsive">
+            <table
+              id="full-schedule-table"
+              class="table table-striped table-bordered"
+            >
+              <thead class="thead-dark">
+                <tr>
+                  <th>Date</th>
+                  <th>Matchday</th>
+                  <th>Home Team</th>
+                  <th>Away Team</th>
+                  <th>Head-to-Head</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="calendar-view"
+          role="tabpanel"
+          aria-labelledby="calendar-view-tab"
+        >
+          <div class="table-responsive">
+            <table
+              id="bundesliga-schedule"
+              class="table table-bordered calendar-table"
+            >
+              <thead class="thead-dark">
+                <tr id="calendar-header"></tr>
+              </thead>
+              <tbody id="calendar-body"></tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
 
     <footer>
       <div class="container">
-        <h2 class="my-4">Full Schedule</h2>
-        <div class="table-responsive">
-          <table id="full-schedule" class="table table-striped table-bordered">
-            <thead class="thead-dark">
-              <tr>
-                <th>Date</th>
-                <th>Matchday</th>
-                <th>Home Team</th>
-                <th>Away Team</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
+        <p>
+          &copy; 2024 This site is not affiliated with the Bundesliga. All logos
+          and names are property of their respective owners.
+        </p>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="h2hModal"
+      tabindex="-1"
+      aria-labelledby="h2hModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="h2hModalLabel">H2H STATS</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -88,19 +170,22 @@
           .then((data) => {
             const scheduleData = data.matches;
 
-            console.log(scheduleData);
-
             const fullScheduleTbody = document.querySelector(
-              "#full-schedule tbody"
+              "#full-schedule-table tbody"
             );
-            scheduleData.forEach((match) => {
+            scheduleData.forEach((match, index) => {
               const row = document.createElement("tr");
               row.innerHTML = `
-              <td>${match.Date}</td>
-              <td>${match.Matchday}</td>
-              <td>${match["Home Team"]}</td>
-              <td>${match["Away Team"]}</td>
-            `;
+                        <td>${match.Date}</td>
+                        <td>${match.Matchday}</td>
+                        <td>${match["Home Team"]}</td>
+                        <td>${match["Away Team"]}</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm" onclick="showH2HStats(${
+                              match.Matchday
+                            }, ${(index % 9) + 1})">H2H STATS</button>
+                        </td>
+                        `;
               fullScheduleTbody.appendChild(row);
             });
 
@@ -138,9 +223,9 @@
                     const matchDetails = document.createElement("div");
                     matchDetails.classList.add("match-details");
                     matchDetails.innerHTML = `
-                    <strong>Matchday ${match.Matchday}</strong><br>
-                    ${match["Home Team"]} vs ${match["Away Team"]}
-                  `;
+                                    <strong>Matchday ${match.Matchday}</strong><br>
+                                    ${match["Home Team"]} vs ${match["Away Team"]}
+                                    `;
                     td.appendChild(matchDetails);
                   }
                 });
@@ -152,6 +237,36 @@
           })
           .catch((error) => console.error("Error loading schedule:", error));
       });
+
+      function showH2HStats(matchday, matchIndex) {
+        const matchdayFolder = `Matchdays/Matchday_${matchday
+          .toString()
+          .padStart(2, "0")}`;
+        const matchdayFile = `${matchdayFolder}/Day${matchday}-Match${matchIndex}.json`;
+
+        console.log(`Fetching H2H stats from: ${matchdayFile}`);
+
+        fetch(matchdayFile)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Data fetched successfully:", data);
+
+            const modalBody = document.querySelector("#h2hModal .modal-body");
+            modalBody.innerHTML = `
+                        <h6>Matchday ${matchday}</h6>
+                        ${data
+                          .map(
+                            (team) => `
+                            <div><strong>${team.team}:</strong> ${team.wins}, ${team.draws}, ${team.losses}, ${team.goals}</div>
+                        `
+                          )
+                          .join("")}
+                    `;
+
+            $("#h2hModal").modal("show");
+          })
+          .catch((error) => console.error("Error loading H2H stats:", error));
+      }
     </script>
   </body>
 </html>

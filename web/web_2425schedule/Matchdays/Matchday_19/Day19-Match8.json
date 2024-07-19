@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Bochum",
+    "wins": "17 wins",
+    "draws": "8 draws",
+    "losses": "11 losses",
+    "goals": "60 goals"
+  },
+  {
+    "team": "Mönchengladbach",
+    "wins": "11 wins",
+    "draws": "8 draws",
+    "losses": "17 losses",
+    "goals": "60 goals"
+  }
+]

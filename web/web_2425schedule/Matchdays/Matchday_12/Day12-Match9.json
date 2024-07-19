@@ -1,0 +1,16 @@
+[
+  {
+    "team": "St Pauli",
+    "wins": "7 wins",
+    "draws": "2 draws",
+    "losses": "5 losses",
+    "goals": "25 goals"
+  },
+  {
+    "team": "Holstein Kiel",
+    "wins": "5 wins",
+    "draws": "2 draws",
+    "losses": "7 losses",
+    "goals": "23 goals"
+  }
+]

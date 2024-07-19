@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Mainz 05",
+    "wins": "10 wins",
+    "draws": "8 draws",
+    "losses": "15 losses",
+    "goals": "45 goals"
+  },
+  {
+    "team": "Stuttgart",
+    "wins": "15 wins",
+    "draws": "8 draws",
+    "losses": "10 losses",
+    "goals": "57 goals"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Bochum",
+    "wins": "4 wins",
+    "draws": "9 draws",
+    "losses": "9 losses",
+    "goals": "33 goals"
+  },
+  {
+    "team": "St Pauli",
+    "wins": "9 wins",
+    "draws": "9 draws",
+    "losses": "4 losses",
+    "goals": "37 goals"
+  }
+]

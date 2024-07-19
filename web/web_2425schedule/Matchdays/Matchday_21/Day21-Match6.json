@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Leverkusen",
+    "wins": "25 wins",
+    "draws": "10 draws",
+    "losses": "19 losses",
+    "goals": "95 goals"
+  },
+  {
+    "team": "Wolfsburg",
+    "wins": "19 wins",
+    "draws": "10 draws",
+    "losses": "25 losses",
+    "goals": "80 goals"
+  }
+]

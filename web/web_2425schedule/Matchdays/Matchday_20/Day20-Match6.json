@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Mainz 05",
+    "wins": "11 wins",
+    "draws": "7 draws",
+    "losses": "16 losses",
+    "goals": "45 goals"
+  },
+  {
+    "team": "Werder Bremen",
+    "wins": "16 wins",
+    "draws": "7 draws",
+    "losses": "11 losses",
+    "goals": "55 goals"
+  }
+]

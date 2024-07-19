@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Werder Bremen",
+    "wins": "16 wins",
+    "draws": "16 draws",
+    "losses": "40 losses",
+    "goals": "78 goals"
+  },
+  {
+    "team": "Bayern Munich",
+    "wins": "40 wins",
+    "draws": "16 draws",
+    "losses": "16 losses",
+    "goals": "150 goals"
+  }
+]

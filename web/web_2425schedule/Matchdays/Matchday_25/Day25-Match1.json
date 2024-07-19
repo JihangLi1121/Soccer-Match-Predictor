@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Leverkusen",
+    "wins": "23 wins",
+    "draws": "27 draws",
+    "losses": "22 losses",
+    "goals": "124 goals"
+  },
+  {
+    "team": "Werder Bremen",
+    "wins": "22 wins",
+    "draws": "27 draws",
+    "losses": "23 losses",
+    "goals": "105 goals"
+  }
+]

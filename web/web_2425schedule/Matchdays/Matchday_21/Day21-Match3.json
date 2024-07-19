@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Dortmund",
+    "wins": "30 wins",
+    "draws": "16 draws",
+    "losses": "24 losses",
+    "goals": "125 goals"
+  },
+  {
+    "team": "Stuttgart",
+    "wins": "24 wins",
+    "draws": "16 draws",
+    "losses": "30 losses",
+    "goals": "102 goals"
+  }
+]

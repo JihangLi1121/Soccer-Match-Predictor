@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Werder Bremen",
+    "wins": "12 wins",
+    "draws": "10 draws",
+    "losses": "9 losses",
+    "goals": "51 goals"
+  },
+  {
+    "team": "Hoffenheim",
+    "wins": "9 wins",
+    "draws": "10 draws",
+    "losses": "12 losses",
+    "goals": "51 goals"
+  }
+]

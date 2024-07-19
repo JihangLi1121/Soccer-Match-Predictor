@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Holstein Kiel",
+    "wins": "3 wins",
+    "draws": "4 draws",
+    "losses": "5 losses",
+    "goals": "17 goals"
+  },
+  {
+    "team": "Heidenheim",
+    "wins": "5 wins",
+    "draws": "4 draws",
+    "losses": "3 losses",
+    "goals": "21 goals"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Leverkusen",
+    "wins": "22 wins",
+    "draws": "8 draws",
+    "losses": "10 losses",
+    "goals": "79 goals"
+  },
+  {
+    "team": "Bochum",
+    "wins": "10 wins",
+    "draws": "8 draws",
+    "losses": "22 losses",
+    "goals": "51 goals"
+  }
+]

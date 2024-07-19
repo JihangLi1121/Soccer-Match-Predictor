@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Stuttgart",
+    "wins": "12 wins",
+    "draws": "11 draws",
+    "losses": "45 losses",
+    "goals": "79 goals"
+  },
+  {
+    "team": "Bayern Munich",
+    "wins": "45 wins",
+    "draws": "11 draws",
+    "losses": "12 losses",
+    "goals": "152 goals"
+  }
+]

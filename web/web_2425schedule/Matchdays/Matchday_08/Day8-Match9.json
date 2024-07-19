@@ -1,0 +1,16 @@
+[
+  {
+    "team": "St Pauli",
+    "wins": "1 win",
+    "draws": "3 draws",
+    "losses": "0 losses",
+    "goals": "7 goals"
+  },
+  {
+    "team": "Wolfsburg",
+    "wins": "0 wins",
+    "draws": "3 draws",
+    "losses": "1 loss",
+    "goals": "5 goals"
+  }
+]

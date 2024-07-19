@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Mainz 05",
+    "wins": "1 win",
+    "draws": "3 draws",
+    "losses": "6 losses",
+    "goals": "9 goals"
+  },
+  {
+    "team": "Union Berlin",
+    "wins": "6 wins",
+    "draws": "3 draws",
+    "losses": "1 loss",
+    "goals": "20 goals"
+  }
+]

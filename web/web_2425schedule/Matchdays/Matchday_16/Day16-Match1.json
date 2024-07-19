@@ -1,0 +1,16 @@
+[
+  {
+    "team": "RB Leipzig",
+    "wins": "10 wins",
+    "draws": "3 draws",
+    "losses": "2 losses",
+    "goals": "30 goals"
+  },
+  {
+    "team": "Werder Bremen",
+    "wins": "2 wins",
+    "draws": "3 draws",
+    "losses": "10 losses",
+    "goals": "15 goals"
+  }
+]
