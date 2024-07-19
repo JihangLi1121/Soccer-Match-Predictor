@@ -20,13 +20,18 @@
                         <div id="upcomingMatches" style="max-height: 60vh; overflow: scroll">
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 d-none" id="predictionRow">
                         <h5 class="text-center">Prediction</h5>
                         <div class="card match-report-card" style="height: 80%">
                             <div class="card-body h-100">
                                 <h3 class="text-center mb-0" id="SR_Name">Munich vs Berlin</h3>
-                                <b class="float-start">Matchday</b><span class="float-end" id="SR_Mode">-1</span><br>
-
+                                <b class="float-start">Matchday</b><span class="float-end" id="SR_Matchday">-1</span><br>
+                                <br>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" id="winChance" style="width: 33.3%;">33% Win</div>
+                                    <div class="progress-bar bg-secondary" role="progressbar" id="drawChance" style="width: 33.3%;">33% Draw</div>
+                                    <div class="progress-bar bg-danger" role="progressbar" id="loseChance" style="width: 33.3%;">33% Loss</div>
+                                </div>
                             </div>
                         </div>
                     </div>
