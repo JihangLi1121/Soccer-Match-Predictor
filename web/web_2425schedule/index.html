@@ -304,7 +304,9 @@
                     matchDetails.innerHTML = `
                       <div class="matchday-box">Matchday ${match.Matchday}</div>
                       <div class="team-name">${match["Home Team"]}</div>
-                      <div class="team-vs">vs${match["Away Team"]}</div>`;
+                      <div class="team-vs">VS</div>
+                      <div class="team-name">${match["Away Team"]}</div>
+                      `;
                     td.appendChild(matchDetails);
                   }
                 });
