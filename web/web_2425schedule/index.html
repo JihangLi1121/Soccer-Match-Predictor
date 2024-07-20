@@ -248,23 +248,22 @@
           .then((response) => response.json())
           .then((data) => {
             const scheduleData = data.matches;
-
             const fullScheduleTbody = document.querySelector(
               "#full-schedule-table tbody"
             );
             scheduleData.forEach((match, index) => {
               const row = document.createElement("tr");
               row.innerHTML = `
-                        <td>${match.Date}</td>
-                        <td>${match.Matchday}</td>
-                        <td>${match["Home Team"]}</td>
-                        <td>${match["Away Team"]}</td>
-                        <td>
-                            <button class="btn btn-primary btn-sm" onclick="showH2HStats(${
-                              match.Matchday
-                            }, ${(index % 9) + 1})">H2H STATS</button>
-                        </td>
-                        `;
+                  <td>${match.Date}</td>
+                  <td>${match.Matchday}</td>
+                  <td>${match["Home Team"]}</td>
+                  <td>${match["Away Team"]}</td>
+                  <td>
+                      <button class="btn btn-primary btn-sm" onclick="showH2HStats(${
+                        match.Matchday
+                      }, ${(index % 9) + 1})">H2H STATS</button>
+                  </td>
+                  `;
               fullScheduleTbody.appendChild(row);
             });
 
@@ -281,42 +280,65 @@
               const currentDate = new Date(startDate);
               currentDate.setDate(startDate.getDate() + i);
               const th = document.createElement("th");
-              th.innerText = currentDate.toISOString().split("T")[0];
+              th.innerText = formatDate(
+                currentDate.toISOString().split("T")[0]
+              );
               headerRow.appendChild(th);
             }
 
             const tr = document.createElement("tr");
+            let rowCells = [];
             for (let i = 0; i <= totalDays; i++) {
               const td = document.createElement("td");
-              const currentDate = new Date(startDate);
-              currentDate.setDate(startDate.getDate() + i);
-              const currentDateString = currentDate.toISOString().split("T")[0];
-
-              scheduleData.forEach((match) => {
-                const matchDates = match.Date.split(" - ");
-                matchDates.forEach((matchDate) => {
-                  if (
-                    new Date(matchDate).toISOString().split("T")[0] ===
-                    currentDateString
-                  ) {
-                    const matchDetails = document.createElement("div");
-                    matchDetails.classList.add("match-details");
-                    matchDetails.innerHTML = `
-                      <div class="matchday-box">Matchday ${match.Matchday}</div>
-                      <div class="team-name">${match["Home Team"]}</div>
-                      <div class="team-vs">VS</div>
-                      <div class="team-name">${match["Away Team"]}</div>
-                      `;
-                    td.appendChild(matchDetails);
-                  }
-                });
-              });
-              tr.appendChild(td);
+              rowCells.push(td);
             }
+
+            scheduleData.forEach((match) => {
+              const matchDates = match.Date.split(" - ");
+              const matchStartDate = new Date(matchDates[0]);
+              const matchEndDate = matchDates[1]
+                ? new Date(matchDates[1])
+                : matchStartDate;
+              const startIndex = Math.ceil(
+                (matchStartDate - startDate) / (1000 * 3600 * 24)
+              );
+              const endIndex = Math.ceil(
+                (matchEndDate - startDate) / (1000 * 3600 * 24)
+              );
+              const colSpan = endIndex - startIndex + 1;
+
+              const matchDetails = document.createElement("div");
+              matchDetails.classList.add("match-details");
+              matchDetails.innerHTML = `
+          <div class="matchday-box">Matchday ${match.Matchday}</div>
+          <div class="team-name">${match["Home Team"]}</div>
+          <div class="team-vs">VS</div>
+          <div class="team-name">${match["Away Team"]}</div>
+        `;
+
+              rowCells[startIndex].colSpan = colSpan;
+              rowCells[startIndex].appendChild(matchDetails);
+
+              for (let j = startIndex + 1; j <= endIndex; j++) {
+                rowCells[j] = null;
+              }
+            });
+            rowCells.forEach((cell) => {
+              if (cell) tr.appendChild(cell);
+            });
+
             bodyRow.appendChild(tr);
           })
           .catch((error) => console.error("Error loading schedule:", error));
       });
+
+      function formatDate(dateString) {
+        const date = new Date(dateString);
+        const month = (date.getMonth() + 1).toString().padStart(2, "0");
+        const day = date.getDate().toString().padStart(2, "0");
+        const year = date.getFullYear().toString().slice(-2);
+        return `${month}/${day}/${year}`;
+      }
 
       function showH2HStats(matchday, matchIndex) {
         const matchdayFolder = `Matchdays/Matchday_${matchday
@@ -333,29 +355,128 @@
 
             const modalBody = document.querySelector("#h2hModal .modal-body");
             modalBody.innerHTML = `
-          <div class="h2h-team">${data[0].team} vs ${data[1].team}</div>
-          <div class="h2h-bar h2h-wins">
-            <span>Wins</span>
-            <span>${data[0].wins}</span>
-            <span>${data[1].wins}</span>
-          </div>
-          <div class="h2h-bar h2h-draws">
-            <span>Draws</span>
-            <span>${data[0].draws}</span>
-            <span>${data[1].draws}</span>
-          </div>
-          <div class="h2h-bar h2h-losses">
-            <span>Losses</span>
-            <span>${data[0].losses}</span>
-            <span>${data[1].losses}</span>
-          </div>
-          <div class="h2h-bar h2h-goals">
-            <span>Goals</span>
-            <span>${data[0].goals}</span>
-            <span>${data[1].goals}</span>
-          </div>
-        `;
+    <div class="h2h-team">${data[0].team} vs ${data[1].team}</div>
+    <div class="h2h-bar h2h-wins">
+      <span>Wins</span>
+      <span>${data[0].wins}</span>
+      <span>${data[1].wins}</span>
+    </div>
+    <div class="h2h-bar h2h-draws">
+      <span>Draws</span>
+      <span>${data[0].draws}</span>
+      <span>${data[1].draws}</span>
+    </div>
+    <div class="h2h-bar h2h-losses">
+      <span>Losses</span>
+      <span>${data[0].losses}</span>
+      <span>${data[1].losses}</span>
+    </div>
+    <div class="h2h-bar h2h-goals">
+      <span>Goals</span>
+      <span>${data[0].goals}</span>
+      <span>${data[1].goals}</span>
+    </div>
+  `;
+            $("#h2hModal").modal("show");
+          })
+          .catch((error) => console.error("Error loading H2H stats:", error));
+      }
 
+      function formatDate(dateString) {
+        const date = new Date(dateString);
+        const month = (date.getMonth() + 1).toString().padStart(2, "0");
+        const day = date.getDate().toString().padStart(2, "0");
+        const year = date.getFullYear().toString().slice(-2);
+        return `${month}/${day}/${year}`;
+      }
+
+      function showH2HStats(matchday, matchIndex) {
+        const matchdayFolder = `Matchdays/Matchday_${matchday
+          .toString()
+          .padStart(2, "0")}`;
+        const matchdayFile = `${matchdayFolder}/Day${matchday}-Match${matchIndex}.json`;
+
+        console.log(`Fetching H2H stats from: ${matchdayFile}`);
+
+        fetch(matchdayFile)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Data fetched successfully:", data);
+
+            const modalBody = document.querySelector("#h2hModal .modal-body");
+            modalBody.innerHTML = `
+    <div class="h2h-team">${data[0].team} vs ${data[1].team}</div>
+    <div class="h2h-bar h2h-wins">
+      <span>Wins</span>
+      <span>${data[0].wins}</span>
+      <span>${data[1].wins}</span>
+    </div>
+    <div class="h2h-bar h2h-draws">
+      <span>Draws</span>
+      <span>${data[0].draws}</span>
+      <span>${data[1].draws}</span>
+    </div>
+    <div class="h2h-bar h2h-losses">
+      <span>Losses</span>
+      <span>${data[0].losses}</span>
+      <span>${data[1].losses}</span>
+    </div>
+    <div class="h2h-bar h2h-goals">
+      <span>Goals</span>
+      <span>${data[0].goals}</span>
+      <span>${data[1].goals}</span>
+    </div>
+  `;
+            $("#h2hModal").modal("show");
+          })
+          .catch((error) => console.error("Error loading H2H stats:", error));
+      }
+
+      function formatDate(dateString) {
+        const date = new Date(dateString);
+        const month = (date.getMonth() + 1).toString().padStart(2, "0");
+        const day = date.getDate().toString().padStart(2, "0");
+        const year = date.getFullYear().toString().slice(-2);
+        return `${month}/${day}/${year}`;
+      }
+
+      function showH2HStats(matchday, matchIndex) {
+        const matchdayFolder = `Matchdays/Matchday_${matchday
+          .toString()
+          .padStart(2, "0")}`;
+        const matchdayFile = `${matchdayFolder}/Day${matchday}-Match${matchIndex}.json`;
+
+        console.log(`Fetching H2H stats from: ${matchdayFile}`);
+
+        fetch(matchdayFile)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Data fetched successfully:", data);
+
+            const modalBody = document.querySelector("#h2hModal .modal-body");
+            modalBody.innerHTML = `
+      <div class="h2h-team">${data[0].team} vs ${data[1].team}</div>
+      <div class="h2h-bar h2h-wins">
+        <span>Wins</span>
+        <span>${data[0].wins}</span>
+        <span>${data[1].wins}</span>
+      </div>
+      <div class="h2h-bar h2h-draws">
+        <span>Draws</span>
+        <span>${data[0].draws}</span>
+        <span>${data[1].draws}</span>
+      </div>
+      <div class="h2h-bar h2h-losses">
+        <span>Losses</span>
+        <span>${data[0].losses}</span>
+        <span>${data[1].losses}</span>
+      </div>
+      <div class="h2h-bar h2h-goals">
+        <span>Goals</span>
+        <span>${data[0].goals}</span>
+        <span>${data[1].goals}</span>
+      </div>
+    `;
             $("#h2hModal").modal("show");
           })
           .catch((error) => console.error("Error loading H2H stats:", error));
