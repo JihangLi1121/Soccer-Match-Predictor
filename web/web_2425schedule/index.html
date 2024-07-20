@@ -122,9 +122,20 @@
         flex: 1;
         text-align: center;
       }
+
+      .back-button {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
     </style>
   </head>
   <body>
+    <div class="container mt-3">
+      <button id="backButton" class="btn btn-secondary back-button">
+        Back to Main Page
+      </button>
+    </div>
     <div class="container">
       <img
         id="bundesliga-logo"
@@ -252,6 +263,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
+      document
+        .getElementById("backButton")
+        .addEventListener("click", function () {
+          window.location.href = "../index.html";
+        });
       document.addEventListener("DOMContentLoaded", function () {
         fetch("combined_bundesliga_schedule.json")
           .then((response) => response.json())
