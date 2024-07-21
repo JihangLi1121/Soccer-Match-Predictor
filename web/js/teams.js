@@ -29,6 +29,7 @@ async function main() {
         document.getElementById(`col${Math.floor(tc / 6)}`).appendChild(card);
 
         card.onclick = () => {
+            document.getElementById("predictionRow").classList.add("d-none");
             document.getElementById("statModalTitle").innerText = team.name;
             document.getElementById("upcomingMatches").innerHTML = "";
             for (let match of TEAMS.matches) {
